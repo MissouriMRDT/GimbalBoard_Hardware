@@ -1,0 +1,170 @@
+EESchema Schematic File Version 4
+EELAYER 26 0
+EELAYER END
+$Descr A4 11693 8268
+encoding utf-8
+Sheet 1 1
+Title ""
+Date ""
+Rev ""
+Comp ""
+Comment1 ""
+Comment2 ""
+Comment3 ""
+Comment4 ""
+$EndDescr
+$Comp
+L MRDT_Connectors:AndersonPP Conn?
+U 1 1 5BCBB50C
+P 850 1100
+F 0 "Conn?" H 1056 1487 60  0000 C CNN
+F 1 "AndersonPP" H 1056 1381 60  0000 C CNN
+F 2 "" H 700 550 60  0001 C CNN
+F 3 "" H 700 550 60  0001 C CNN
+	1    850  1100
+	1    0    0    -1  
+$EndComp
+$Comp
+L MRDT_Connectors:AndersonPP Conn?
+U 2 1 5BCBB57F
+P 850 1550
+F 0 "Conn?" H 1056 1937 60  0000 C CNN
+F 1 "AndersonPP" H 1056 1831 60  0000 C CNN
+F 2 "" H 700 1000 60  0001 C CNN
+F 3 "" H 700 1000 60  0001 C CNN
+	2    850  1550
+	1    0    0    -1  
+$EndComp
+$Comp
+L MRDT_Connectors:AndersonPP Conn?
+U 3 1 5BCBB5C8
+P 850 2000
+F 0 "Conn?" H 1056 2387 60  0000 C CNN
+F 1 "AndersonPP" H 1056 2281 60  0000 C CNN
+F 2 "" H 700 1450 60  0001 C CNN
+F 3 "" H 700 1450 60  0001 C CNN
+	3    850  2000
+	1    0    0    -1  
+$EndComp
+$Comp
+L MRDT_Devices:OKI U?
+U 1 1 5BCBB624
+P 2250 1050
+F 0 "U?" H 2300 1000 60  0001 C CNN
+F 1 "OKI" H 2450 1331 60  0000 C CNN
+F 2 "" H 2050 950 60  0001 C CNN
+F 3 "" H 2050 950 60  0001 C CNN
+	1    2250 1050
+	1    0    0    -1  
+$EndComp
+$Comp
+L MRDT_Shields:TM4C129E_Launchpad U?
+U 5 1 5BCBB9FF
+P 1950 4100
+F 0 "U?" H 2251 4698 60  0000 L CNN
+F 1 "TM4C129E_Launchpad" H 2251 4592 60  0000 L CNN
+F 2 "" H 1950 4100 60  0001 C CNN
+F 3 "" H 1950 4100 60  0001 C CNN
+	5    1950 4100
+	1    0    0    -1  
+$EndComp
+$Comp
+L MRDT_Shields:TM4C129E_Launchpad U?
+U 6 1 5BCBBA80
+P 1950 5300
+F 0 "U?" H 2255 5898 60  0000 L CNN
+F 1 "TM4C129E_Launchpad" H 2255 5792 60  0000 L CNN
+F 2 "" H 1950 5300 60  0001 C CNN
+F 3 "" H 1950 5300 60  0001 C CNN
+	6    1950 5300
+	1    0    0    -1  
+$EndComp
+$Comp
+L MRDT_Shields:TM4C129E_Launchpad U?
+U 7 1 5BCBBAD0
+P 3850 4050
+F 0 "U?" H 4155 4648 60  0000 L CNN
+F 1 "TM4C129E_Launchpad" H 4155 4542 60  0000 L CNN
+F 2 "" H 3850 4050 60  0001 C CNN
+F 3 "" H 3850 4050 60  0001 C CNN
+	7    3850 4050
+	1    0    0    -1  
+$EndComp
+$Comp
+L MRDT_Shields:TM4C129E_Launchpad U?
+U 8 1 5BCBBB1F
+P 3850 5250
+F 0 "U?" H 4155 5848 60  0000 L CNN
+F 1 "TM4C129E_Launchpad" H 4155 5742 60  0000 L CNN
+F 2 "" H 3850 5250 60  0001 C CNN
+F 3 "" H 3850 5250 60  0001 C CNN
+	8    3850 5250
+	1    0    0    -1  
+$EndComp
+$Comp
+L MRDT_Connectors:Molex_SL_03 Conn?
+U 1 1 5BCBC81A
+P 9400 1850
+F 0 "Conn?" H 9527 2058 60  0000 L CNN
+F 1 "Molex_SL_03" H 9527 1952 60  0000 L CNN
+F 2 "" H 9400 1850 60  0001 C CNN
+F 3 "" H 9400 1850 60  0001 C CNN
+	1    9400 1850
+	1    0    0    -1  
+$EndComp
+$Comp
+L MRDT_Connectors:Molex_SL_03 Conn?
+U 1 1 5BCBC953
+P 9400 2400
+F 0 "Conn?" H 9527 2608 60  0000 L CNN
+F 1 "Molex_SL_03" H 9527 2502 60  0000 L CNN
+F 2 "" H 9400 2400 60  0001 C CNN
+F 3 "" H 9400 2400 60  0001 C CNN
+	1    9400 2400
+	1    0    0    -1  
+$EndComp
+$Comp
+L MRDT_Connectors:Molex_SL_03 Conn?
+U 1 1 5BCBC997
+P 9400 3000
+F 0 "Conn?" H 9527 3208 60  0000 L CNN
+F 1 "Molex_SL_03" H 9527 3102 60  0000 L CNN
+F 2 "" H 9400 3000 60  0001 C CNN
+F 3 "" H 9400 3000 60  0001 C CNN
+	1    9400 3000
+	1    0    0    -1  
+$EndComp
+$Comp
+L MRDT_Connectors:Molex_SL_03 Conn?
+U 1 1 5BCBC9D2
+P 9400 3750
+F 0 "Conn?" H 9527 3958 60  0000 L CNN
+F 1 "Molex_SL_03" H 9527 3852 60  0000 L CNN
+F 2 "" H 9400 3750 60  0001 C CNN
+F 3 "" H 9400 3750 60  0001 C CNN
+	1    9400 3750
+	1    0    0    -1  
+$EndComp
+$Comp
+L MRDT_Connectors:Molex_SL_03 Conn?
+U 1 1 5BCBC9E8
+P 9200 4400
+F 0 "Conn?" H 9327 4608 60  0000 L CNN
+F 1 "Molex_SL_03" H 9327 4502 60  0000 L CNN
+F 2 "" H 9200 4400 60  0001 C CNN
+F 3 "" H 9200 4400 60  0001 C CNN
+	1    9200 4400
+	1    0    0    -1  
+$EndComp
+$Comp
+L MRDT_Connectors:Molex_SL_03 Conn?
+U 1 1 5BCBCA1D
+P 9250 5050
+F 0 "Conn?" H 9377 5258 60  0000 L CNN
+F 1 "Molex_SL_03" H 9377 5152 60  0000 L CNN
+F 2 "" H 9250 5050 60  0001 C CNN
+F 3 "" H 9250 5050 60  0001 C CNN
+	1    9250 5050
+	1    0    0    -1  
+$EndComp
+$EndSCHEMATC
