@@ -2,7 +2,7 @@
 
   (general
     (thickness 1.6)
-    (drawings 0)
+    (drawings 14)
     (tracks 7)
     (zones 0)
     (modules 13)
@@ -773,6 +773,21 @@
     (pad 3 thru_hole circle (at 7.62 1.27) (size 1.524 1.524) (drill 0.889) (layers *.Cu *.Mask)
       (net 3 +5V))
   )
+
+  (gr_arc (start 95.504 150.876) (end 92.964 150.876) (angle -90) (layer F.SilkS) (width 0.2))
+  (gr_line (start 92.964 142.748) (end 92.964 150.876) (layer F.SilkS) (width 0.2))
+  (gr_line (start 151.892 153.416) (end 95.504 153.416) (layer F.SilkS) (width 0.2))
+  (gr_line (start 136.144 128.524) (end 151.892 128.524) (layer F.SilkS) (width 0.2))
+  (gr_line (start 153.924 138.684) (end 153.924 130.556) (layer F.SilkS) (width 0.2))
+  (gr_line (start 153.924 142.748) (end 153.924 151.384) (layer F.SilkS) (width 0.2))
+  (gr_arc (start 153.924 140.716) (end 153.924 138.684) (angle -180) (layer F.SilkS) (width 0.2))
+  (gr_arc (start 92.964 140.716) (end 92.964 142.748) (angle -180) (layer F.SilkS) (width 0.2))
+  (gr_arc (start 151.892 151.384) (end 151.892 153.416) (angle -90) (layer F.SilkS) (width 0.2) (tstamp 5BD133C2))
+  (gr_line (start 151.892 107.696) (end 136.144 107.696) (layer F.SilkS) (width 0.2))
+  (gr_arc (start 151.892 105.664) (end 151.892 107.696) (angle -90) (layer F.SilkS) (width 0.2))
+  (gr_line (start 153.924 60.706) (end 153.924 74.93) (layer F.SilkS) (width 0.2))
+  (gr_line (start 92.964 59.436) (end 153.924 59.436) (layer F.SilkS) (width 0.2))
+  (gr_line (start 136.144 107.696) (end 136.144 128.524) (layer F.SilkS) (width 0.2))
 
   (segment (start 125.25 110.01) (end 125.73 110.49) (width 0.25) (layer F.Cu) (net 1))
   (segment (start 125.25 104.14) (end 125.25 110.01) (width 0.25) (layer F.Cu) (net 1))
