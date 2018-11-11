@@ -94,67 +94,76 @@ $EndComp
 $Comp
 L MRDT_Connectors:Molex_SL_03 Conn2
 U 1 1 5BCBC81A
-P 6100 3400
-F 0 "Conn2" H 6227 3608 60  0000 L CNN
-F 1 "Molex_SL_03" H 6227 3502 60  0000 L CNN
-F 2 "MRDT_Connectors:MOLEX_SL_03_Horizontal" H 6100 3400 60  0001 C CNN
-F 3 "" H 6100 3400 60  0001 C CNN
-	1    6100 3400
+P 6100 3500
+F 0 "Conn2" H 6227 3708 60  0000 L CNN
+F 1 "Molex_SL_03" H 6227 3602 60  0000 L CNN
+F 2 "MRDT_Connectors:MOLEX_SL_03_Horizontal" H 6100 3500 60  0001 C CNN
+F 3 "" H 6100 3500 60  0001 C CNN
+	1    6100 3500
 	1    0    0    -1  
 $EndComp
 $Comp
 L MRDT_Connectors:Molex_SL_03 Conn3
 U 1 1 5BCBC953
-P 6100 3750
-F 0 "Conn3" H 6227 3958 60  0000 L CNN
-F 1 "Molex_SL_03" H 6227 3852 60  0000 L CNN
-F 2 "MRDT_Connectors:MOLEX_SL_03_Horizontal" H 6100 3750 60  0001 C CNN
-F 3 "" H 6100 3750 60  0001 C CNN
-	1    6100 3750
+P 6100 3850
+F 0 "Conn3" H 6227 4058 60  0000 L CNN
+F 1 "Molex_SL_03" H 6227 3952 60  0000 L CNN
+F 2 "MRDT_Connectors:MOLEX_SL_03_Horizontal" H 6100 3850 60  0001 C CNN
+F 3 "" H 6100 3850 60  0001 C CNN
+	1    6100 3850
 	1    0    0    -1  
 $EndComp
 $Comp
 L MRDT_Connectors:Molex_SL_03 Conn4
 U 1 1 5BCBC997
-P 6100 4100
-F 0 "Conn4" H 6227 4308 60  0000 L CNN
-F 1 "Molex_SL_03" H 6227 4202 60  0000 L CNN
-F 2 "MRDT_Connectors:MOLEX_SL_03_Horizontal" H 6100 4100 60  0001 C CNN
-F 3 "" H 6100 4100 60  0001 C CNN
-	1    6100 4100
+P 6100 4200
+F 0 "Conn4" H 6227 4408 60  0000 L CNN
+F 1 "Molex_SL_03" H 6227 4302 60  0000 L CNN
+F 2 "MRDT_Connectors:MOLEX_SL_03_Horizontal" H 6100 4200 60  0001 C CNN
+F 3 "" H 6100 4200 60  0001 C CNN
+	1    6100 4200
 	1    0    0    -1  
 $EndComp
 $Comp
 L MRDT_Connectors:Molex_SL_03 Conn5
 U 1 1 5BCBC9D2
-P 6100 4450
-F 0 "Conn5" H 6227 4658 60  0000 L CNN
-F 1 "Molex_SL_03" H 6227 4552 60  0000 L CNN
-F 2 "MRDT_Connectors:MOLEX_SL_03_Horizontal" H 6100 4450 60  0001 C CNN
-F 3 "" H 6100 4450 60  0001 C CNN
-	1    6100 4450
+P 6100 4550
+F 0 "Conn5" H 6227 4758 60  0000 L CNN
+F 1 "Molex_SL_03" H 6227 4652 60  0000 L CNN
+F 2 "MRDT_Connectors:MOLEX_SL_03_Horizontal" H 6100 4550 60  0001 C CNN
+F 3 "" H 6100 4550 60  0001 C CNN
+	1    6100 4550
 	1    0    0    -1  
 $EndComp
 $Comp
 L MRDT_Connectors:Molex_SL_03 Conn6
 U 1 1 5BCBC9E8
-P 6100 4800
-F 0 "Conn6" H 6227 5008 60  0000 L CNN
-F 1 "Molex_SL_03" H 6227 4902 60  0000 L CNN
-F 2 "MRDT_Connectors:MOLEX_SL_03_Horizontal" H 6100 4800 60  0001 C CNN
-F 3 "" H 6100 4800 60  0001 C CNN
-	1    6100 4800
+P 6100 4900
+F 0 "Conn6" H 6227 5108 60  0000 L CNN
+F 1 "Molex_SL_03" H 6227 5002 60  0000 L CNN
+F 2 "MRDT_Connectors:MOLEX_SL_03_Horizontal" H 6100 4900 60  0001 C CNN
+F 3 "" H 6100 4900 60  0001 C CNN
+	1    6100 4900
 	1    0    0    -1  
 $EndComp
 $Comp
 L MRDT_Connectors:Molex_SL_03 Conn7
 U 1 1 5BCBCA1D
+<<<<<<< HEAD
 P 6100 5150
 F 0 "Conn7" H 6227 5358 60  0000 L CNN
 F 1 "Molex_SL_03" H 6227 5252 60  0000 L CNN
 F 2 "MRDT_Connectors:MOLEX_SL_03_Vertical" H 6100 5150 60  0001 C CNN
 F 3 "" H 6100 5150 60  0001 C CNN
 	1    6100 5150
+=======
+P 6100 5250
+F 0 "Conn7" H 6227 5458 60  0000 L CNN
+F 1 "Molex_SL_03" H 6227 5352 60  0000 L CNN
+F 2 "MRDT_Connectors:MOLEX_SL_03_Horizontal" H 6100 5250 60  0001 C CNN
+F 3 "" H 6100 5250 60  0001 C CNN
+	1    6100 5250
+>>>>>>> Andrew_PDR
 	1    0    0    -1  
 $EndComp
 $Comp
@@ -182,12 +191,12 @@ $EndComp
 $Comp
 L power:GND #PWR0103
 U 1 1 5BCD697A
-P 5800 5850
-F 0 "#PWR0103" H 5800 5600 50  0001 C CNN
-F 1 "GND" H 5805 5677 50  0000 C CNN
-F 2 "" H 5800 5850 50  0001 C CNN
-F 3 "" H 5800 5850 50  0001 C CNN
-	1    5800 5850
+P 5800 6000
+F 0 "#PWR0103" H 5800 5750 50  0001 C CNN
+F 1 "GND" H 5805 5827 50  0000 C CNN
+F 2 "" H 5800 6000 50  0001 C CNN
+F 3 "" H 5800 6000 50  0001 C CNN
+	1    5800 6000
 	1    0    0    -1  
 $EndComp
 $Comp
@@ -284,14 +293,10 @@ Wire Wire Line
 	3050 3500 3200 3500
 Wire Wire Line
 	4250 4200 4100 4200
-Wire Wire Line
-	4250 4300 4100 4300
 Text GLabel 4250 4200 2    50   Input ~ 0
 Servo_7_Ctrl
-Text GLabel 5550 5000 0    50   Input ~ 0
+Text GLabel 5550 5100 0    50   Input ~ 0
 Servo_6_Ctrl
-Text GLabel 4250 4300 2    50   Input ~ 0
-Servo_8_Ctrl
 Text GLabel 4250 4700 2    50   Input ~ 0
 Servo_5_Ctrl
 Text GLabel 3050 4900 0    50   Input ~ 0
@@ -304,15 +309,15 @@ Text GLabel 3050 4600 0    50   Input ~ 0
 Servo_1_Ctrl
 Text GLabel 3050 3500 0    50   Input ~ 0
 Servo_6_Ctrl
-Text GLabel 5550 4650 0    50   Input ~ 0
+Text GLabel 5550 4750 0    50   Input ~ 0
 Servo_5_Ctrl
-Text GLabel 5550 4300 0    50   Input ~ 0
+Text GLabel 5550 4400 0    50   Input ~ 0
 Servo_4_Ctrl
-Text GLabel 5550 3950 0    50   Input ~ 0
+Text GLabel 5550 4050 0    50   Input ~ 0
 Servo_3_Ctrl
-Text GLabel 5550 3600 0    50   Input ~ 0
+Text GLabel 5550 3700 0    50   Input ~ 0
 Servo_2_Ctrl
-Text GLabel 5550 3250 0    50   Input ~ 0
+Text GLabel 5550 3350 0    50   Input ~ 0
 Servo_1_Ctrl
 Wire Wire Line
 	4150 4600 4150 4450
@@ -323,16 +328,26 @@ Wire Wire Line
 $Comp
 L MRDT_Connectors:Molex_SL_03 Conn8
 U 1 1 5BD08E3D
+<<<<<<< HEAD
 P 6100 5500
 F 0 "Conn8" H 6227 5708 60  0000 L CNN
 F 1 "Molex_SL_03" H 6227 5602 60  0000 L CNN
 F 2 "MRDT_Connectors:MOLEX_SL_03_Vertical" H 6100 5500 60  0001 C CNN
 F 3 "" H 6100 5500 60  0001 C CNN
 	1    6100 5500
+=======
+P 6100 5600
+F 0 "Conn8" H 6227 5808 60  0000 L CNN
+F 1 "Molex_SL_03" H 6227 5702 60  0000 L CNN
+F 2 "MRDT_Connectors:MOLEX_SL_03_Horizontal" H 6100 5600 60  0001 C CNN
+F 3 "" H 6100 5600 60  0001 C CNN
+	1    6100 5600
+>>>>>>> Andrew_PDR
 	1    0    0    -1  
 $EndComp
-Text GLabel 5550 5350 0    50   Input ~ 0
+Text GLabel 5550 5450 0    50   Input ~ 0
 Servo_7_Ctrl
+<<<<<<< HEAD
 $Comp
 L MRDT_Connectors:Molex_SL_03 Conn9
 U 1 1 5BD0921E
@@ -350,111 +365,95 @@ Wire Wire Line
 	5800 3350 5900 3350
 Wire Wire Line
 	5800 3350 5800 3700
+=======
+>>>>>>> Andrew_PDR
 Wire Wire Line
-	5900 3700 5800 3700
-Connection ~ 5800 3700
+	5800 3450 5900 3450
 Wire Wire Line
-	5800 3700 5800 4050
+	5800 3450 5800 3800
 Wire Wire Line
-	5900 4050 5800 4050
-Connection ~ 5800 4050
+	5900 3800 5800 3800
+Connection ~ 5800 3800
 Wire Wire Line
-	5800 4050 5800 4400
+	5800 3800 5800 4150
 Wire Wire Line
-	5900 4750 5800 4750
-Connection ~ 5800 4750
+	5900 4150 5800 4150
+Connection ~ 5800 4150
 Wire Wire Line
-	5800 4750 5800 5100
+	5800 4150 5800 4500
 Wire Wire Line
-	5900 4400 5800 4400
-Connection ~ 5800 4400
+	5900 4850 5800 4850
+Connection ~ 5800 4850
 Wire Wire Line
-	5800 4400 5800 4750
+	5800 4850 5800 5200
 Wire Wire Line
-	5900 5100 5800 5100
-Connection ~ 5800 5100
+	5900 4500 5800 4500
+Connection ~ 5800 4500
 Wire Wire Line
-	5800 5100 5800 5450
+	5800 4500 5800 4850
 Wire Wire Line
-	5900 5450 5800 5450
-Connection ~ 5800 5450
+	5900 5200 5800 5200
 Wire Wire Line
-	5900 5700 5800 5700
+	5550 3350 5900 3350
 Wire Wire Line
-	5550 3250 5900 3250
+	5900 3700 5550 3700
 Wire Wire Line
-	5900 3600 5550 3600
+	5900 4050 5550 4050
 Wire Wire Line
-	5900 3950 5550 3950
+	5900 4400 5550 4400
 Wire Wire Line
-	5900 4300 5550 4300
+	5900 4750 5550 4750
 Wire Wire Line
-	5900 4650 5550 4650
+	5900 5100 5550 5100
 Wire Wire Line
-	5900 5000 5550 5000
+	5900 5450 5550 5450
 Wire Wire Line
-	5900 5350 5550 5350
+	5900 3250 5700 3250
+Connection ~ 5700 3250
 Wire Wire Line
-	5550 5700 5800 5700
+	5700 3250 5700 3150
 Wire Wire Line
-	5900 5600 5700 5600
+	5900 3600 5700 3600
+Connection ~ 5700 3600
 Wire Wire Line
-	5700 5600 5700 5250
+	5700 3600 5700 3250
 Wire Wire Line
-	5900 3150 5700 3150
-Connection ~ 5700 3150
+	5900 3950 5700 3950
+Connection ~ 5700 3950
 Wire Wire Line
-	5700 3150 5700 3050
+	5700 3950 5700 3600
 Wire Wire Line
-	5900 3500 5700 3500
-Connection ~ 5700 3500
+	5900 4300 5700 4300
+Connection ~ 5700 4300
 Wire Wire Line
-	5700 3500 5700 3150
+	5700 4300 5700 3950
 Wire Wire Line
-	5900 3850 5700 3850
-Connection ~ 5700 3850
+	5900 4650 5700 4650
+Connection ~ 5700 4650
 Wire Wire Line
-	5700 3850 5700 3500
+	5700 4650 5700 4300
+Connection ~ 5700 5000
 Wire Wire Line
-	5900 4200 5700 4200
-Connection ~ 5700 4200
+	5700 5000 5700 4650
 Wire Wire Line
-	5700 4200 5700 3850
+	5700 5000 5900 5000
 Wire Wire Line
-	5900 4550 5700 4550
-Connection ~ 5700 4550
+	5900 5350 5700 5350
 Wire Wire Line
-	5700 4550 5700 4200
-Connection ~ 5700 4900
-Wire Wire Line
-	5700 4900 5700 4550
-Wire Wire Line
-	5700 4900 5900 4900
-Wire Wire Line
-	5900 5250 5700 5250
-Connection ~ 5700 5250
-Wire Wire Line
-	5700 5250 5700 4900
+	5700 5350 5700 5000
 $Comp
 L power:+5V #PWR0107
 U 1 1 5BD1C266
-P 5700 3050
-F 0 "#PWR0107" H 5700 2900 50  0001 C CNN
-F 1 "+5V" H 5715 3223 50  0000 C CNN
-F 2 "" H 5700 3050 50  0001 C CNN
-F 3 "" H 5700 3050 50  0001 C CNN
-	1    5700 3050
+P 5700 3150
+F 0 "#PWR0107" H 5700 3000 50  0001 C CNN
+F 1 "+5V" H 5715 3323 50  0000 C CNN
+F 2 "" H 5700 3150 50  0001 C CNN
+F 3 "" H 5700 3150 50  0001 C CNN
+	1    5700 3150
 	1    0    0    -1  
 $EndComp
 Text Notes 3050 2800 0    118  ~ 24
 TIVA Headers
-Wire Wire Line
-	5800 5450 5800 5800
-Wire Wire Line
-	5900 5800 5800 5800
-Wire Wire Line
-	5800 5850 5800 5800
-Connection ~ 5800 5800
 Text Notes 5100 2800 0    118  ~ 24
 Servo Connectors
 Text Notes 3950 1500 0    118  ~ 24
@@ -464,27 +463,63 @@ Wire Notes Line
 Wire Notes Line
 	2400 2550 6900 2550
 Wire Notes Line
-	2400 1250 2400 6100
-Wire Notes Line
-	6900 1250 6900 6100
-Wire Notes Line
-	6900 6100 2400 6100
+	6900 6250 2400 6250
 Wire Notes Line
 	6900 1250 2400 1250
-Text Notes 6200 3350 1    39   ~ 0
+Text Notes 6200 3450 1    39   ~ 0
 Servo 1
-Text Notes 6200 3700 1    39   ~ 0
+Text Notes 6200 3800 1    39   ~ 0
 Servo 2
-Text Notes 6200 4050 1    39   ~ 0
+Text Notes 6200 4150 1    39   ~ 0
 Servo 3
-Text Notes 6200 4400 1    39   ~ 0
+Text Notes 6200 4500 1    39   ~ 0
 Servo 4
-Text Notes 6200 4750 1    39   ~ 0
+Text Notes 6200 4850 1    39   ~ 0
 Servo 5
-Text Notes 6200 5100 1    39   ~ 0
+Text Notes 6200 5200 1    39   ~ 0
 Servo 6
-Text Notes 6200 5450 1    39   ~ 0
+Text Notes 6200 5550 1    39   ~ 0
 Servo 7
-Text Notes 6200 5800 1    39   ~ 0
+$Comp
+L MRDT_Connectors:Molex_SL_03 Conn9
+U 1 1 5BD49544
+P 6100 5950
+F 0 "Conn9" H 6227 6158 60  0000 L CNN
+F 1 "Molex_SL_03" H 6227 6052 60  0000 L CNN
+F 2 "MRDT_Connectors:MOLEX_SL_03_Horizontal" H 6100 5950 60  0001 C CNN
+F 3 "" H 6100 5950 60  0001 C CNN
+	1    6100 5950
+	1    0    0    -1  
+$EndComp
+Text GLabel 5550 5800 0    50   Input ~ 0
+Servo_8_Ctrl
+Wire Wire Line
+	5900 5900 5800 5900
+Wire Wire Line
+	5900 5800 5550 5800
+Wire Wire Line
+	5700 5700 5700 5350
+Text Notes 6200 5900 1    39   ~ 0
 Servo 8
+Wire Wire Line
+	5800 5900 5800 6000
+Wire Wire Line
+	5700 5700 5900 5700
+Wire Wire Line
+	5800 5200 5800 5550
+Wire Wire Line
+	5800 5550 5900 5550
+Connection ~ 5800 5200
+Wire Wire Line
+	5800 5550 5800 5900
+Connection ~ 5800 5550
+Connection ~ 5800 5900
+Text GLabel 4250 4300 2    50   Input ~ 0
+Servo_8_Ctrl
+Wire Wire Line
+	4100 4300 4250 4300
+Wire Notes Line
+	2400 1250 2400 6250
+Wire Notes Line
+	6900 1250 6900 6250
 $EndSCHEMATC

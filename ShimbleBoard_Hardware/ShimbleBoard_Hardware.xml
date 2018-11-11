@@ -1,0 +1,420 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<export version="D">
+  <design>
+    <source>C:\Users\Andrew\Documents\GitHub\ShimbleBoard_Hardware\ShimbleBoard_Hardware\ShimbleBoard_Hardware.sch</source>
+    <date>11/11/2018 1:16:55 PM</date>
+    <tool>Eeschema (5.0.0)</tool>
+    <sheet number="1" name="/" tstamps="/">
+      <title_block>
+        <title/>
+        <company/>
+        <rev/>
+        <date/>
+        <source>ShimbleBoard_Hardware.sch</source>
+        <comment number="1" value=""/>
+        <comment number="2" value=""/>
+        <comment number="3" value=""/>
+        <comment number="4" value=""/>
+      </title_block>
+    </sheet>
+  </design>
+  <components>
+    <comp ref="Conn1">
+      <value>AndersonPP</value>
+      <footprint>MRDT_Connectors:Anderson_2_Horisontal_Side_by_Side</footprint>
+      <libsource lib="MRDT_Connectors" part="AndersonPP" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5BCBB50C</tstamp>
+    </comp>
+    <comp ref="U2">
+      <value>OKI</value>
+      <footprint>MRDT_Devices:OKI_Horizontal</footprint>
+      <libsource lib="MRDT_Devices" part="OKI" description="DC/DC Buck Converter"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5BCBB624</tstamp>
+    </comp>
+    <comp ref="U1">
+      <value>TM4C129E_Launchpad</value>
+      <footprint>MRDT_Shields:TM4C129E_Launchpad_X7</footprint>
+      <libsource lib="MRDT_Shields" part="TM4C129E_Launchpad" description="TIVA C Full Headers"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5BCBB9FF</tstamp>
+    </comp>
+    <comp ref="Conn2">
+      <value>Molex_SL_03</value>
+      <footprint>MRDT_Connectors:MOLEX_SL_03_Horizontal</footprint>
+      <libsource lib="MRDT_Connectors" part="Molex_SL_03" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5BCBC81A</tstamp>
+    </comp>
+    <comp ref="Conn3">
+      <value>Molex_SL_03</value>
+      <footprint>MRDT_Connectors:MOLEX_SL_03_Horizontal</footprint>
+      <libsource lib="MRDT_Connectors" part="Molex_SL_03" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5BCBC953</tstamp>
+    </comp>
+    <comp ref="Conn4">
+      <value>Molex_SL_03</value>
+      <footprint>MRDT_Connectors:MOLEX_SL_03_Horizontal</footprint>
+      <libsource lib="MRDT_Connectors" part="Molex_SL_03" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5BCBC997</tstamp>
+    </comp>
+    <comp ref="Conn5">
+      <value>Molex_SL_03</value>
+      <footprint>MRDT_Connectors:MOLEX_SL_03_Horizontal</footprint>
+      <libsource lib="MRDT_Connectors" part="Molex_SL_03" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5BCBC9D2</tstamp>
+    </comp>
+    <comp ref="Conn6">
+      <value>Molex_SL_03</value>
+      <footprint>MRDT_Connectors:MOLEX_SL_03_Horizontal</footprint>
+      <libsource lib="MRDT_Connectors" part="Molex_SL_03" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5BCBC9E8</tstamp>
+    </comp>
+    <comp ref="Conn7">
+      <value>Molex_SL_03</value>
+      <footprint>MRDT_Connectors:MOLEX_SL_03_Horizontal</footprint>
+      <libsource lib="MRDT_Connectors" part="Molex_SL_03" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5BCBCA1D</tstamp>
+    </comp>
+    <comp ref="C1">
+      <value>10uF</value>
+      <footprint>Capacitor_SMD:C_0603_1608Metric_Pad1.05x0.95mm_HandSolder</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5BCD6AA6</tstamp>
+    </comp>
+    <comp ref="C2">
+      <value>10uF</value>
+      <footprint>Capacitor_SMD:C_0603_1608Metric_Pad1.05x0.95mm_HandSolder</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5BCD6B29</tstamp>
+    </comp>
+    <comp ref="Conn8">
+      <value>Molex_SL_03</value>
+      <footprint>MRDT_Connectors:MOLEX_SL_03_Horizontal</footprint>
+      <libsource lib="MRDT_Connectors" part="Molex_SL_03" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5BD08E3D</tstamp>
+    </comp>
+    <comp ref="Conn9">
+      <value>Molex_SL_03</value>
+      <footprint>MRDT_Connectors:MOLEX_SL_03_Horizontal</footprint>
+      <libsource lib="MRDT_Connectors" part="Molex_SL_03" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5BD0921E</tstamp>
+    </comp>
+  </components>
+  <libparts>
+    <libpart lib="Device" part="C">
+      <description>Unpolarized capacitor</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>C_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">C</field>
+        <field name="Value">C</field>
+      </fields>
+      <pins>
+        <pin num="1" name="~" type="passive"/>
+        <pin num="2" name="~" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="MRDT_Connectors" part="AndersonPP">
+      <fields>
+        <field name="Reference">Conn</field>
+        <field name="Value">AndersonPP</field>
+      </fields>
+      <pins>
+        <pin num="1" name="GND" type="input"/>
+        <pin num="2" name="V+Log" type="input"/>
+        <pin num="3" name="V+Act" type="input"/>
+        <pin num="4" name="PV+" type="input"/>
+      </pins>
+    </libpart>
+    <libpart lib="MRDT_Connectors" part="Molex_SL_03">
+      <fields>
+        <field name="Reference">Conn</field>
+        <field name="Value">Molex_SL_03</field>
+      </fields>
+      <pins>
+        <pin num="1" name="~" type="input"/>
+        <pin num="2" name="~" type="input"/>
+        <pin num="3" name="~" type="input"/>
+      </pins>
+    </libpart>
+    <libpart lib="MRDT_Devices" part="OKI">
+      <description>DC/DC Buck Converter</description>
+      <fields>
+        <field name="Reference">U</field>
+        <field name="Value">OKI</field>
+      </fields>
+      <pins>
+        <pin num="1" name="Vi" type="input"/>
+        <pin num="2" name="GND" type="output"/>
+        <pin num="3" name="Vo" type="output"/>
+      </pins>
+    </libpart>
+    <libpart lib="MRDT_Shields" part="TM4C129E_Launchpad">
+      <description>TIVA C Full Headers</description>
+      <fields>
+        <field name="Reference">U</field>
+        <field name="Value">TM4C129E_Launchpad</field>
+      </fields>
+      <pins>
+        <pin num="+5V" name="B2_1" type="input"/>
+        <pin num="+3V3" name="A2_1" type="input"/>
+        <pin num="GND" name="B2_2" type="input"/>
+        <pin num="PA4" name="B2_9" type="input"/>
+        <pin num="PA5" name="B2_10" type="input"/>
+        <pin num="PA6" name="B1_8" type="input"/>
+        <pin num="PA7" name="D2_4" type="input"/>
+        <pin num="PB2" name="A1_9" type="input"/>
+        <pin num="PB3" name="A1_10" type="input"/>
+        <pin num="PB4" name="B2_3" type="input"/>
+        <pin num="PB5" name="B2_4" type="input"/>
+        <pin num="PC4" name="A1_3" type="input"/>
+        <pin num="PC5" name="A1_4" type="input"/>
+        <pin num="PC6" name="A1_5" type="input"/>
+        <pin num="PC7" name="A1_8" type="input"/>
+        <pin num="PD0" name="D1_7" type="input"/>
+        <pin num="PD1" name="D1_6" type="input"/>
+        <pin num="PD2" name="A2_2" type="input"/>
+        <pin num="PD3" name="A1_7" type="input"/>
+        <pin num="PD4" name="A2_5" type="input"/>
+        <pin num="PD5" name="A2_6" type="input"/>
+        <pin num="PD7" name="B1_7" type="input"/>
+        <pin num="PE0" name="B1_3" type="input"/>
+        <pin num="PE1" name="B1_4" type="input"/>
+        <pin num="PE2" name="B1_5" type="input"/>
+        <pin num="PE3" name="B1_6" type="input"/>
+        <pin num="PE4" name="A1_2" type="input"/>
+        <pin num="PE5" name="A1_6" type="input"/>
+        <pin num="PF1" name="C1_1" type="input"/>
+        <pin num="PF2" name="C1_2" type="input"/>
+        <pin num="PF3" name="C1_3" type="input"/>
+        <pin num="PG0" name="C1_4" type="input"/>
+        <pin num="PG1" name="C2_1" type="input"/>
+        <pin num="PH0" name="C2_7" type="input"/>
+        <pin num="PH1" name="C2_8" type="input"/>
+        <pin num="PH2" name="D1_3" type="input"/>
+        <pin num="PH3" name="D1_4" type="input"/>
+        <pin num="PK0" name="B2_5" type="input"/>
+        <pin num="PK1" name="B2_6" type="input"/>
+        <pin num="PK2" name="B2_7" type="input"/>
+        <pin num="PK3" name="B2_8" type="input"/>
+        <pin num="PK4" name="C2_2" type="input"/>
+        <pin num="PK5" name="C2_3" type="input"/>
+        <pin num="PK6" name="C2_9" type="input"/>
+        <pin num="PK7" name="C2_10" type="input"/>
+        <pin num="PL0" name="C1_7" type="input"/>
+        <pin num="PL1" name="C1_8" type="input"/>
+        <pin num="PL2" name="C1_9" type="input"/>
+        <pin num="PL3" name="C1_10" type="input"/>
+        <pin num="PL4" name="C1_5" type="input"/>
+        <pin num="PL5" name="C1_6" type="input"/>
+        <pin num="PM0" name="C2_4" type="input"/>
+        <pin num="PM1" name="C2_5" type="input"/>
+        <pin num="PM2" name="C2_6" type="input"/>
+        <pin num="PM3" name="D1_2" type="input"/>
+        <pin num="PM4" name="B1_9" type="input"/>
+        <pin num="PM5" name="B1_10" type="input"/>
+        <pin num="PM6" name="D2_10" type="input"/>
+        <pin num="PM7" name="D2_2" type="input"/>
+        <pin num="PN2" name="D1_8" type="input"/>
+        <pin num="PN3" name="D1_9" type="input"/>
+        <pin num="PN4" name="A2_10" type="input"/>
+        <pin num="PN5" name="A2_9" type="input"/>
+        <pin num="PP0" name="A2_3" type="input"/>
+        <pin num="PP1" name="A2_4" type="input"/>
+        <pin num="PP2" name="D1_10" type="input"/>
+        <pin num="PP3" name="D2_8" type="input"/>
+        <pin num="PP4" name="A2_8" type="input"/>
+        <pin num="PP5" name="D2_3" type="input"/>
+        <pin num="PQ0" name="A2_7" type="input"/>
+        <pin num="PQ1" name="D2_9" type="input"/>
+        <pin num="PQ2" name="D2_6" type="input"/>
+        <pin num="PQ3" name="D2_7" type="input"/>
+        <pin num="Rese" name="D1_5" type="input"/>
+      </pins>
+    </libpart>
+  </libparts>
+  <libraries>
+    <library logical="Device">
+      <uri>C:\Program Files\KiCad\share\kicad\library/Device.lib</uri>
+    </library>
+    <library logical="MRDT_Connectors">
+      <uri>C:/MRDT_KiCAD_Libraries-2019R1/Device/MRDT_Connectors.lib</uri>
+    </library>
+    <library logical="MRDT_Devices">
+      <uri>C:/MRDT_KiCAD_Libraries-2019R1/Device/MRDT_Devices.lib</uri>
+    </library>
+    <library logical="MRDT_Shields">
+      <uri>C:/MRDT_KiCAD_Libraries-2019R1/Device/MRDT_Shields.lib</uri>
+    </library>
+  </libraries>
+  <nets>
+    <net code="1" name="GND">
+      <node ref="C2" pin="2"/>
+      <node ref="C1" pin="2"/>
+      <node ref="U2" pin="2"/>
+      <node ref="U1" pin="GND"/>
+      <node ref="U1" pin="GND"/>
+      <node ref="Conn3" pin="3"/>
+      <node ref="Conn7" pin="3"/>
+      <node ref="Conn6" pin="3"/>
+      <node ref="Conn1" pin="1"/>
+      <node ref="Conn5" pin="3"/>
+      <node ref="Conn4" pin="3"/>
+      <node ref="Conn2" pin="3"/>
+      <node ref="Conn9" pin="3"/>
+      <node ref="Conn8" pin="3"/>
+    </net>
+    <net code="2" name="Servo_7_Ctrl">
+      <node ref="U1" pin="PK5"/>
+      <node ref="Conn8" pin="2"/>
+    </net>
+    <net code="3" name="+5V">
+      <node ref="U2" pin="3"/>
+      <node ref="U1" pin="+5V"/>
+      <node ref="Conn2" pin="1"/>
+      <node ref="C2" pin="1"/>
+      <node ref="Conn8" pin="1"/>
+      <node ref="Conn7" pin="1"/>
+      <node ref="Conn6" pin="1"/>
+      <node ref="Conn3" pin="1"/>
+      <node ref="Conn9" pin="1"/>
+      <node ref="Conn4" pin="1"/>
+      <node ref="Conn5" pin="1"/>
+    </net>
+    <net code="4" name="Servo_8_Ctrl">
+      <node ref="U1" pin="PM0"/>
+      <node ref="Conn9" pin="2"/>
+    </net>
+    <net code="5" name="Servo_1_Ctrl">
+      <node ref="Conn2" pin="2"/>
+      <node ref="U1" pin="PD2"/>
+    </net>
+    <net code="6" name="Servo_5_Ctrl">
+      <node ref="U1" pin="PG1"/>
+      <node ref="Conn6" pin="2"/>
+    </net>
+    <net code="7" name="Servo_4_Ctrl">
+      <node ref="U1" pin="PM7"/>
+      <node ref="Conn5" pin="2"/>
+    </net>
+    <net code="8" name="Servo_2_Ctrl">
+      <node ref="Conn3" pin="2"/>
+      <node ref="U1" pin="PA4"/>
+    </net>
+    <net code="9" name="Servo_3_Ctrl">
+      <node ref="Conn4" pin="2"/>
+      <node ref="U1" pin="PA5"/>
+    </net>
+    <net code="10" name="Servo_6_Ctrl">
+      <node ref="Conn7" pin="2"/>
+      <node ref="U1" pin="PK4"/>
+    </net>
+    <net code="11" name="Net-(U1-PadPQ1)">
+      <node ref="U1" pin="PQ1"/>
+    </net>
+    <net code="12" name="Net-(U1-PadPH0)">
+      <node ref="U1" pin="PH0"/>
+    </net>
+    <net code="13" name="Net-(U1-PadPH1)">
+      <node ref="U1" pin="PH1"/>
+    </net>
+    <net code="14" name="Net-(U1-PadPM1)">
+      <node ref="U1" pin="PM1"/>
+    </net>
+    <net code="15" name="Net-(U1-PadPM2)">
+      <node ref="U1" pin="PM2"/>
+    </net>
+    <net code="16" name="Net-(U1-PadPK6)">
+      <node ref="U1" pin="PK6"/>
+    </net>
+    <net code="17" name="Net-(U1-PadPK7)">
+      <node ref="U1" pin="PK7"/>
+    </net>
+    <net code="18" name="Net-(U1-PadPQ2)">
+      <node ref="U1" pin="PQ2"/>
+    </net>
+    <net code="19" name="Net-(U1-PadPP3)">
+      <node ref="U1" pin="PP3"/>
+    </net>
+    <net code="20" name="Net-(U1-PadPQ3)">
+      <node ref="U1" pin="PQ3"/>
+    </net>
+    <net code="21" name="Net-(U1-PadPP5)">
+      <node ref="U1" pin="PP5"/>
+    </net>
+    <net code="22" name="Net-(U1-PadPM6)">
+      <node ref="U1" pin="PM6"/>
+    </net>
+    <net code="23" name="Net-(U1-PadPA7)">
+      <node ref="U1" pin="PA7"/>
+    </net>
+    <net code="24" name="Net-(U1-PadRese)">
+      <node ref="U1" pin="Rese"/>
+    </net>
+    <net code="25" name="Net-(U1-PadPD5)">
+      <node ref="U1" pin="PD5"/>
+    </net>
+    <net code="26" name="Net-(C1-Pad1)">
+      <node ref="Conn1" pin="2"/>
+      <node ref="U2" pin="1"/>
+      <node ref="C1" pin="1"/>
+    </net>
+    <net code="27" name="Net-(U1-PadPP0)">
+      <node ref="U1" pin="PP0"/>
+    </net>
+    <net code="28" name="Net-(U1-PadPQ0)">
+      <node ref="U1" pin="PQ0"/>
+    </net>
+    <net code="29" name="Net-(U1-PadPP1)">
+      <node ref="U1" pin="PP1"/>
+    </net>
+    <net code="30" name="Net-(U1-PadPD4)">
+      <node ref="U1" pin="PD4"/>
+    </net>
+    <net code="31" name="Net-(U1-PadPN4)">
+      <node ref="U1" pin="PN4"/>
+    </net>
+    <net code="32" name="Net-(U1-PadPP4)">
+      <node ref="U1" pin="PP4"/>
+    </net>
+    <net code="33" name="Net-(U1-PadPN5)">
+      <node ref="U1" pin="PN5"/>
+    </net>
+    <net code="34" name="Net-(U1-Pad+3V3)">
+      <node ref="U1" pin="+3V3"/>
+    </net>
+    <net code="35" name="Net-(U1-PadPK0)">
+      <node ref="U1" pin="PK0"/>
+    </net>
+    <net code="36" name="Net-(U1-PadPK1)">
+      <node ref="U1" pin="PK1"/>
+    </net>
+    <net code="37" name="Net-(U1-PadPK2)">
+      <node ref="U1" pin="PK2"/>
+    </net>
+    <net code="38" name="Net-(U1-PadPK3)">
+      <node ref="U1" pin="PK3"/>
+    </net>
+    <net code="39" name="Net-(U1-PadPB4)">
+      <node ref="U1" pin="PB4"/>
+    </net>
+    <net code="40" name="Net-(U1-PadPB5)">
+      <node ref="U1" pin="PB5"/>
+    </net>
+  </nets>
+</export>
