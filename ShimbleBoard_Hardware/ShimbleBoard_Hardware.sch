@@ -425,10 +425,6 @@ Wire Notes Line
 Wire Notes Line
 	2400 2550 6900 2550
 Wire Notes Line
-	2400 1250 2400 6100
-Wire Notes Line
-	6900 1250 6900 6100
-Wire Notes Line
 	6900 6250 2400 6250
 Wire Notes Line
 	6900 1250 2400 1250
@@ -484,4 +480,8 @@ Text GLabel 4250 4300 2    50   Input ~ 0
 Servo_8_Ctrl
 Wire Wire Line
 	4100 4300 4250 4300
+Wire Notes Line
+	2400 1250 2400 6250
+Wire Notes Line
+	6900 1250 6900 6250
 $EndSCHEMATC

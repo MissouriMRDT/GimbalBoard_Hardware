@@ -182,12 +182,12 @@ $EndComp
 $Comp
 L power:GND #PWR0103
 U 1 1 5BCD697A
-P 5800 5650
-F 0 "#PWR0103" H 5800 5400 50  0001 C CNN
-F 1 "GND" H 5805 5477 50  0000 C CNN
-F 2 "" H 5800 5650 50  0001 C CNN
-F 3 "" H 5800 5650 50  0001 C CNN
-	1    5800 5650
+P 5800 6000
+F 0 "#PWR0103" H 5800 5750 50  0001 C CNN
+F 1 "GND" H 5805 5827 50  0000 C CNN
+F 2 "" H 5800 6000 50  0001 C CNN
+F 3 "" H 5800 6000 50  0001 C CNN
+	1    5800 6000
 	1    0    0    -1  
 $EndComp
 $Comp
@@ -355,11 +355,6 @@ Wire Wire Line
 	5800 4500 5800 4850
 Wire Wire Line
 	5900 5200 5800 5200
-Connection ~ 5800 5200
-Wire Wire Line
-	5800 5200 5800 5550
-Wire Wire Line
-	5900 5550 5800 5550
 Wire Wire Line
 	5550 3350 5900 3350
 Wire Wire Line
@@ -434,7 +429,7 @@ Wire Notes Line
 Wire Notes Line
 	6900 1250 6900 6100
 Wire Notes Line
-	6900 6100 2400 6100
+	6900 6250 2400 6250
 Wire Notes Line
 	6900 1250 2400 1250
 Text Notes 6200 3450 1    39   ~ 0
@@ -451,7 +446,42 @@ Text Notes 6200 5200 1    39   ~ 0
 Servo 6
 Text Notes 6200 5550 1    39   ~ 0
 Servo 7
+$Comp
+L MRDT_Connectors:Molex_SL_03 Conn9
+U 1 1 5BD49544
+P 6100 5950
+F 0 "Conn9" H 6227 6158 60  0000 L CNN
+F 1 "Molex_SL_03" H 6227 6052 60  0000 L CNN
+F 2 "MRDT_Connectors:MOLEX_SL_03_Horizontal" H 6100 5950 60  0001 C CNN
+F 3 "" H 6100 5950 60  0001 C CNN
+	1    6100 5950
+	1    0    0    -1  
+$EndComp
+Text GLabel 5550 5800 0    50   Input ~ 0
+Servo_8_Ctrl
 Wire Wire Line
-	5800 5550 5800 5650
+	5900 5900 5800 5900
+Wire Wire Line
+	5900 5800 5550 5800
+Wire Wire Line
+	5700 5700 5700 5350
+Text Notes 6200 5900 1    39   ~ 0
+Servo 8
+Wire Wire Line
+	5800 5900 5800 6000
+Wire Wire Line
+	5700 5700 5900 5700
+Wire Wire Line
+	5800 5200 5800 5550
+Wire Wire Line
+	5800 5550 5900 5550
+Connection ~ 5800 5200
+Wire Wire Line
+	5800 5550 5800 5900
 Connection ~ 5800 5550
+Connection ~ 5800 5900
+Text GLabel 4250 4300 2    50   Input ~ 0
+Servo_8_Ctrl
+Wire Wire Line
+	4100 4300 4250 4300
 $EndSCHEMATC
