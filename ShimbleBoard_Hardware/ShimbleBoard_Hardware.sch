@@ -280,25 +280,21 @@ Wire Wire Line
 	3200 4900 3050 4900
 Wire Wire Line
 	4100 4700 4250 4700
-Wire Wire Line
-	3050 3500 3200 3500
-Wire Wire Line
-	4250 4200 4100 4200
-Text GLabel 4250 4200 2    50   Input ~ 0
+Text GLabel 3050 4700 0    50   Input ~ 0
 Servo_7_Ctrl
 Text GLabel 5550 5100 0    50   Input ~ 0
 Servo_6_Ctrl
-Text GLabel 4250 4700 2    50   Input ~ 0
-Servo_5_Ctrl
 Text GLabel 3050 4900 0    50   Input ~ 0
+Servo_5_Ctrl
+Text GLabel 3050 5000 0    50   Input ~ 0
 Servo_4_Ctrl
-Text GLabel 3050 4800 0    50   Input ~ 0
+Text GLabel 4250 5500 2    50   Input ~ 0
 Servo_3_Ctrl
-Text GLabel 3050 4700 0    50   Input ~ 0
+Text GLabel 4250 4900 2    50   Input ~ 0
 Servo_2_Ctrl
-Text GLabel 3050 4600 0    50   Input ~ 0
+Text GLabel 4250 4700 2    50   Input ~ 0
 Servo_1_Ctrl
-Text GLabel 3050 3500 0    50   Input ~ 0
+Text GLabel 3050 4800 0    50   Input ~ 0
 Servo_6_Ctrl
 Text GLabel 5550 4750 0    50   Input ~ 0
 Servo_5_Ctrl
@@ -476,12 +472,16 @@ Wire Wire Line
 	5800 5550 5800 5900
 Connection ~ 5800 5550
 Connection ~ 5800 5900
-Text GLabel 4250 4300 2    50   Input ~ 0
+Text GLabel 3050 4600 0    50   Input ~ 0
 Servo_8_Ctrl
-Wire Wire Line
-	4100 4300 4250 4300
 Wire Notes Line
 	2400 1250 2400 6250
 Wire Notes Line
 	6900 1250 6900 6250
+Wire Wire Line
+	3050 5000 3200 5000
+Wire Wire Line
+	4250 5500 4100 5500
+Wire Wire Line
+	4250 4900 4100 4900
 $EndSCHEMATC
