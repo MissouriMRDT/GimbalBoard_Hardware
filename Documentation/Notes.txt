@@ -1,0 +1,14 @@
+Changes:
+-Documention folder
+-Updated .gitignore
+-Line under header in Schematic
+-New power filtering (Sensor pod example)
+-Vact & Vlog (3 pin power)
+-2x AP5009
+-Labels on flags (PWM pins and AnalogWrites)
+-LEDs
+ -Green: Power (2x Logic and Act)
+ -Orange: Servo ctrl pins
+-Edge cuts
+-Move top edge down
+-
