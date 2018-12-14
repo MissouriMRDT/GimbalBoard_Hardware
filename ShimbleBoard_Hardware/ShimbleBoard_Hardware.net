@@ -1,7 +1,7 @@
 (export (version D)
   (design
     (source C:\Users\Andrew\Documents\GitHub\ShimbleBoard_Hardware\ShimbleBoard_Hardware\ShimbleBoard_Hardware.sch)
-    (date "2018-11-17 3:17:50 AM")
+    (date "2018-12-14 1:30:16 AM")
     (tool "Eeschema (5.0.0)")
     (sheet (number 1) (name /) (tstamps /)
       (title_block
@@ -238,7 +238,7 @@
       (tstamp 5C2D51CA))
     (comp (ref L1)
       (value 47uH)
-      (footprint Inductor_SMD:L_0603_1608Metric_Pad1.05x0.95mm_HandSolder)
+      (footprint ShimbleBoard_Hardware:ETQ-P4M470YFN_Inductor)
       (datasheet ~)
       (libsource (lib Device) (part L) (description Inductor))
       (sheetpath (names /) (tstamps /))
@@ -265,7 +265,7 @@
       (tstamp 5C3ECC1E))
     (comp (ref L2)
       (value 47uH)
-      (footprint Diode_SMD:D_0603_1608Metric_Pad1.05x0.95mm_HandSolder)
+      (footprint ShimbleBoard_Hardware:ETQ-P4M470YFN_Inductor)
       (datasheet ~)
       (libsource (lib Device) (part L) (description Inductor))
       (sheetpath (names /) (tstamps /))
