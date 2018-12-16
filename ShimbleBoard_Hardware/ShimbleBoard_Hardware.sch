@@ -19,7 +19,7 @@ L MRDT_Connectors:AndersonPP Conn1
 U 1 1 5BCBB50C
 P 1800 1700
 F 0 "Conn1" H 1950 1650 60  0000 C CNN
-F 1 "AndersonPP" H 1950 2250 60  0000 C CNN
+F 1 "AndersonPP" H 1900 2250 60  0000 C CNN
 F 2 "MRDT_Connectors:Anderson_3_Horisontal_Side_by_Side" H 1650 1150 60  0001 C CNN
 F 3 "" H 1650 1150 60  0001 C CNN
 	1    1800 1700
@@ -725,19 +725,9 @@ Text GLabel 7250 5650 0    50   Input ~ 0
 Servo_7_Ctrl
 Text GLabel 7250 6000 0    50   Input ~ 0
 Servo_8_Ctrl
-Text GLabel 2400 1950 2    50   Input ~ 0
-V+Act
-Text GLabel 2400 1250 2    50   Input ~ 0
-V+Log
 Wire Wire Line
 	2350 1300 2350 1250
-Wire Wire Line
-	2350 1250 2400 1250
 Connection ~ 2350 1300
-Wire Wire Line
-	2350 1900 2350 1950
-Wire Wire Line
-	2350 1950 2400 1950
 Connection ~ 2350 1900
 $Comp
 L Device:R R8
@@ -849,10 +839,6 @@ F 3 "" H 7750 1700 50  0001 C CNN
 	1    7750 1700
 	1    0    0    -1  
 $EndComp
-Text GLabel 6700 1400 0    50   Input ~ 0
-V+Log
-Text GLabel 4050 1400 0    50   Input ~ 0
-V+Act
 $Comp
 L Device:C C4
 U 1 1 5C3ECC1E
@@ -917,11 +903,11 @@ Wire Notes Line
 Wire Notes Line
 	1400 6400 8400 6400
 Text Notes 1850 4650 2    47   ~ 0
-PWM
+PWM 5
 Text Notes 1850 4750 2    47   ~ 0
-PWM
+PWM 6
 Text Notes 1850 4850 2    47   ~ 0
-PWM
+PWM 7\n
 Text Notes 1850 4950 2    47   ~ 0
 AnalogWrite
 Text Notes 1850 5050 2    47   ~ 0
@@ -976,4 +962,82 @@ Connection ~ 4850 1400
 Wire Wire Line
 	7750 1400 7500 1400
 Connection ~ 7500 1400
+$Comp
+L power:+12VA #PWR?
+U 1 1 5C16D80D
+P 2550 2100
+F 0 "#PWR?" H 2550 1950 50  0001 C CNN
+F 1 "+12VA" H 2565 2273 50  0000 C CNN
+F 2 "" H 2550 2100 50  0001 C CNN
+F 3 "" H 2550 2100 50  0001 C CNN
+	1    2550 2100
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:+12L #PWR?
+U 1 1 5C16D884
+P 2350 1250
+F 0 "#PWR?" H 2350 1100 50  0001 C CNN
+F 1 "+12L" H 2365 1423 50  0000 C CNN
+F 2 "" H 2350 1250 50  0001 C CNN
+F 3 "" H 2350 1250 50  0001 C CNN
+	1    2350 1250
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	2350 2150 2550 2150
+Wire Wire Line
+	2550 2150 2550 2100
+Wire Wire Line
+	2350 1900 2350 2150
+$Comp
+L power:+12VA #PWR?
+U 1 1 5C171904
+P 4000 1350
+F 0 "#PWR?" H 4000 1200 50  0001 C CNN
+F 1 "+12VA" H 4015 1523 50  0000 C CNN
+F 2 "" H 4000 1350 50  0001 C CNN
+F 3 "" H 4000 1350 50  0001 C CNN
+	1    4000 1350
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:+12L #PWR?
+U 1 1 5C17195D
+P 6650 1350
+F 0 "#PWR?" H 6650 1200 50  0001 C CNN
+F 1 "+12L" H 6665 1523 50  0000 C CNN
+F 2 "" H 6650 1350 50  0001 C CNN
+F 3 "" H 6650 1350 50  0001 C CNN
+	1    6650 1350
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	4000 1350 4000 1400
+Wire Wire Line
+	4000 1400 4050 1400
+Wire Wire Line
+	6650 1350 6650 1400
+Wire Wire Line
+	6650 1400 6700 1400
+Text Notes 7650 2850 0    50   ~ 0
+Green
+Text Notes 7650 3200 0    50   ~ 0
+Green
+Text Notes 7600 3900 0    50   ~ 0
+Orange
+Text Notes 7600 3550 0    50   ~ 0
+Orange
+Text Notes 7600 4250 0    50   ~ 0
+Orange
+Text Notes 7600 4600 0    50   ~ 0
+Orange
+Text Notes 7600 4950 0    50   ~ 0
+Orange
+Text Notes 7600 5300 0    50   ~ 0
+Orange
+Text Notes 7600 5650 0    50   ~ 0
+Orange
+Text Notes 7600 6000 0    50   ~ 0
+Orange
 $EndSCHEMATC
