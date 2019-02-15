@@ -20,7 +20,7 @@ U 1 1 5BCBB50C
 P 1800 1700
 F 0 "Conn1" H 1950 1650 60  0000 C CNN
 F 1 "AndersonPP" H 1900 2250 60  0000 C CNN
-F 2 "MRDT_Connectors:Anderson_3_Horisontal_Side_by_Side" H 1650 1150 60  0001 C CNN
+F 2 "MRDT_Connectors:Anderson_3_Horizontal_Side_by_Side" H 1650 1150 60  0001 C CNN
 F 3 "" H 1650 1150 60  0001 C CNN
 	1    1800 1700
 	1    0    0    -1  
@@ -31,7 +31,7 @@ U 2 1 5BCBB57F
 P 1800 1400
 F 0 "Conn1" H 1950 1350 60  0000 C CNN
 F 1 "AndersonPP" H 2006 1681 60  0001 C CNN
-F 2 "MRDT_Connectors:Anderson_3_Horisontal_Side_by_Side" H 1650 850 60  0001 C CNN
+F 2 "MRDT_Connectors:Anderson_3_Horizontal_Side_by_Side" H 1650 850 60  0001 C CNN
 F 3 "" H 1650 850 60  0001 C CNN
 	2    1800 1400
 	1    0    0    -1  
@@ -75,7 +75,7 @@ U 8 1 5BCBBB1F
 P 3250 5550
 F 0 "U1" H 3250 5500 60  0000 L CNN
 F 1 "TM4C129E_Launchpad" H 3555 6042 60  0001 L CNN
-F 2 "MRDT_Shields:TM4C129E_Launchpad_X7" H 3250 5550 60  0001 C CNN
+F 2 "MRDT_Shields:TM4C129E_Launchpad_X7_THT_BOTTOM" H 3250 5550 60  0001 C CNN
 F 3 "" H 3250 5550 60  0001 C CNN
 	8    3250 5550
 	-1   0    0    -1  
@@ -380,7 +380,7 @@ U 3 1 5BF00F7C
 P 1800 2000
 F 0 "Conn1" H 1950 1950 60  0000 C CNN
 F 1 "AndersonPP" H 2006 2281 60  0001 C CNN
-F 2 "MRDT_Connectors:Anderson_3_Horisontal_Side_by_Side" H 1650 1450 60  0001 C CNN
+F 2 "MRDT_Connectors:Anderson_3_Horizontal_Side_by_Side" H 1650 1450 60  0001 C CNN
 F 3 "" H 1650 1450 60  0001 C CNN
 	3    1800 2000
 	1    0    0    -1  
@@ -903,11 +903,11 @@ Wire Notes Line
 Wire Notes Line
 	1400 6400 8400 6400
 Text Notes 1850 4650 2    47   ~ 0
-PWM
+PWM 5
 Text Notes 1850 4750 2    47   ~ 0
-PWM
+PWM 6
 Text Notes 1850 4850 2    47   ~ 0
-PWM
+PWM 7\n
 Text Notes 1850 4950 2    47   ~ 0
 AnalogWrite
 Text Notes 1850 5050 2    47   ~ 0
