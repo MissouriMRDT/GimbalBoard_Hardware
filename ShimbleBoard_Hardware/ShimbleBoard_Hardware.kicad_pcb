@@ -10554,7 +10554,7 @@
   (gr_text "Servo 1" (at 106.172 92.075) (layer F.SilkS)
     (effects (font (size 1 1) (thickness 0.15)))
   )
-  (gr_text "Shimble Board, Rev. 1, 2019\nMars Rover Design Team\nMissouri S&T\nAndrew Phillips" (at 134.62 137.16) (layer F.SilkS)
+  (gr_text "Shimble Board, Rev. 2, 2019\nMars Rover Design Team\nMissouri S&T\nAndrew Phillips" (at 134.62 137.16) (layer F.SilkS)
     (effects (font (size 1.5 1.5) (thickness 0.3)))
   )
 
