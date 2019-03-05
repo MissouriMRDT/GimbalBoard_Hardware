@@ -37,7 +37,7 @@ F 3 "" H 1650 850 60  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L MRDT_Shields:TM4C129E_Launchpad U1
+L ShimbleBoard_Hardware-rescue:TM4C129E_Launchpad-MRDT_Shields U1
 U 5 1 5BCBB9FF
 P 2750 4350
 F 0 "U1" H 2750 4300 60  0000 L CNN
@@ -48,7 +48,7 @@ F 3 "" H 2750 4350 60  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L MRDT_Shields:TM4C129E_Launchpad U1
+L ShimbleBoard_Hardware-rescue:TM4C129E_Launchpad-MRDT_Shields U1
 U 6 1 5BCBBA80
 P 3250 4350
 F 0 "U1" H 3250 4300 60  0000 L CNN
@@ -59,7 +59,7 @@ F 3 "" H 3250 4350 60  0001 C CNN
 	-1   0    0    -1  
 $EndComp
 $Comp
-L MRDT_Shields:TM4C129E_Launchpad U1
+L ShimbleBoard_Hardware-rescue:TM4C129E_Launchpad-MRDT_Shields U1
 U 7 1 5BCBBAD0
 P 2750 5550
 F 0 "U1" H 2750 5500 60  0000 L CNN
@@ -70,7 +70,7 @@ F 3 "" H 2750 5550 60  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L MRDT_Shields:TM4C129E_Launchpad U1
+L ShimbleBoard_Hardware-rescue:TM4C129E_Launchpad-MRDT_Shields U1
 U 8 1 5BCBBB1F
 P 3250 5550
 F 0 "U1" H 3250 5500 60  0000 L CNN
@@ -193,31 +193,31 @@ Wire Wire Line
 	2550 4900 2400 4900
 Wire Wire Line
 	3450 4700 3600 4700
-Text GLabel 2400 4700 0    50   Input ~ 0
+Text GLabel 2400 4700 0    50   Output ~ 0
 Servo_7_Ctrl
-Text GLabel 5250 5000 0    50   Input ~ 0
+Text GLabel 5250 4900 0    50   Input ~ 0
 Servo_6_Ctrl
-Text GLabel 2400 4900 0    50   Input ~ 0
+Text GLabel 2400 4900 0    50   Output ~ 0
 Servo_5_Ctrl
-Text GLabel 2400 5000 0    50   Input ~ 0
+Text GLabel 2400 5000 0    50   Output ~ 0
 Servo_4_Ctrl
-Text GLabel 3600 5500 2    50   Input ~ 0
+Text GLabel 3600 5500 2    50   Output ~ 0
 Servo_3_Ctrl
-Text GLabel 3600 4900 2    50   Input ~ 0
+Text GLabel 3600 4900 2    50   Output ~ 0
 Servo_2_Ctrl
-Text GLabel 3600 4700 2    50   Input ~ 0
+Text GLabel 3600 4700 2    50   Output ~ 0
 Servo_1_Ctrl
-Text GLabel 2400 4800 0    50   Input ~ 0
+Text GLabel 2400 4800 0    50   Output ~ 0
 Servo_6_Ctrl
-Text GLabel 5250 4650 0    50   Input ~ 0
+Text GLabel 5250 4550 0    50   Input ~ 0
 Servo_5_Ctrl
-Text GLabel 5250 4300 0    50   Input ~ 0
+Text GLabel 5250 4200 0    50   Input ~ 0
 Servo_4_Ctrl
-Text GLabel 5250 3950 0    50   Input ~ 0
+Text GLabel 5250 3850 0    50   Input ~ 0
 Servo_3_Ctrl
-Text GLabel 5250 3600 0    50   Input ~ 0
+Text GLabel 5250 3500 0    50   Input ~ 0
 Servo_2_Ctrl
-Text GLabel 5250 3250 0    50   Input ~ 0
+Text GLabel 5250 3150 0    50   Input ~ 0
 Servo_1_Ctrl
 Wire Wire Line
 	3500 4600 3500 4450
@@ -236,7 +236,7 @@ F 3 "" H 5800 5500 60  0001 C CNN
 	1    5800 5500
 	1    0    0    -1  
 $EndComp
-Text GLabel 5250 5350 0    50   Input ~ 0
+Text GLabel 5250 5250 0    50   Input ~ 0
 Servo_7_Ctrl
 Wire Wire Line
 	5500 3350 5600 3350
@@ -265,53 +265,19 @@ Wire Wire Line
 Wire Wire Line
 	5600 5100 5500 5100
 Wire Wire Line
-	5250 3250 5600 3250
+	5250 3150 5600 3150
 Wire Wire Line
-	5600 3600 5250 3600
+	5600 3500 5250 3500
 Wire Wire Line
-	5600 3950 5250 3950
+	5600 3850 5250 3850
 Wire Wire Line
-	5600 4300 5250 4300
+	5600 4200 5250 4200
 Wire Wire Line
-	5600 4650 5250 4650
+	5600 4550 5250 4550
 Wire Wire Line
-	5600 5000 5250 5000
+	5600 4900 5250 4900
 Wire Wire Line
-	5600 5350 5250 5350
-Wire Wire Line
-	5600 3150 5400 3150
-Connection ~ 5400 3150
-Wire Wire Line
-	5400 3150 5400 3050
-Wire Wire Line
-	5600 3500 5400 3500
-Connection ~ 5400 3500
-Wire Wire Line
-	5400 3500 5400 3150
-Wire Wire Line
-	5600 3850 5400 3850
-Connection ~ 5400 3850
-Wire Wire Line
-	5400 3850 5400 3500
-Wire Wire Line
-	5600 4200 5400 4200
-Connection ~ 5400 4200
-Wire Wire Line
-	5400 4200 5400 3850
-Wire Wire Line
-	5600 4550 5400 4550
-Connection ~ 5400 4550
-Wire Wire Line
-	5400 4550 5400 4200
-Connection ~ 5400 4900
-Wire Wire Line
-	5400 4900 5400 4550
-Wire Wire Line
-	5400 4900 5600 4900
-Wire Wire Line
-	5600 5250 5400 5250
-Wire Wire Line
-	5400 5250 5400 4900
+	5600 5250 5250 5250
 Text Notes 2400 2450 0    118  ~ 24
 TIVA Headers
 Text Notes 4800 2450 0    118  ~ 24
@@ -343,20 +309,14 @@ F 3 "" H 5800 5850 60  0001 C CNN
 	1    5800 5850
 	1    0    0    -1  
 $EndComp
-Text GLabel 5250 5700 0    50   Input ~ 0
+Text GLabel 5250 5600 0    50   Input ~ 0
 Servo_8_Ctrl
 Wire Wire Line
 	5600 5800 5500 5800
-Wire Wire Line
-	5600 5700 5250 5700
-Wire Wire Line
-	5400 5600 5400 5250
 Text Notes 5900 5800 1    39   ~ 0
 Servo 8
 Wire Wire Line
 	5500 5800 5500 5900
-Wire Wire Line
-	5400 5600 5600 5600
 Wire Wire Line
 	5500 5100 5500 5450
 Wire Wire Line
@@ -366,7 +326,7 @@ Wire Wire Line
 	5500 5450 5500 5800
 Connection ~ 5500 5450
 Connection ~ 5500 5800
-Text GLabel 2400 4600 0    50   Input ~ 0
+Text GLabel 2400 4600 0    50   Output ~ 0
 Servo_8_Ctrl
 Wire Wire Line
 	2400 5000 2550 5000
@@ -865,7 +825,6 @@ Text Notes 1650 950  0    118  ~ 24
 Power Inputs
 Wire Notes Line
 	3100 2100 3100 700 
-Connection ~ 5400 5250
 Text Notes 7050 2450 0    118  ~ 24
 Indicators
 Wire Notes Line
@@ -1040,4 +999,45 @@ Text Notes 7600 5650 0    50   ~ 0
 Orange
 Text Notes 7600 6000 0    50   ~ 0
 Orange
+Wire Wire Line
+	5600 5700 5400 5700
+Wire Wire Line
+	5400 3050 5400 3250
+Wire Wire Line
+	5600 5600 5250 5600
+Wire Wire Line
+	5400 5350 5600 5350
+Connection ~ 5400 5350
+Wire Wire Line
+	5400 5350 5400 5700
+Wire Wire Line
+	5600 5000 5400 5000
+Connection ~ 5400 5000
+Wire Wire Line
+	5400 5000 5400 5350
+Wire Wire Line
+	5600 4650 5400 4650
+Connection ~ 5400 4650
+Wire Wire Line
+	5400 4650 5400 5000
+Wire Wire Line
+	5600 4300 5400 4300
+Connection ~ 5400 4300
+Wire Wire Line
+	5400 4300 5400 4650
+Wire Wire Line
+	5600 3600 5400 3600
+Connection ~ 5400 3600
+Wire Wire Line
+	5600 3250 5400 3250
+Connection ~ 5400 3250
+Wire Wire Line
+	5400 3250 5400 3600
+Wire Wire Line
+	5400 3600 5400 3950
+Wire Wire Line
+	5600 3950 5400 3950
+Connection ~ 5400 3950
+Wire Wire Line
+	5400 3950 5400 4300
 $EndSCHEMATC
