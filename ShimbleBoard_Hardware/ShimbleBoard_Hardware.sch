@@ -15,73 +15,73 @@ Comment3 ""
 Comment4 ""
 $EndDescr
 $Comp
-L MRDT_Connectors:AndersonPP Conn1
+L ShimbleBoard_Hardware-rescue:AndersonPP-MRDT_Connectors Conn1
 U 1 1 5BCBB50C
 P 1800 1700
 F 0 "Conn1" H 1950 1650 60  0000 C CNN
 F 1 "AndersonPP" H 1900 2250 60  0000 C CNN
-F 2 "MRDT_Connectors:Anderson_3_Horisontal_Side_by_Side" H 1650 1150 60  0001 C CNN
+F 2 "MRDT_Connectors:Anderson_3_Horizontal_Side_by_Side" H 1650 1150 60  0001 C CNN
 F 3 "" H 1650 1150 60  0001 C CNN
 	1    1800 1700
 	1    0    0    -1  
 $EndComp
 $Comp
-L MRDT_Connectors:AndersonPP Conn1
+L ShimbleBoard_Hardware-rescue:AndersonPP-MRDT_Connectors Conn1
 U 2 1 5BCBB57F
 P 1800 1400
 F 0 "Conn1" H 1950 1350 60  0000 C CNN
 F 1 "AndersonPP" H 2006 1681 60  0001 C CNN
-F 2 "MRDT_Connectors:Anderson_3_Horisontal_Side_by_Side" H 1650 850 60  0001 C CNN
+F 2 "MRDT_Connectors:Anderson_3_Horizontal_Side_by_Side" H 1650 850 60  0001 C CNN
 F 3 "" H 1650 850 60  0001 C CNN
 	2    1800 1400
 	1    0    0    -1  
 $EndComp
 $Comp
-L MRDT_Shields:TM4C129E_Launchpad U1
+L ShimbleBoard_Hardware-rescue:TM4C129E_Launchpad-MRDT_Shields-ShimbleBoard_Hardware-rescue U1
 U 5 1 5BCBB9FF
 P 2750 4350
 F 0 "U1" H 2750 4300 60  0000 L CNN
 F 1 "TM4C129E_Launchpad" H 2500 5500 60  0000 L CNN
-F 2 "MRDT_Shields:TM4C129E_Launchpad_X7" H 2750 4350 60  0001 C CNN
+F 2 "MRDT_Shields:TM4C129E_Launchpad_X7_THT_BOTTOM" H 2750 4350 60  0001 C CNN
 F 3 "" H 2750 4350 60  0001 C CNN
 	5    2750 4350
 	1    0    0    -1  
 $EndComp
 $Comp
-L MRDT_Shields:TM4C129E_Launchpad U1
+L ShimbleBoard_Hardware-rescue:TM4C129E_Launchpad-MRDT_Shields-ShimbleBoard_Hardware-rescue U1
 U 6 1 5BCBBA80
 P 3250 4350
 F 0 "U1" H 3250 4300 60  0000 L CNN
 F 1 "TM4C129E_Launchpad" H 3555 4842 60  0001 L CNN
-F 2 "MRDT_Shields:TM4C129E_Launchpad_X7" H 3250 4350 60  0001 C CNN
+F 2 "MRDT_Shields:TM4C129E_Launchpad_X7_THT_BOTTOM" H 3250 4350 60  0001 C CNN
 F 3 "" H 3250 4350 60  0001 C CNN
 	6    3250 4350
 	-1   0    0    -1  
 $EndComp
 $Comp
-L MRDT_Shields:TM4C129E_Launchpad U1
+L ShimbleBoard_Hardware-rescue:TM4C129E_Launchpad-MRDT_Shields-ShimbleBoard_Hardware-rescue U1
 U 7 1 5BCBBAD0
 P 2750 5550
 F 0 "U1" H 2750 5500 60  0000 L CNN
 F 1 "TM4C129E_Launchpad" H 3055 6042 60  0001 L CNN
-F 2 "MRDT_Shields:TM4C129E_Launchpad_X7" H 2750 5550 60  0001 C CNN
+F 2 "MRDT_Shields:TM4C129E_Launchpad_X7_THT_BOTTOM" H 2750 5550 60  0001 C CNN
 F 3 "" H 2750 5550 60  0001 C CNN
 	7    2750 5550
 	1    0    0    -1  
 $EndComp
 $Comp
-L MRDT_Shields:TM4C129E_Launchpad U1
+L ShimbleBoard_Hardware-rescue:TM4C129E_Launchpad-MRDT_Shields-ShimbleBoard_Hardware-rescue U1
 U 8 1 5BCBBB1F
 P 3250 5550
 F 0 "U1" H 3250 5500 60  0000 L CNN
 F 1 "TM4C129E_Launchpad" H 3555 6042 60  0001 L CNN
-F 2 "MRDT_Shields:TM4C129E_Launchpad_X7" H 3250 5550 60  0001 C CNN
+F 2 "MRDT_Shields:TM4C129E_Launchpad_X7_THT_BOTTOM" H 3250 5550 60  0001 C CNN
 F 3 "" H 3250 5550 60  0001 C CNN
 	8    3250 5550
 	-1   0    0    -1  
 $EndComp
 $Comp
-L MRDT_Connectors:Molex_SL_03 Conn2
+L ShimbleBoard_Hardware-rescue:Molex_SL_03-MRDT_Connectors Conn2
 U 1 1 5BCBC81A
 P 5800 3400
 F 0 "Conn2" H 5927 3608 60  0000 L CNN
@@ -92,7 +92,7 @@ F 3 "" H 5800 3400 60  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L MRDT_Connectors:Molex_SL_03 Conn3
+L ShimbleBoard_Hardware-rescue:Molex_SL_03-MRDT_Connectors Conn3
 U 1 1 5BCBC953
 P 5800 3750
 F 0 "Conn3" H 5927 3958 60  0000 L CNN
@@ -103,7 +103,7 @@ F 3 "" H 5800 3750 60  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L MRDT_Connectors:Molex_SL_03 Conn4
+L ShimbleBoard_Hardware-rescue:Molex_SL_03-MRDT_Connectors Conn4
 U 1 1 5BCBC997
 P 5800 4100
 F 0 "Conn4" H 5927 4308 60  0000 L CNN
@@ -114,7 +114,7 @@ F 3 "" H 5800 4100 60  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L MRDT_Connectors:Molex_SL_03 Conn5
+L ShimbleBoard_Hardware-rescue:Molex_SL_03-MRDT_Connectors Conn5
 U 1 1 5BCBC9D2
 P 5800 4450
 F 0 "Conn5" H 5927 4658 60  0000 L CNN
@@ -125,7 +125,7 @@ F 3 "" H 5800 4450 60  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L MRDT_Connectors:Molex_SL_03 Conn6
+L ShimbleBoard_Hardware-rescue:Molex_SL_03-MRDT_Connectors Conn6
 U 1 1 5BCBC9E8
 P 5800 4800
 F 0 "Conn6" H 5927 5008 60  0000 L CNN
@@ -136,7 +136,7 @@ F 3 "" H 5800 4800 60  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L MRDT_Connectors:Molex_SL_03 Conn7
+L ShimbleBoard_Hardware-rescue:Molex_SL_03-MRDT_Connectors Conn7
 U 1 1 5BCBCA1D
 P 5800 5150
 F 0 "Conn7" H 5927 5358 60  0000 L CNN
@@ -193,31 +193,31 @@ Wire Wire Line
 	2550 4900 2400 4900
 Wire Wire Line
 	3450 4700 3600 4700
-Text GLabel 2400 4700 0    50   Input ~ 0
+Text GLabel 2400 4700 0    50   Output ~ 0
 Servo_7_Ctrl
-Text GLabel 5250 5000 0    50   Input ~ 0
+Text GLabel 5250 4900 0    50   Input ~ 0
 Servo_6_Ctrl
-Text GLabel 2400 4900 0    50   Input ~ 0
+Text GLabel 2400 4900 0    50   Output ~ 0
 Servo_5_Ctrl
-Text GLabel 2400 5000 0    50   Input ~ 0
+Text GLabel 2400 5000 0    50   Output ~ 0
 Servo_4_Ctrl
-Text GLabel 3600 5500 2    50   Input ~ 0
+Text GLabel 3600 5500 2    50   Output ~ 0
 Servo_3_Ctrl
-Text GLabel 3600 4900 2    50   Input ~ 0
+Text GLabel 3600 4900 2    50   Output ~ 0
 Servo_2_Ctrl
-Text GLabel 3600 4700 2    50   Input ~ 0
+Text GLabel 3600 4700 2    50   Output ~ 0
 Servo_1_Ctrl
-Text GLabel 2400 4800 0    50   Input ~ 0
+Text GLabel 2400 4800 0    50   Output ~ 0
 Servo_6_Ctrl
-Text GLabel 5250 4650 0    50   Input ~ 0
+Text GLabel 5250 4550 0    50   Input ~ 0
 Servo_5_Ctrl
-Text GLabel 5250 4300 0    50   Input ~ 0
+Text GLabel 5250 4200 0    50   Input ~ 0
 Servo_4_Ctrl
-Text GLabel 5250 3950 0    50   Input ~ 0
+Text GLabel 5250 3850 0    50   Input ~ 0
 Servo_3_Ctrl
-Text GLabel 5250 3600 0    50   Input ~ 0
+Text GLabel 5250 3500 0    50   Input ~ 0
 Servo_2_Ctrl
-Text GLabel 5250 3250 0    50   Input ~ 0
+Text GLabel 5250 3150 0    50   Input ~ 0
 Servo_1_Ctrl
 Wire Wire Line
 	3500 4600 3500 4450
@@ -226,7 +226,7 @@ Wire Wire Line
 Wire Wire Line
 	3500 4600 3450 4600
 $Comp
-L MRDT_Connectors:Molex_SL_03 Conn8
+L ShimbleBoard_Hardware-rescue:Molex_SL_03-MRDT_Connectors Conn8
 U 1 1 5BD08E3D
 P 5800 5500
 F 0 "Conn8" H 5927 5708 60  0000 L CNN
@@ -236,7 +236,7 @@ F 3 "" H 5800 5500 60  0001 C CNN
 	1    5800 5500
 	1    0    0    -1  
 $EndComp
-Text GLabel 5250 5350 0    50   Input ~ 0
+Text GLabel 5250 5250 0    50   Input ~ 0
 Servo_7_Ctrl
 Wire Wire Line
 	5500 3350 5600 3350
@@ -265,53 +265,19 @@ Wire Wire Line
 Wire Wire Line
 	5600 5100 5500 5100
 Wire Wire Line
-	5250 3250 5600 3250
+	5250 3150 5600 3150
 Wire Wire Line
-	5600 3600 5250 3600
+	5600 3500 5250 3500
 Wire Wire Line
-	5600 3950 5250 3950
+	5600 3850 5250 3850
 Wire Wire Line
-	5600 4300 5250 4300
+	5600 4200 5250 4200
 Wire Wire Line
-	5600 4650 5250 4650
+	5600 4550 5250 4550
 Wire Wire Line
-	5600 5000 5250 5000
+	5600 4900 5250 4900
 Wire Wire Line
-	5600 5350 5250 5350
-Wire Wire Line
-	5600 3150 5400 3150
-Connection ~ 5400 3150
-Wire Wire Line
-	5400 3150 5400 3050
-Wire Wire Line
-	5600 3500 5400 3500
-Connection ~ 5400 3500
-Wire Wire Line
-	5400 3500 5400 3150
-Wire Wire Line
-	5600 3850 5400 3850
-Connection ~ 5400 3850
-Wire Wire Line
-	5400 3850 5400 3500
-Wire Wire Line
-	5600 4200 5400 4200
-Connection ~ 5400 4200
-Wire Wire Line
-	5400 4200 5400 3850
-Wire Wire Line
-	5600 4550 5400 4550
-Connection ~ 5400 4550
-Wire Wire Line
-	5400 4550 5400 4200
-Connection ~ 5400 4900
-Wire Wire Line
-	5400 4900 5400 4550
-Wire Wire Line
-	5400 4900 5600 4900
-Wire Wire Line
-	5600 5250 5400 5250
-Wire Wire Line
-	5400 5250 5400 4900
+	5600 5250 5250 5250
 Text Notes 2400 2450 0    118  ~ 24
 TIVA Headers
 Text Notes 4800 2450 0    118  ~ 24
@@ -333,7 +299,7 @@ Servo 6
 Text Notes 5900 5450 1    39   ~ 0
 Servo 7
 $Comp
-L MRDT_Connectors:Molex_SL_03 Conn9
+L ShimbleBoard_Hardware-rescue:Molex_SL_03-MRDT_Connectors Conn9
 U 1 1 5BD49544
 P 5800 5850
 F 0 "Conn9" H 5927 6058 60  0000 L CNN
@@ -343,20 +309,14 @@ F 3 "" H 5800 5850 60  0001 C CNN
 	1    5800 5850
 	1    0    0    -1  
 $EndComp
-Text GLabel 5250 5700 0    50   Input ~ 0
+Text GLabel 5250 5600 0    50   Input ~ 0
 Servo_8_Ctrl
 Wire Wire Line
 	5600 5800 5500 5800
-Wire Wire Line
-	5600 5700 5250 5700
-Wire Wire Line
-	5400 5600 5400 5250
 Text Notes 5900 5800 1    39   ~ 0
 Servo 8
 Wire Wire Line
 	5500 5800 5500 5900
-Wire Wire Line
-	5400 5600 5600 5600
 Wire Wire Line
 	5500 5100 5500 5450
 Wire Wire Line
@@ -366,7 +326,7 @@ Wire Wire Line
 	5500 5450 5500 5800
 Connection ~ 5500 5450
 Connection ~ 5500 5800
-Text GLabel 2400 4600 0    50   Input ~ 0
+Text GLabel 2400 4600 0    50   Output ~ 0
 Servo_8_Ctrl
 Wire Wire Line
 	2400 5000 2550 5000
@@ -375,12 +335,12 @@ Wire Wire Line
 Wire Wire Line
 	3600 4900 3450 4900
 $Comp
-L MRDT_Connectors:AndersonPP Conn1
+L ShimbleBoard_Hardware-rescue:AndersonPP-MRDT_Connectors Conn1
 U 3 1 5BF00F7C
 P 1800 2000
 F 0 "Conn1" H 1950 1950 60  0000 C CNN
 F 1 "AndersonPP" H 2006 2281 60  0001 C CNN
-F 2 "MRDT_Connectors:Anderson_3_Horisontal_Side_by_Side" H 1650 1450 60  0001 C CNN
+F 2 "MRDT_Connectors:Anderson_3_Horizontal_Side_by_Side" H 1650 1450 60  0001 C CNN
 F 3 "" H 1650 1450 60  0001 C CNN
 	3    1800 2000
 	1    0    0    -1  
@@ -865,7 +825,6 @@ Text Notes 1650 950  0    118  ~ 24
 Power Inputs
 Wire Notes Line
 	3100 2100 3100 700 
-Connection ~ 5400 5250
 Text Notes 7050 2450 0    118  ~ 24
 Indicators
 Wire Notes Line
@@ -925,7 +884,7 @@ Wire Notes Line
 Wire Notes Line
 	8400 700  8400 6400
 $Comp
-L MRDT_Devices:OKI U2
+L ShimbleBoard_Hardware-rescue:OKI-MRDT_Devices U2
 U 1 1 5C164FCA
 P 4250 1500
 F 0 "U2" H 4300 1450 60  0001 C CNN
@@ -936,7 +895,7 @@ F 3 "" H 4050 1400 60  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L MRDT_Devices:OKI U3
+L ShimbleBoard_Hardware-rescue:OKI-MRDT_Devices U3
 U 1 1 5C165049
 P 6900 1500
 F 0 "U3" H 6950 1450 60  0001 C CNN
@@ -963,10 +922,10 @@ Wire Wire Line
 	7750 1400 7500 1400
 Connection ~ 7500 1400
 $Comp
-L power:+12VA #PWR?
+L power:+12VA #PWR0114
 U 1 1 5C16D80D
 P 2550 2100
-F 0 "#PWR?" H 2550 1950 50  0001 C CNN
+F 0 "#PWR0114" H 2550 1950 50  0001 C CNN
 F 1 "+12VA" H 2565 2273 50  0000 C CNN
 F 2 "" H 2550 2100 50  0001 C CNN
 F 3 "" H 2550 2100 50  0001 C CNN
@@ -974,10 +933,10 @@ F 3 "" H 2550 2100 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L power:+12L #PWR?
+L power:+12L #PWR0115
 U 1 1 5C16D884
 P 2350 1250
-F 0 "#PWR?" H 2350 1100 50  0001 C CNN
+F 0 "#PWR0115" H 2350 1100 50  0001 C CNN
 F 1 "+12L" H 2365 1423 50  0000 C CNN
 F 2 "" H 2350 1250 50  0001 C CNN
 F 3 "" H 2350 1250 50  0001 C CNN
@@ -991,10 +950,10 @@ Wire Wire Line
 Wire Wire Line
 	2350 1900 2350 2150
 $Comp
-L power:+12VA #PWR?
+L power:+12VA #PWR0116
 U 1 1 5C171904
 P 4000 1350
-F 0 "#PWR?" H 4000 1200 50  0001 C CNN
+F 0 "#PWR0116" H 4000 1200 50  0001 C CNN
 F 1 "+12VA" H 4015 1523 50  0000 C CNN
 F 2 "" H 4000 1350 50  0001 C CNN
 F 3 "" H 4000 1350 50  0001 C CNN
@@ -1002,10 +961,10 @@ F 3 "" H 4000 1350 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L power:+12L #PWR?
+L power:+12L #PWR0117
 U 1 1 5C17195D
 P 6650 1350
-F 0 "#PWR?" H 6650 1200 50  0001 C CNN
+F 0 "#PWR0117" H 6650 1200 50  0001 C CNN
 F 1 "+12L" H 6665 1523 50  0000 C CNN
 F 2 "" H 6650 1350 50  0001 C CNN
 F 3 "" H 6650 1350 50  0001 C CNN
@@ -1040,4 +999,79 @@ Text Notes 7600 5650 0    50   ~ 0
 Orange
 Text Notes 7600 6000 0    50   ~ 0
 Orange
+Wire Wire Line
+	5600 5700 5400 5700
+Wire Wire Line
+	5400 3050 5400 3250
+Wire Wire Line
+	5600 5600 5250 5600
+Wire Wire Line
+	5400 5350 5600 5350
+Connection ~ 5400 5350
+Wire Wire Line
+	5400 5350 5400 5700
+Wire Wire Line
+	5600 5000 5400 5000
+Connection ~ 5400 5000
+Wire Wire Line
+	5400 5000 5400 5350
+Wire Wire Line
+	5600 4650 5400 4650
+Connection ~ 5400 4650
+Wire Wire Line
+	5400 4650 5400 5000
+Wire Wire Line
+	5600 4300 5400 4300
+Connection ~ 5400 4300
+Wire Wire Line
+	5400 4300 5400 4650
+Wire Wire Line
+	5600 3600 5400 3600
+Connection ~ 5400 3600
+Wire Wire Line
+	5600 3250 5400 3250
+Connection ~ 5400 3250
+Wire Wire Line
+	5400 3250 5400 3600
+Wire Wire Line
+	5400 3600 5400 3950
+Wire Wire Line
+	5600 3950 5400 3950
+Connection ~ 5400 3950
+Wire Wire Line
+	5400 3950 5400 4300
+$Comp
+L Device:CP1 C5
+U 1 1 5C7E5672
+P 5300 1550
+F 0 "C5" H 5415 1596 50  0000 L CNN
+F 1 "470u" H 5415 1505 50  0000 L CNN
+F 2 "Capacitor_THT:CP_Radial_D8.0mm_P3.50mm" H 5300 1550 50  0001 C CNN
+F 3 "~" H 5300 1550 50  0001 C CNN
+	1    5300 1550
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:CP1 C6
+U 1 1 5C7E5B08
+P 5700 1550
+F 0 "C6" H 5815 1596 50  0000 L CNN
+F 1 "470u" H 5815 1505 50  0000 L CNN
+F 2 "Capacitor_THT:CP_Radial_D8.0mm_P3.50mm" H 5700 1550 50  0001 C CNN
+F 3 "~" H 5700 1550 50  0001 C CNN
+	1    5700 1550
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	5100 1400 5300 1400
+Connection ~ 5100 1400
+Connection ~ 5300 1400
+Wire Wire Line
+	5300 1400 5700 1400
+Wire Wire Line
+	5100 1700 5300 1700
+Connection ~ 5100 1700
+Connection ~ 5300 1700
+Wire Wire Line
+	5300 1700 5700 1700
 $EndSCHEMATC
