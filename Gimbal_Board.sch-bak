@@ -17,86 +17,84 @@ $EndDescr
 $Comp
 L MRDT_Shields:TM4C129E_Launchpad U1
 U 6 1 5DA159C0
-P 4500 6150
-F 0 "U1" H 4600 6100 60  0000 C CNN
-F 1 "TM4C129E_Launchpad" H 3750 6150 60  0001 C CNN
-F 2 "" H 4500 6150 60  0001 C CNN
-F 3 "" H 4500 6150 60  0001 C CNN
-	6    4500 6150
+P 4450 5650
+F 0 "U1" H 4550 5600 60  0000 C CNN
+F 1 "TM4C129E_Launchpad" H 3700 5650 60  0001 C CNN
+F 2 "" H 4450 5650 60  0001 C CNN
+F 3 "" H 4450 5650 60  0001 C CNN
+	6    4450 5650
 	-1   0    0    -1  
 $EndComp
 $Comp
 L MRDT_Shields:TM4C129E_Launchpad U1
 U 7 1 5DA1B266
-P 4000 7350
-F 0 "U1" H 4050 7300 60  0000 L CNN
-F 1 "TM4C129E_Launchpad" H 2700 7350 60  0001 L CNN
-F 2 "" H 4000 7350 60  0001 C CNN
-F 3 "" H 4000 7350 60  0001 C CNN
-	7    4000 7350
+P 3950 6850
+F 0 "U1" H 4000 6800 60  0000 L CNN
+F 1 "TM4C129E_Launchpad" H 2650 6850 60  0001 L CNN
+F 2 "" H 3950 6850 60  0001 C CNN
+F 3 "" H 3950 6850 60  0001 C CNN
+	7    3950 6850
 	1    0    0    -1  
 $EndComp
 $Comp
 L MRDT_Shields:TM4C129E_Launchpad U1
 U 8 1 5DA1D608
-P 4500 7350
-F 0 "U1" H 4600 7300 60  0000 C CNN
-F 1 "TM4C129E_Launchpad" H 3700 7350 60  0001 C CNN
-F 2 "" H 4500 7350 60  0001 C CNN
-F 3 "" H 4500 7350 60  0001 C CNN
-	8    4500 7350
+P 4450 6850
+F 0 "U1" H 4550 6800 60  0000 C CNN
+F 1 "TM4C129E_Launchpad" H 3650 6850 60  0001 C CNN
+F 2 "" H 4450 6850 60  0001 C CNN
+F 3 "" H 4450 6850 60  0001 C CNN
+	8    4450 6850
 	-1   0    0    -1  
 $EndComp
 $Comp
 L MRDT_Shields:TM4C129E_Launchpad U1
 U 5 1 5DA10200
-P 4000 6150
-F 0 "U1" H 4050 6100 60  0000 L CNN
-F 1 "TM4C129E_Launchpad" H 3800 7350 60  0000 L CNN
-F 2 "" H 4000 6150 60  0001 C CNN
-F 3 "" H 4000 6150 60  0001 C CNN
-	5    4000 6150
+P 3950 5650
+F 0 "U1" H 4000 5600 60  0000 L CNN
+F 1 "TM4C129E_Launchpad" H 3750 6850 60  0000 L CNN
+F 2 "" H 3950 5650 60  0001 C CNN
+F 3 "" H 3950 5650 60  0001 C CNN
+	5    3950 5650
 	1    0    0    -1  
 $EndComp
 $Comp
 L power:GND #PWR0101
 U 1 1 5DA70629
-P 4900 5300
-F 0 "#PWR0101" H 4900 5050 50  0001 C CNN
-F 1 "GND" H 4905 5127 50  0000 C CNN
-F 2 "" H 4900 5300 50  0001 C CNN
-F 3 "" H 4900 5300 50  0001 C CNN
-	1    4900 5300
+P 4850 4800
+F 0 "#PWR0101" H 4850 4550 50  0001 C CNN
+F 1 "GND" H 4855 4627 50  0000 C CNN
+F 2 "" H 4850 4800 50  0001 C CNN
+F 3 "" H 4850 4800 50  0001 C CNN
+	1    4850 4800
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
-	4900 5300 4700 5300
+	4850 4800 4650 4800
 $Comp
 L power:GND #PWR0102
 U 1 1 5DA7416D
-P 5350 6400
-F 0 "#PWR0102" H 5350 6150 50  0001 C CNN
-F 1 "GND" H 5355 6227 50  0000 C CNN
-F 2 "" H 5350 6400 50  0001 C CNN
-F 3 "" H 5350 6400 50  0001 C CNN
-	1    5350 6400
+P 4850 5750
+F 0 "#PWR0102" H 4850 5500 50  0001 C CNN
+F 1 "GND" H 4855 5577 50  0000 C CNN
+F 2 "" H 4850 5750 50  0001 C CNN
+F 3 "" H 4850 5750 50  0001 C CNN
+	1    4850 5750
 	1    0    0    -1  
 $EndComp
-Wire Wire Line
-	5350 6400 4700 6400
 $Comp
 L power:+5VL #PWR0106
 U 1 1 5DA9133E
-P 4900 5200
-F 0 "#PWR0106" H 4900 5050 50  0001 C CNN
-F 1 "+5VL" H 4915 5373 50  0000 C CNN
-F 2 "" H 4900 5200 50  0001 C CNN
-F 3 "" H 4900 5200 50  0001 C CNN
-	1    4900 5200
+P 4850 4700
+F 0 "#PWR0106" H 4850 4550 50  0001 C CNN
+F 1 "+5VL" H 4865 4873 50  0000 C CNN
+F 2 "" H 4850 4700 50  0001 C CNN
+F 3 "" H 4850 4700 50  0001 C CNN
+	1    4850 4700
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
-	4900 5200 4700 5200
+	4850 4700 4650 4700
 $Comp
 L Device:R R?
 U 1 1 5DAB40DF
@@ -325,17 +323,17 @@ Wire Notes Line
 	11200 4000 11200 6500
 Wire Notes Line
 	9300 4000 9300 6500
-Text GLabel 5000 6700 2    50   Output ~ 0
+Text GLabel 4750 6000 2    50   Output ~ 0
 Servo_Ctrl_1
-Text GLabel 5000 6800 2    50   Output ~ 0
+Text GLabel 4750 6200 2    50   Output ~ 0
 Servo_Ctrl_2
-Text GLabel 5000 6900 2    50   Output ~ 0
+Text GLabel 4750 6800 2    50   Output ~ 0
 Servo_Ctrl_3
-Text GLabel 5000 7000 2    50   Output ~ 0
+Text GLabel 3650 6300 0    50   Output ~ 0
 Servo_Ctrl_4
-Text Notes 5000 7150 0    50   ~ 0
+Text Notes 3300 7000 0    50   ~ 0
 note: Trying to understand where they connect
-Text Notes 4050 4800 0    138  Italic 28
+Text Notes 3700 4300 0    138  Italic 28
 TIVA Logic
 Text Notes 8700 4500 0    59   ~ 0
 poorly made, doesnt work. ctrl only sends on or off
@@ -685,13 +683,13 @@ Wire Wire Line
 Wire Wire Line
 	7650 1300 6900 1300
 Connection ~ 6900 1300
-Text GLabel 5700 6700 2    50   Output ~ 0
+Text GLabel 3650 6200 0    50   Output ~ 0
 Servo_Ctrl_5
-Text GLabel 5700 6800 2    50   Output ~ 0
+Text GLabel 3650 6100 0    50   Output ~ 0
 Servo_Ctrl_6
-Text GLabel 5700 6900 2    50   Output ~ 0
+Text GLabel 3650 6000 0    50   Output ~ 0
 Servo_Ctrl_7
-Text GLabel 5700 7000 2    50   Output ~ 0
+Text GLabel 3650 5900 0    50   Output ~ 0
 Servo_Ctrl_8
 Text GLabel 8050 1850 1    50   Input ~ 0
 Servo_Ctrl_5
@@ -1565,7 +1563,57 @@ Servo Connecters carried over from last Gimble board.
 Text Notes 400  350  0    50   ~ 0
 Power seems to be carried over from last Gimble board.
 Text Notes 4350 350  0    50   ~ 0
-TIVA Logic not complete.
+TIVA Logic carried over. *Probably needs work on (4 servos did not work last year)*
 Text Notes 400  150  0    50   ~ 0
 Power Filtering carried over from last Gimble board.
+Wire Wire Line
+	4750 6000 4650 6000
+Wire Wire Line
+	4750 6200 4650 6200
+Wire Wire Line
+	4750 6800 4650 6800
+Wire Wire Line
+	3750 6300 3650 6300
+Wire Wire Line
+	3650 6200 3750 6200
+Wire Wire Line
+	3750 6100 3650 6100
+Wire Wire Line
+	3650 6000 3750 6000
+Wire Wire Line
+	3750 5900 3650 5900
+Wire Wire Line
+	4850 5750 4850 5700
+Wire Wire Line
+	4850 5700 4700 5700
+Wire Wire Line
+	4700 5700 4700 5900
+Wire Wire Line
+	4700 5900 4650 5900
+Text Notes 5300 6050 0    50   ~ 0
+AlalogWrite
+Text Notes 2850 5950 0    50   ~ 0
+PMW 5
+Text Notes 2850 6050 0    50   ~ 0
+PMW 6
+Text Notes 2850 6150 0    50   ~ 0
+PMW 7
+Text Notes 5300 6250 0    50   ~ 0
+AlalogWrite
+Text Notes 5300 6850 0    50   ~ 0
+AlalogWrite
+Text Notes 2700 6250 0    50   ~ 0
+AlalogWrite
+Text Notes 2700 6350 0    50   ~ 0
+AlalogWrite
+Wire Notes Line
+	5750 4350 2650 4350
+Wire Notes Line
+	2650 7050 5750 7050
+Wire Notes Line
+	5750 4050 2650 4050
+Wire Notes Line
+	5750 4050 5750 7050
+Wire Notes Line
+	2650 4050 2650 7050
 $EndSCHEMATC
