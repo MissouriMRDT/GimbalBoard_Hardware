@@ -243,7 +243,7 @@ Wire Notes Line
 Wire Notes Line
 	9300 4000 9300 6500
 Text Notes 8700 4500 0    59   ~ 0
-poorly made, doesnt work. ctrl only sends on or off
+poorly made, doesnt work. ctrl only sends on or off. Not entirely sure why it doesnt work though.
 Text GLabel 6600 1850 1    50   Input ~ 0
 Servo_Ctrl_1
 $Comp
@@ -1418,4 +1418,6 @@ F 3 "" H 4350 3600 60  0001 C CNN
 	6    4350 3600
 	-1   0    0    -1  
 $EndComp
+Text Notes 8000 350  0    50   ~ 0
+1000 ohm on servo_ctrl_# would probably suffice
 $EndSCHEMATC
