@@ -2,7 +2,7 @@
 
   (general
     (thickness 1.6)
-    (drawings 0)
+    (drawings 1)
     (tracks 153)
     (zones 0)
     (modules 54)
@@ -34,7 +34,7 @@
   )
 
   (setup
-    (last_trace_width 0.381)
+    (last_trace_width 0.25)
     (user_trace_width 0.381)
     (trace_clearance 0.2)
     (zone_clearance 0.508)
@@ -2794,6 +2794,10 @@
       (scale (xyz 1 1 1))
       (rotate (xyz 0 0 90))
     )
+  )
+
+  (gr_text "Shimble Board, Rev. 1\nMars Rover Design Team\nMissouri S&T, 2019\nAaron Colvin, Kamran Winschel" (at 90.05316 118.43766) (layer F.SilkS)
+    (effects (font (size 1.5 1.5) (thickness 0.3)))
   )
 
   (segment (start 169.263 95.278) (end 169.291 95.25) (width 0.381) (layer F.Cu) (net 1))
