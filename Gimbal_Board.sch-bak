@@ -1021,10 +1021,6 @@ Wire Notes Line
 	500  500  500  2950
 Wire Notes Line
 	7350 500  7350 2950
-Text Notes 2700 4900 0    50   ~ 0
-PMW 5
-Text Notes 2700 5000 0    50   ~ 0
-PMW 6
 Wire Wire Line
 	3600 4850 3500 4850
 Wire Wire Line
@@ -1138,8 +1134,6 @@ Wire Wire Line
 	4550 4650 4550 4850
 Wire Wire Line
 	4550 4850 4500 4850
-Text Notes 2700 5100 0    50   ~ 0
-PMW 7
 Text Notes 2550 5200 0    50   ~ 0
 AlalogWrite
 Wire Notes Line
@@ -1366,12 +1360,18 @@ Wire Wire Line
 	3600 3750 3500 3750
 Wire Wire Line
 	3500 5150 3600 5150
-Text Notes 2700 4100 0    50   ~ 0
-PMW 4
-Text Notes 2700 4000 0    50   ~ 0
-PMW 3
-Text Notes 2700 3900 0    50   ~ 0
-PMW 2
 Text Notes 2700 3800 0    50   ~ 0
-PMW 1
+PWM 1
+Text Notes 2700 3900 0    50   ~ 0
+PWM 2
+Text Notes 2700 4000 0    50   ~ 0
+PWM 3
+Text Notes 2700 4100 0    50   ~ 0
+PWM 4
+Text Notes 2700 4900 0    50   ~ 0
+PWM 5
+Text Notes 2700 5000 0    50   ~ 0
+PWM 6
+Text Notes 2700 5100 0    50   ~ 0
+PWM 7
 $EndSCHEMATC
