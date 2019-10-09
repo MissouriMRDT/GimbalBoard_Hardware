@@ -1,11 +1,11 @@
 EESchema-LIBRARY Version 2.4
 #encoding utf-8
 #
-# Device:C
+# Device_C
 #
-DEF Device:C C 0 10 N Y 1 F N
+DEF Device_C C 0 10 N Y 1 F N
 F0 "C" 25 100 50 H V L CNN
-F1 "Device:C" 25 -100 50 H V L CNN
+F1 "Device_C" 25 -100 50 H V L CNN
 F2 "" 38 -150 50 H I C CNN
 F3 "" 0 0 50 H I C CNN
 $FPLIST
@@ -19,11 +19,11 @@ X ~ 2 0 -150 110 U 50 50 1 1 P
 ENDDRAW
 ENDDEF
 #
-# Device:CP1
+# Device_CP1
 #
-DEF Device:CP1 C 0 10 N N 1 F N
+DEF Device_CP1 C 0 10 N N 1 F N
 F0 "C" 25 100 50 H V L CNN
-F1 "Device:CP1" 25 -100 50 H V L CNN
+F1 "Device_CP1" 25 -100 50 H V L CNN
 F2 "" 0 0 50 H I C CNN
 F3 "" 0 0 50 H I C CNN
 $FPLIST
@@ -39,11 +39,11 @@ X ~ 2 0 -150 130 U 50 50 1 1 P
 ENDDRAW
 ENDDEF
 #
-# Device:LED
+# Device_LED
 #
-DEF Device:LED D 0 40 N N 1 F N
+DEF Device_LED D 0 40 N N 1 F N
 F0 "D" 0 100 50 H V C CNN
-F1 "Device:LED" 0 -100 50 H V C CNN
+F1 "Device_LED" 0 -100 50 H V C CNN
 F2 "" 0 0 50 H I C CNN
 F3 "" 0 0 50 H I C CNN
 $FPLIST
@@ -62,11 +62,11 @@ X A 2 150 0 100 L 50 50 1 1 P
 ENDDRAW
 ENDDEF
 #
-# Device:R
+# Device_R
 #
-DEF Device:R R 0 0 N Y 1 F N
+DEF Device_R R 0 0 N Y 1 F N
 F0 "R" 80 0 50 V V C CNN
-F1 "Device:R" 0 0 50 V V C CNN
+F1 "Device_R" 0 0 50 V V C CNN
 F2 "" -70 0 50 V I C CNN
 F3 "" 0 0 50 H I C CNN
 $FPLIST
@@ -79,11 +79,11 @@ X ~ 2 0 -150 50 U 50 50 1 1 P
 ENDDRAW
 ENDDEF
 #
-# ShimbleBoard_Hardware-rescue:AndersonPP-MRDT_Connectors
+# MRDT_Connectors_AndersonPP
 #
-DEF ShimbleBoard_Hardware-rescue:AndersonPP-MRDT_Connectors Conn 0 0 N Y 5 L N
+DEF MRDT_Connectors_AndersonPP Conn 0 0 N Y 5 L N
 F0 "Conn" 150 -50 60 H V C CNN
-F1 "ShimbleBoard_Hardware-rescue:AndersonPP-MRDT_Connectors" 100 250 60 H V C CNN
+F1 "MRDT_Connectors_AndersonPP" 100 250 60 H V C CNN
 F2 "" -150 -550 60 H I C CNN
 F3 "" -150 -550 60 H I C CNN
 DRAW
@@ -99,11 +99,11 @@ X ~ 1 400 100 200 L 50 39 5 1 I
 ENDDRAW
 ENDDEF
 #
-# ShimbleBoard_Hardware-rescue:Molex_SL_03-MRDT_Connectors
+# MRDT_Connectors_Molex_SL_03
 #
-DEF ShimbleBoard_Hardware-rescue:Molex_SL_03-MRDT_Connectors Conn 0 40 Y Y 1 F N
+DEF MRDT_Connectors_Molex_SL_03 Conn 0 40 Y Y 1 F N
 F0 "Conn" 150 -50 60 H V C CNN
-F1 "ShimbleBoard_Hardware-rescue:Molex_SL_03-MRDT_Connectors" 50 350 60 H V C CNN
+F1 "MRDT_Connectors_Molex_SL_03" 50 350 60 H V C CNN
 F2 "" 0 0 60 H I C CNN
 F3 "" 0 0 60 H I C CNN
 DRAW
@@ -114,11 +114,11 @@ X ~ 3 -200 50 200 R 50 50 1 1 I
 ENDDRAW
 ENDDEF
 #
-# ShimbleBoard_Hardware-rescue:OKI-MRDT_Devices
+# MRDT_Devices_OKI
 #
-DEF ShimbleBoard_Hardware-rescue:OKI-MRDT_Devices U 0 40 Y Y 1 F N
+DEF MRDT_Devices_OKI U 0 40 Y Y 1 F N
 F0 "U" 50 -50 60 H I C CNN
-F1 "ShimbleBoard_Hardware-rescue:OKI-MRDT_Devices" 200 250 60 H V C CNN
+F1 "MRDT_Devices_OKI" 200 250 60 H V C CNN
 F2 "" -200 -100 60 H I C CNN
 F3 "" -200 -100 60 H I C CNN
 DRAW
@@ -129,11 +129,11 @@ X Vo 3 600 100 200 L 50 50 1 1 O
 ENDDRAW
 ENDDEF
 #
-# ShimbleBoard_Hardware-rescue:TM4C129E_Launchpad-MRDT_Shields-ShimbleBoard_Hardware-rescue
+# MRDT_Shields_TM4C129E_Launchpad
 #
-DEF ShimbleBoard_Hardware-rescue:TM4C129E_Launchpad-MRDT_Shields-ShimbleBoard_Hardware-rescue U 0 20 Y Y 8 L N
+DEF MRDT_Shields_TM4C129E_Launchpad U 0 20 Y Y 8 L N
 F0 "U" 100 -50 60 H V C CNN
-F1 "ShimbleBoard_Hardware-rescue:TM4C129E_Launchpad-MRDT_Shields-ShimbleBoard_Hardware-rescue" 100 1150 60 H V C CNN
+F1 "MRDT_Shields_TM4C129E_Launchpad" 100 1150 60 H V C CNN
 F2 "" 0 0 60 H I C CNN
 F3 "" 0 0 60 H I C CNN
 DRAW
@@ -186,7 +186,7 @@ X D1_8 PN2 -200 250 200 R 50 50 4 1 I
 X D1_9 PN3 -200 150 200 R 50 50 4 1 I
 X D1_10 PP2 -200 50 200 R 50 50 4 1 I
 X D1_5 Rese -200 550 200 R 50 50 4 1 I
-X A2_1 +3V3` -200 950 200 R 50 50 5 1 I
+X A2_1 +3V3' -200 950 200 R 50 50 5 1 I
 X A2_2 PD2 -200 850 200 R 50 50 5 1 I
 X A2_5 PD4 -200 550 200 R 50 50 5 1 I
 X A2_6 PD5 -200 450 200 R 50 50 5 1 I
@@ -229,11 +229,33 @@ X D2_5 Rese' -200 550 200 R 50 50 8 1 I
 ENDDRAW
 ENDDEF
 #
-# power:+12L
+# Transistor_BJT_2N3904
 #
-DEF power:+12L #PWR 0 0 Y Y 1 F P
+DEF Transistor_BJT_2N3904 Q 0 0 Y N 1 F N
+F0 "Q" 200 75 50 H V L CNN
+F1 "Transistor_BJT_2N3904" 200 0 50 H V L CNN
+F2 "Package_TO_SOT_THT:TO-92_Inline" 200 -75 50 H I L CIN
+F3 "" 0 0 50 H I L CNN
+$FPLIST
+ TO?92*
+$ENDFPLIST
+DRAW
+C 50 0 111 0 1 10 N
+P 2 0 1 0 25 25 100 100 N
+P 3 0 1 0 25 -25 100 -100 100 -100 N
+P 3 0 1 20 25 75 25 -75 25 -75 N
+P 5 0 1 0 50 -70 70 -50 90 -90 50 -70 50 -70 F
+X E 1 100 -200 100 U 50 50 1 1 P
+X B 2 -200 0 225 R 50 50 1 1 P
+X C 3 100 200 100 D 50 50 1 1 P
+ENDDRAW
+ENDDEF
+#
+# power_+12L
+#
+DEF power_+12L #PWR 0 0 Y Y 1 F P
 F0 "#PWR" 0 -150 50 H I C CNN
-F1 "power:+12L" 0 140 50 H V C CNN
+F1 "power_+12L" 0 140 50 H V C CNN
 F2 "" 0 0 50 H I C CNN
 F3 "" 0 0 50 H I C CNN
 DRAW
@@ -244,11 +266,11 @@ X +12L 1 0 0 0 U 50 50 1 1 W N
 ENDDRAW
 ENDDEF
 #
-# power:+12VA
+# power_+12VA
 #
-DEF power:+12VA #PWR 0 0 Y Y 1 F P
+DEF power_+12VA #PWR 0 0 Y Y 1 F P
 F0 "#PWR" 0 -150 50 H I C CNN
-F1 "power:+12VA" 0 140 50 H V C CNN
+F1 "power_+12VA" 0 140 50 H V C CNN
 F2 "" 0 0 50 H I C CNN
 F3 "" 0 0 50 H I C CNN
 DRAW
@@ -259,11 +281,11 @@ X +12VA 1 0 0 0 U 50 50 1 1 W N
 ENDDRAW
 ENDDEF
 #
-# power:+5VA
+# power_+5VA
 #
-DEF power:+5VA #PWR 0 0 Y Y 1 F P
+DEF power_+5VA #PWR 0 0 Y Y 1 F P
 F0 "#PWR" 0 -150 50 H I C CNN
-F1 "power:+5VA" 0 140 50 H V C CNN
+F1 "power_+5VA" 0 140 50 H V C CNN
 F2 "" 0 0 50 H I C CNN
 F3 "" 0 0 50 H I C CNN
 DRAW
@@ -274,11 +296,11 @@ X +5VA 1 0 0 0 U 50 50 1 1 W N
 ENDDRAW
 ENDDEF
 #
-# power:+5VL
+# power_+5VL
 #
-DEF power:+5VL #PWR 0 0 Y Y 1 F P
+DEF power_+5VL #PWR 0 0 Y Y 1 F P
 F0 "#PWR" 0 -150 50 H I C CNN
-F1 "power:+5VL" 0 140 50 H V C CNN
+F1 "power_+5VL" 0 140 50 H V C CNN
 F2 "" 0 0 50 H I C CNN
 F3 "" 0 0 50 H I C CNN
 DRAW
@@ -289,11 +311,11 @@ X +5VL 1 0 0 0 U 50 50 1 1 W N
 ENDDRAW
 ENDDEF
 #
-# power:GND
+# power_GND
 #
-DEF power:GND #PWR 0 0 Y Y 1 F P
+DEF power_GND #PWR 0 0 Y Y 1 F P
 F0 "#PWR" 0 -250 50 H I C CNN
-F1 "power:GND" 0 -150 50 H V C CNN
+F1 "power_GND" 0 -150 50 H V C CNN
 F2 "" 0 0 50 H I C CNN
 F3 "" 0 0 50 H I C CNN
 DRAW
