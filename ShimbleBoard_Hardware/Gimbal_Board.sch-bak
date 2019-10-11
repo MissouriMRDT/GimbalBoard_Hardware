@@ -1376,4 +1376,6 @@ Connection ~ 9450 3350
 Wire Wire Line
 	9450 2900 9450 2950
 Connection ~ 9450 2950
+Wire Notes Line
+	3600 1350 3600 3650
 $EndSCHEMATC

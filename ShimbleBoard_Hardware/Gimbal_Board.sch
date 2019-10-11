@@ -802,17 +802,17 @@ Wire Wire Line
 	5650 2950 5650 2800
 Wire Wire Line
 	4950 2950 4950 2800
-Text Notes 4150 2550 2    50   ~ 0
+Text Notes 4150 2600 2    50   ~ 0
 Servo 1
-Text Notes 4500 2550 2    50   ~ 0
+Text Notes 4500 2600 2    50   ~ 0
 Servo 2
-Text Notes 4850 2550 2    50   ~ 0
+Text Notes 4850 2600 2    50   ~ 0
 Servo 3
-Text Notes 5200 2550 2    50   ~ 0
+Text Notes 5200 2600 2    50   ~ 0
 Servo 4
-Text Notes 5550 2550 2    50   ~ 0
+Text Notes 5550 2600 2    50   ~ 0
 Servo 5
-Text Notes 5900 2550 2    50   ~ 0
+Text Notes 5900 2600 2    50   ~ 0
 Servo 6
 Connection ~ 5850 2850
 $Comp
@@ -878,9 +878,9 @@ Connection ~ 6200 2850
 Wire Wire Line
 	6600 2850 6550 2850
 Connection ~ 6550 2850
-Text Notes 6250 2550 2    50   ~ 0
+Text Notes 6250 2600 2    50   ~ 0
 Servo 7
-Text Notes 6600 2550 2    50   ~ 0
+Text Notes 6600 2600 2    50   ~ 0
 Servo 8
 Wire Notes Line
 	1200 1350 1200 3100
@@ -1167,7 +1167,7 @@ Wire Notes Line
 Wire Notes Line
 	6900 1350 3600 1350
 Wire Notes Line
-	4850 2650 2550 2650
+	-950 2100 -3250 2100
 Wire Notes Line
 	6900 1350 6900 3650
 Wire Wire Line
