@@ -1167,8 +1167,6 @@ Wire Notes Line
 Wire Notes Line
 	6900 1350 3600 1350
 Wire Notes Line
-	-950 2100 -3250 2100
-Wire Notes Line
 	6900 1350 6900 3650
 Wire Wire Line
 	3700 2900 4000 2900
