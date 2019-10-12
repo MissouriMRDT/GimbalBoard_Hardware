@@ -1021,24 +1021,24 @@ Text Notes 1400 5150 0    50   ~ 0
 PWM 6
 Text Notes 1400 5050 0    50   ~ 0
 PWM 5
-Text Notes 1400 4250 0    50   ~ 0
+Text Notes -2700 5300 0    50   ~ 0
 PWM 4
-Text Notes 1400 4150 0    50   ~ 0
+Text Notes -2700 5200 0    50   ~ 0
 PWM 3
-Text Notes 1400 4050 0    50   ~ 0
+Text Notes -2700 5100 0    50   ~ 0
 PWM 2
-Text Notes 1400 3950 0    50   ~ 0
+Text Notes -2700 5000 0    50   ~ 0
 PWM 1
 Wire Wire Line
 	2200 5300 2300 5300
 Wire Wire Line
-	2300 3900 2200 3900
+	-1800 4950 -1900 4950
 Wire Wire Line
-	2200 4000 2300 4000
+	-1900 5050 -1800 5050
 Wire Wire Line
-	2300 4100 2200 4100
+	-1800 5150 -1900 5150
 Wire Wire Line
-	2200 4200 2300 4200
+	-1900 5250 -1800 5250
 Wire Notes Line
 	1200 3150 1200 6150
 Text Notes 1250 5350 0    50   ~ 0
@@ -1059,13 +1059,13 @@ Text GLabel 2200 5000 0    50   Output ~ 0
 Servo_Ctrl_5
 Text Notes 1850 3400 0    138  Italic 28
 TIVA Logic
-Text GLabel 2200 4200 0    50   Output ~ 0
+Text GLabel -1900 5250 0    50   Output ~ 0
 Servo_Ctrl_4
-Text GLabel 2200 4100 0    50   Output ~ 0
+Text GLabel -1900 5150 0    50   Output ~ 0
 Servo_Ctrl_3
-Text GLabel 2200 4000 0    50   Output ~ 0
+Text GLabel -1900 5050 0    50   Output ~ 0
 Servo_Ctrl_2
-Text GLabel 2200 3900 0    50   Output ~ 0
+Text GLabel -1900 4950 0    50   Output ~ 0
 Servo_Ctrl_1
 Wire Wire Line
 	3400 3800 3200 3800
@@ -1166,8 +1166,6 @@ Wire Notes Line
 	3600 1650 6900 1650
 Wire Notes Line
 	6900 1350 3600 1350
-Wire Notes Line
-	-950 2100 -3250 2100
 Wire Notes Line
 	6900 1350 6900 3650
 Wire Wire Line
@@ -1378,4 +1376,63 @@ Wire Wire Line
 Connection ~ 9450 2950
 Wire Notes Line
 	3600 1350 3600 3650
+$Comp
+L MRDT_Shields:TM4C129E_Launchpad U1
+U 1 1 5DA28D2E
+P -1550 4700
+F 0 "U1" H -1500 4650 60  0000 L CNN
+F 1 "TM4C129E_Launchpad" H -1800 5900 60  0000 L CNN
+F 2 "MRDT_Shields:TM4C129E_Launchpad_FULL_THT_BOTTOM" H -1550 4700 60  0001 C CNN
+F 3 "" H -1550 4700 60  0001 C CNN
+	1    -1550 4700
+	1    0    0    -1  
+$EndComp
+$Comp
+L MRDT_Shields:TM4C129E_Launchpad U1
+U 2 1 5DA2BE1E
+P -1100 4700
+F 0 "U1" H -950 4650 60  0000 C CNN
+F 1 "TM4C129E_Launchpad" H -1069 5871 60  0001 C CNN
+F 2 "MRDT_Shields:TM4C129E_Launchpad_FULL_THT_BOTTOM" H -1100 4700 60  0001 C CNN
+F 3 "" H -1100 4700 60  0001 C CNN
+	2    -1100 4700
+	-1   0    0    -1  
+$EndComp
+$Comp
+L MRDT_Shields:TM4C129E_Launchpad U1
+U 3 1 5DA2EA3D
+P -1600 5900
+F 0 "U1" H -1550 5850 60  0000 L CNN
+F 1 "TM4C129E_Launchpad" H -1295 6392 60  0001 L CNN
+F 2 "MRDT_Shields:TM4C129E_Launchpad_FULL_THT_BOTTOM" H -1600 5900 60  0001 C CNN
+F 3 "" H -1600 5900 60  0001 C CNN
+	3    -1600 5900
+	1    0    0    -1  
+$EndComp
+$Comp
+L MRDT_Shields:TM4C129E_Launchpad U1
+U 4 1 5DA313FB
+P -1100 5900
+F 0 "U1" H -950 5850 60  0000 C CNN
+F 1 "TM4C129E_Launchpad" H -795 6392 60  0001 L CNN
+F 2 "MRDT_Shields:TM4C129E_Launchpad_FULL_THT_BOTTOM" H -1100 5900 60  0001 C CNN
+F 3 "" H -1100 5900 60  0001 C CNN
+	4    -1100 5900
+	-1   0    0    -1  
+$EndComp
+Wire Wire Line
+	-750 4950 -900 4950
+Wire Wire Line
+	-750 5000 -750 4950
+$Comp
+L power:GND #PWR0107
+U 1 1 5DA8E928
+P -750 5000
+F 0 "#PWR0107" H -750 4750 50  0001 C CNN
+F 1 "GND" H -745 4827 50  0000 C CNN
+F 2 "" H -750 5000 50  0001 C CNN
+F 3 "" H -750 5000 50  0001 C CNN
+	1    -750 5000
+	1    0    0    -1  
+$EndComp
 $EndSCHEMATC
