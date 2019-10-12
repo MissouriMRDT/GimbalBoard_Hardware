@@ -1,4 +1,4 @@
-(kicad_pcb (version 20171130) (host pcbnew "(5.1.4)-1")
+(kicad_pcb (version 20171130) (host pcbnew 5.1.4-e60b266~84~ubuntu18.04.1)
 
   (general
     (thickness 1.6)
@@ -240,10 +240,10 @@
 
   (module ShimbleBoard_Hardware:Kamran_Winschel_Sig_17.1mmx3.9mm (layer F.Cu) (tedit 0) (tstamp 5DA162B2)
     (at 98.552 127)
-    (fp_text reference G*** (at 0 0) (layer F.SilkS) hide
+    (fp_text reference G*** (at 0 2.54) (layer F.SilkS) hide
       (effects (font (size 1.524 1.524) (thickness 0.3)))
     )
-    (fp_text value LOGO (at 0.75 0) (layer F.SilkS) hide
+    (fp_text value LOGO (at 0.508 -2.54) (layer F.SilkS) hide
       (effects (font (size 1.524 1.524) (thickness 0.3)))
     )
     (fp_poly (pts (xy 2.569182 -0.157165) (xy 2.569633 -0.156582) (xy 2.587797 -0.119365) (xy 2.584798 -0.076559)
@@ -660,10 +660,10 @@
 
   (module ShimbleBoard_Hardware:Andrew_Phillips_Sig_19.7mmx7.7mm (layer F.Cu) (tedit 0) (tstamp 5DA16286)
     (at 79.248 127)
-    (fp_text reference G*** (at 0 0) (layer F.SilkS) hide
+    (fp_text reference G*** (at 0 2.54) (layer F.SilkS) hide
       (effects (font (size 1.524 1.524) (thickness 0.3)))
     )
-    (fp_text value LOGO (at 0.75 0) (layer F.SilkS) hide
+    (fp_text value LOGO (at 0.75 -2.54) (layer F.SilkS) hide
       (effects (font (size 1.524 1.524) (thickness 0.3)))
     )
     (fp_poly (pts (xy 0.750796 1.780337) (xy 0.753601 1.786819) (xy 0.751147 1.79682) (xy 0.740834 1.799166)
