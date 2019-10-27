@@ -362,7 +362,7 @@ PWM 6
 Text Notes 2700 4750 0    50   ~ 0
 PWM 5
 Text Notes 2550 5050 0    50   ~ 0
-AlalogWrite
+AnalogWrite
 Text GLabel 3500 4800 0    50   Output ~ 0
 Servo_Ctrl_6
 Text GLabel 3500 4700 0    50   Output ~ 0
