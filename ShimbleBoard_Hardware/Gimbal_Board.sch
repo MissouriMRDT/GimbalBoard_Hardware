@@ -446,10 +446,6 @@ F 3 "" H 4250 4450 60  0001 C CNN
 	6    4250 4450
 	-1   0    0    -1  
 $EndComp
-Text GLabel 3500 4900 0    50   Output ~ 0
-Servo_Ctrl_7
-Text GLabel 3500 5000 0    50   Output ~ 0
-Servo_Ctrl_8
 $Comp
 L power:GND #PWR0107
 U 1 1 5DA8E928
@@ -507,12 +503,8 @@ F 3 "" H 1600 4500 60  0001 C CNN
 $EndComp
 Text GLabel 1350 4750 0    50   Output ~ 0
 Servo_Ctrl_1
-Text GLabel 1350 4850 0    50   Output ~ 0
-Servo_Ctrl_2
 Text GLabel 1350 4950 0    50   Output ~ 0
 Servo_Ctrl_3
-Text GLabel 1350 5050 0    50   Output ~ 0
-Servo_Ctrl_4
 Text GLabel 7250 2100 3    50   Input ~ 0
 Servo_Ctrl_1
 Text GLabel 7600 2100 3    50   Input ~ 0
@@ -1355,12 +1347,8 @@ Wire Wire Line
 	1400 4750 1350 4750
 Text Notes 550  4800 0    50   ~ 0
 PWM 1
-Text Notes 550  4900 0    50   ~ 0
-PWM 2
 Text Notes 550  5000 0    50   ~ 0
 PWM 3
-Text Notes 550  5100 0    50   ~ 0
-PWM 4
 Wire Wire Line
 	3550 5000 3500 5000
 Wire Wire Line
@@ -1698,12 +1686,12 @@ $EndComp
 $Comp
 L power:GND #PWR0128
 U 1 1 5DC2F611
-P 7550 10200
-F 0 "#PWR0128" H 7550 9950 50  0001 C CNN
-F 1 "GND" H 7555 10027 50  0000 C CNN
-F 2 "" H 7550 10200 50  0001 C CNN
-F 3 "" H 7550 10200 50  0001 C CNN
-	1    7550 10200
+P 7500 10200
+F 0 "#PWR0128" H 7500 9950 50  0001 C CNN
+F 1 "GND" H 7505 10027 50  0000 C CNN
+F 2 "" H 7500 10200 50  0001 C CNN
+F 3 "" H 7500 10200 50  0001 C CNN
+	1    7500 10200
 	1    0    0    -1  
 $EndComp
 $Comp
@@ -1951,8 +1939,6 @@ Text GLabel 6650 10700 2    50   Output ~ 0
 All_Servo_SW
 Text GLabel 6650 10050 2    50   Output ~ 0
 Servo_Setup_SW
-Text GLabel 4400 11550 2    50   Output ~ 0
-Servo_SW_8
 Text GLabel 4400 11200 2    50   Output ~ 0
 Servo_SW_7
 Text GLabel 4400 10850 2    50   Output ~ 0
@@ -2131,7 +2117,7 @@ Connection ~ 6600 10050
 Wire Wire Line
 	6600 10050 6550 10050
 Wire Wire Line
-	7550 10150 7550 10200
+	7500 10150 7500 10200
 Wire Wire Line
 	7450 10850 7450 10800
 Wire Wire Line
@@ -2303,4 +2289,18 @@ F 3 "~" H 18050 7300 50  0001 C CNN
 	1    18050 7300
 	0    1    1    0   
 $EndComp
+Text Notes 550  5100 0    50   ~ 0
+PWM 4
+Text Notes 550  4900 0    50   ~ 0
+PWM 2
+Text GLabel 1350 5050 0    50   Output ~ 0
+Servo_Ctrl_4
+Text GLabel 1350 4850 0    50   Output ~ 0
+Servo_Ctrl_2
+Text GLabel 3500 4900 0    50   Output ~ 0
+Servo_Ctrl_7
+Text GLabel 3500 5000 0    50   Output ~ 0
+Servo_Ctrl_8
+Text GLabel 4400 11550 2    50   Output ~ 0
+Servo_SW_8
 $EndSCHEMATC
