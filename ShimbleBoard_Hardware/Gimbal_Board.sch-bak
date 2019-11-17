@@ -2346,6 +2346,6 @@ Wire Notes Line
 	2600 5650 2600 7700
 Text Notes 7600 750  0    138  Italic 28
 Servo Buttons
-Text Notes 9400 750  0    138  Italic 28
-Servo Switches
+Text Notes 9750 750  0    138  Italic 28
+All Servo
 $EndSCHEMATC
