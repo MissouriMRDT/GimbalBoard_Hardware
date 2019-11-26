@@ -2,7 +2,7 @@
 
   (general
     (thickness 1.6)
-    (drawings 86)
+    (drawings 88)
     (tracks 468)
     (zones 0)
     (modules 85)
@@ -4497,6 +4497,8 @@
     )
   )
 
+  (gr_line (start 191.77 39.37) (end 191.77 52.07) (layer Edge.Cuts) (width 0.05) (tstamp 5DDCA061))
+  (gr_line (start 67.31 39.37) (end 67.31 52.07) (layer Edge.Cuts) (width 0.05) (tstamp 5DDCA060))
   (gr_line (start 170.942 86.868) (end 170.942 76.2) (layer F.SilkS) (width 0.12) (tstamp 5DD1AF02))
   (gr_line (start 171.196 86.868) (end 170.942 86.868) (layer F.SilkS) (width 0.12))
   (gr_line (start 171.704 86.868) (end 171.196 86.868) (layer F.SilkS) (width 0.12))
@@ -4595,7 +4597,7 @@
   (gr_line (start 67.31 122.682) (end 67.31 131.318) (layer Edge.Cuts) (width 0.05))
   (gr_arc (start 67.31 120.65) (end 67.31 122.682) (angle -180) (layer Edge.Cuts) (width 0.05))
   (gr_line (start 67.31 52.07) (end 67.31 118.618) (layer Edge.Cuts) (width 0.05))
-  (gr_line (start 191.77 52.07) (end 67.31 52.07) (layer Edge.Cuts) (width 0.05))
+  (gr_line (start 191.77 39.37) (end 67.31 39.37) (layer Edge.Cuts) (width 0.05))
   (gr_line (start 191.77 85.598) (end 191.77 52.07) (layer Edge.Cuts) (width 0.05))
   (gr_text "Servo Controls:" (at 118.872 86.36) (layer F.SilkS)
     (effects (font (size 1.5 1.5) (thickness 0.3)))
@@ -5079,7 +5081,7 @@
     (fill yes (arc_segments 32) (thermal_gap 0.508) (thermal_bridge_width 0.508))
     (polygon
       (pts
-        (xy 65.86982 35.306) (xy 65.75298 134.30504) (xy 194.97802 134.45998) (xy 194.67068 35.052)
+        (xy 66.548 38.862) (xy 66.548 133.858) (xy 192.532 133.858) (xy 192.532 38.862)
       )
     )
     (filled_polygon
@@ -5654,7 +5656,7 @@
     (fill yes (arc_segments 32) (thermal_gap 0.508) (thermal_bridge_width 0.508))
     (polygon
       (pts
-        (xy 65.86982 35.306) (xy 65.75298 134.30504) (xy 194.97802 134.45998) (xy 194.67068 35.052)
+        (xy 66.548 38.862) (xy 66.548 133.858) (xy 192.532 133.858) (xy 192.532 38.862)
       )
     )
     (filled_polygon
