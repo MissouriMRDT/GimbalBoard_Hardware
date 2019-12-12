@@ -1,21 +1,40 @@
 TM4C129E_Launchpad
 -----X7:A2-----
-Servo_6_Ctrl       :PD2:A2_2 :DIO
+All_Servo_SW       :PD2:A2_2 :DIO
+Servo_SW_1	   :PP0:A2_3 :
+Servo_SW_2	   :PP1:A2_4 :
+Servo_SW_3	   :PQ0:A2_7 :
+Servo_SW_4	   :PP4:A2_8 :
+Servo_SW_5	   :PN5:A2_9 :
+Servo_SW_6	   :PN4:A2_10:
 
 -----X7:B2-----
-+5V                :+5V:B2_1 
-GND                :GND:B2_2 
-Servo_7_Ctrl       :PA4:B2_9 :DIO
-Servo_8_Ctrl       :PA5:B2_10:DIO
++5VL               :+5V:B2_1 
+GND                :GND:B2_2  
+Servo_SW_7	   :PK1:B2_6 :
+Servo_SW_8	   :PK2:B2_7 :
+Servo_Setup_SW	   :PK3:B2_8 :
 
 -----X7:C2-----
-Servo_1_Ctrl       :PG1:C2_1 :PWM
-Servo_2_Ctrl       :PK4:C2_2 :PWM
-Servo_3_Ctrl       :PK5:C2_3 :PWM
-Servo_4_Ctrl       :PM0:C2_4 :PWM
-
+Servo_Ctrl_5       :PG1:C2_1 :PWM
+Servo_Ctrl_6       :PK4:C2_2 :PWM
+Servo_Ctrl_7       :PK5:C2_3 :PWM
+Servo_Ctrl_8       :PM0:C2_4 :PWM
 
 -----X7:D2-----
-GND                :GND:D2_1 :DIO
-Servo_5_Ctrl       :PM7:D2_2 :PWM
+GND                :GND:D2_1
+
+-----X9:B1-----
++5VL		   :+5V:B1_1
+GND		   :GND:B1_2
+
+-----X9:C1-----
+Servo_Ctrl_1	   :PF1:C1_1 :
+Servo_Ctrl_2	   :PF2:C1_2 :
+Servo_Ctrl_3	   :PF3:C1_3 :
+Servo_Ctrl_4	   :PG0:C1_4 :
+
+-----X9:D1-----
+GND		   :GND:D1_1
+
 /////////////////////////////////////////////////////////////////

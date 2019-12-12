@@ -1,5 +1,4 @@
 EESchema Schematic File Version 4
-LIBS:Gimbal_Board-cache
 EELAYER 30 0
 EELAYER END
 $Descr A4 11693 8268
@@ -1298,7 +1297,7 @@ F 1 "Q_NMOS_GDS" V 2242 1950 50  0000 C CNN
 F 2 "Package_TO_SOT_SMD:SOT-23_Handsoldering" H 2100 2050 50  0001 C CNN
 F 3 "~" H 1900 1950 50  0001 C CNN
 	1    1900 1950
-	0    1    1    0   
+	0    -1   1    0   
 $EndComp
 $Comp
 L Device:Q_NMOS_GDS Q2
@@ -1309,7 +1308,7 @@ F 1 "Q_NMOS_GDS" V 2242 2700 50  0000 C CNN
 F 2 "Package_TO_SOT_SMD:SOT-23_Handsoldering" H 2100 2800 50  0001 C CNN
 F 3 "~" H 1900 2700 50  0001 C CNN
 	1    1900 2700
-	0    1    1    0   
+	0    -1   1    0   
 $EndComp
 $Comp
 L Device:Q_NMOS_GDS Q3
@@ -1320,7 +1319,7 @@ F 1 "Q_NMOS_GDS" V 2242 3450 50  0000 C CNN
 F 2 "Package_TO_SOT_SMD:SOT-23_Handsoldering" H 2100 3550 50  0001 C CNN
 F 3 "~" H 1900 3450 50  0001 C CNN
 	1    1900 3450
-	0    1    1    0   
+	0    -1   1    0   
 $EndComp
 $Comp
 L Device:Q_NMOS_GDS Q4
@@ -1331,7 +1330,7 @@ F 1 "Q_NMOS_GDS" V 2242 4200 50  0000 C CNN
 F 2 "Package_TO_SOT_SMD:SOT-23_Handsoldering" H 2100 4300 50  0001 C CNN
 F 3 "~" H 1900 4200 50  0001 C CNN
 	1    1900 4200
-	0    1    1    0   
+	0    -1   1    0   
 $EndComp
 $Comp
 L Device:Q_NMOS_GDS Q5
@@ -1342,7 +1341,7 @@ F 1 "Q_NMOS_GDS" V 2242 4950 50  0000 C CNN
 F 2 "Package_TO_SOT_SMD:SOT-23_Handsoldering" H 2100 5050 50  0001 C CNN
 F 3 "~" H 1900 4950 50  0001 C CNN
 	1    1900 4950
-	0    1    1    0   
+	0    -1   1    0   
 $EndComp
 $Comp
 L Device:Q_NMOS_GDS Q6
@@ -1353,7 +1352,7 @@ F 1 "Q_NMOS_GDS" V 2242 5700 50  0000 C CNN
 F 2 "Package_TO_SOT_SMD:SOT-23_Handsoldering" H 2100 5800 50  0001 C CNN
 F 3 "~" H 1900 5700 50  0001 C CNN
 	1    1900 5700
-	0    1    1    0   
+	0    -1   1    0   
 $EndComp
 $Comp
 L Device:Q_NMOS_GDS Q7
@@ -1364,7 +1363,7 @@ F 1 "Q_NMOS_GDS" V 2242 6450 50  0000 C CNN
 F 2 "Package_TO_SOT_SMD:SOT-23_Handsoldering" H 2100 6550 50  0001 C CNN
 F 3 "~" H 1900 6450 50  0001 C CNN
 	1    1900 6450
-	0    1    1    0   
+	0    -1   1    0   
 $EndComp
 $Comp
 L Device:Q_NMOS_GDS Q8
@@ -1375,7 +1374,7 @@ F 1 "Q_NMOS_GDS" V 2242 7200 50  0000 C CNN
 F 2 "Package_TO_SOT_SMD:SOT-23_Handsoldering" H 2100 7300 50  0001 C CNN
 F 3 "~" H 1900 7200 50  0001 C CNN
 	1    1900 7200
-	0    1    1    0   
+	0    -1   1    0   
 $EndComp
 Wire Notes Line
 	500  500  500  7700
