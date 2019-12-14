@@ -335,7 +335,7 @@
     (add_net Servo_Setup_SW)
   )
 
-  (module ShimbleBoard_Hardware:TM4C129E_Launchpad_FULL_THT_BOTTOM_5 (layer F.Cu) (tedit 5DDC9490) (tstamp 5DF4BA38)
+  (module MRDT_Shields:TM4C129E_Launchpad_FULL_THT_BOTTOM (layer F.Cu) (tedit 5C6741E4) (tstamp 5DF4BA38)
     (at 67.31 107.95)
     (path /5DA10200)
     (fp_text reference U1 (at 122.174 -0.762 180) (layer F.SilkS) hide
@@ -344,9 +344,6 @@
     (fp_text value TM4C129E_Launchpad (at 45.974 1.016) (layer F.Fab) hide
       (effects (font (size 1 1) (thickness 0.15)))
     )
-    (fp_line (start 124.46 -55.88) (end 124.46 -68.58) (layer F.Fab) (width 0.15))
-    (fp_line (start -113.2332 -34.163) (end -113.2332 -46.863) (layer F.Fab) (width 0.15))
-    (fp_line (start 0 -55.88) (end 0 -68.58) (layer F.Fab) (width 0.15))
     (fp_line (start 122.428 -20.574) (end 122.428 -20.066) (layer F.Fab) (width 0.05))
     (fp_line (start 124.206 -22.352) (end 124.714 -22.352) (layer F.Fab) (width 0.05))
     (fp_line (start 122.174 -22.352) (end 122.682 -22.352) (layer F.Fab) (width 0.05))
@@ -418,7 +415,7 @@
       (effects (font (size 1 1) (thickness 0.15)) (justify mirror))
     )
     (fp_line (start 0 -55.88) (end 0 0.508) (layer F.Fab) (width 0.15))
-    (fp_line (start 0 -68.58) (end 124.46 -68.58) (layer F.Fab) (width 0.15))
+    (fp_line (start 0 -55.88) (end 124.46 -55.88) (layer F.Fab) (width 0.15))
     (fp_line (start 0 0.508) (end 122.428 0.508) (layer F.Fab) (width 0.15))
     (fp_line (start 124.46 -55.88) (end 124.46 -22.352) (layer F.Fab) (width 0.15))
     (fp_line (start 106.68 -20.32) (end 106.68 0.508) (layer F.Fab) (width 0.15))
@@ -645,8 +642,7 @@
       (net 33 "Net-(U1-PadPQ1)"))
     (pad PM6 thru_hole circle (at 87.63 -46.99 180) (size 1.52 1.52) (drill 1) (layers *.Cu *.Mask F.Paste)
       (net 32 "Net-(U1-PadPM6)"))
-    (pad +3V3 thru_hole circle (at 64.77 -1.27 180) (size 1.52 1.52) (drill 1) (layers *.Cu *.Mask F.Paste)
-      (net 104 +3V3))
+    (pad +3V3` thru_hole circle (at 64.77 -1.27 180) (size 1.52 1.52) (drill 1) (layers *.Cu *.Mask F.Paste))
     (model ${KISYS3DMOD}/Socket_Strips.3dshapes/Socket_Strip_Straight_2x10_Pitch2.54mm.wrl
       (offset (xyz 12.69999980926514 45.71999931335449 -1.904999971389771))
       (scale (xyz 1 1 1))
