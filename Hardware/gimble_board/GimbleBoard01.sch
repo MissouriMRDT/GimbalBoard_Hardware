@@ -152,17 +152,6 @@ F 3 "" H 6150 1300 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Device:D_Zener D3
-U 1 1 5F7FDDFC
-P 5550 1750
-F 0 "D3" V 5504 1830 50  0000 L CNN
-F 1 "D_Zener" V 5595 1830 50  0000 L CNN
-F 2 "" H 5550 1750 50  0001 C CNN
-F 3 "~" H 5550 1750 50  0001 C CNN
-	1    5550 1750
-	0    1    1    0   
-$EndComp
-$Comp
 L power:GND #PWR05
 U 1 1 5F7FF47A
 P 5550 2050
@@ -308,14 +297,9 @@ Wire Wire Line
 Wire Wire Line
 	7350 1600 7200 1600
 Wire Wire Line
-	5550 1600 5700 1600
-Wire Wire Line
 	5550 1900 5550 2050
 Wire Wire Line
 	6000 1600 6150 1600
-Wire Wire Line
-	5550 1600 5400 1600
-Connection ~ 5550 1600
 Wire Wire Line
 	5400 1750 5400 2350
 Wire Wire Line
@@ -396,17 +380,6 @@ F 2 "" H 6150 3000 50  0001 C CNN
 F 3 "" H 6150 3000 50  0001 C CNN
 	1    6150 3000
 	1    0    0    -1  
-$EndComp
-$Comp
-L Device:D_Zener D4
-U 1 1 5F98D276
-P 5550 3450
-F 0 "D4" V 5504 3530 50  0000 L CNN
-F 1 "D_Zener" V 5595 3530 50  0000 L CNN
-F 2 "" H 5550 3450 50  0001 C CNN
-F 3 "~" H 5550 3450 50  0001 C CNN
-	1    5550 3450
-	0    1    1    0   
 $EndComp
 $Comp
 L power:GND #PWR012
@@ -530,14 +503,9 @@ Wire Wire Line
 Wire Wire Line
 	7350 3300 7200 3300
 Wire Wire Line
-	5550 3300 5700 3300
-Wire Wire Line
 	5550 3600 5550 3750
 Wire Wire Line
 	6000 3300 6150 3300
-Wire Wire Line
-	5550 3300 5400 3300
-Connection ~ 5550 3300
 Wire Wire Line
 	5400 3450 5400 4050
 Wire Wire Line
@@ -602,4 +570,36 @@ Wire Wire Line
 	3150 1500 3300 1500
 Wire Wire Line
 	3300 1500 3300 1650
+Wire Wire Line
+	5400 3300 5550 3300
+$Comp
+L Device:D_Schottky D4
+U 1 1 5F8005E7
+P 5550 3450
+F 0 "D4" V 5504 3530 50  0000 L CNN
+F 1 "D_Schottky" V 5595 3530 50  0000 L CNN
+F 2 "" H 5550 3450 50  0001 C CNN
+F 3 "~" H 5550 3450 50  0001 C CNN
+	1    5550 3450
+	0    1    1    0   
+$EndComp
+Connection ~ 5550 3300
+Wire Wire Line
+	5550 3300 5700 3300
+Wire Wire Line
+	5400 1600 5550 1600
+$Comp
+L Device:D_Schottky D3
+U 1 1 5F80152B
+P 5550 1750
+F 0 "D3" V 5504 1830 50  0000 L CNN
+F 1 "D_Schottky" V 5595 1830 50  0000 L CNN
+F 2 "" H 5550 1750 50  0001 C CNN
+F 3 "~" H 5550 1750 50  0001 C CNN
+	1    5550 1750
+	0    1    1    0   
+$EndComp
+Connection ~ 5550 1600
+Wire Wire Line
+	5550 1600 5700 1600
 $EndSCHEMATC
