@@ -242,7 +242,7 @@ Wire Wire Line
 Wire Wire Line
 	3900 1450 4050 1450
 Text GLabel 3400 1800 2    39   Input ~ 0
-Servo_1_PWM
+Servo_2_PWM
 $Comp
 L Device:R R34
 U 1 1 5F8988CD
@@ -300,7 +300,7 @@ Wire Wire Line
 Wire Wire Line
 	3900 2100 4050 2100
 Text GLabel 3400 2450 2    39   Input ~ 0
-Servo_1_PWM
+Servo_3_PWM
 $Comp
 L Device:R R35
 U 1 1 5F8A6B43
@@ -358,7 +358,7 @@ Wire Wire Line
 Wire Wire Line
 	3900 2750 4050 2750
 Text GLabel 3400 3100 2    39   Input ~ 0
-Servo_1_PWM
+Servo_4_PWM
 $Comp
 L Device:R R36
 U 1 1 5F8A6B62
@@ -416,7 +416,7 @@ Wire Wire Line
 Wire Wire Line
 	3900 3400 4050 3400
 Text GLabel 3400 3750 2    39   Input ~ 0
-Servo_1_PWM
+Servo_5_AW
 $Comp
 L Device:R R37
 U 1 1 5F8C6A5B
@@ -474,7 +474,7 @@ Wire Wire Line
 Wire Wire Line
 	3900 4050 4050 4050
 Text GLabel 3400 4400 2    39   Input ~ 0
-Servo_1_PWM
+Servo_6_PWM
 $Comp
 L Device:R R38
 U 1 1 5F8C6A7A
@@ -532,7 +532,7 @@ Wire Wire Line
 Wire Wire Line
 	3900 4700 4050 4700
 Text GLabel 3400 5050 2    39   Input ~ 0
-Servo_1_PWM
+Servo_7_PWM
 $Comp
 L Device:R R39
 U 1 1 5F8C6A99
@@ -590,7 +590,7 @@ Wire Wire Line
 Wire Wire Line
 	3900 5350 4050 5350
 Text GLabel 3400 5700 2    39   Input ~ 0
-Servo_1_PWM
+Servo_8_PWM
 $Comp
 L Device:R R40
 U 1 1 5F8C6AB8
