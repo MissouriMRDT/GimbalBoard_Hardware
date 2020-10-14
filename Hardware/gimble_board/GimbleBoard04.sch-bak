@@ -316,4 +316,5 @@ Text Notes 3050 1000 0    79   ~ 0
 Tiva Headers
 Text Notes 7200 6950 0    157  ~ 0
 Sheet 04: Tiva
+NoConn ~ 2100 2450
 $EndSCHEMATC
