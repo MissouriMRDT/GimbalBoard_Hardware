@@ -118,9 +118,9 @@ F 3 "" H 5550 2450 50  0001 C CNN
 	1    5550 2450
 	1    0    0    -1  
 $EndComp
-Text GLabel 4750 1800 2    39   Output ~ 0
-Servo_Manual_Control
 Text GLabel 4750 2000 2    39   Output ~ 0
+Servo_Manual_Control
+Text GLabel 4750 1800 2    39   Output ~ 0
 Servo_Digital_Control
 Wire Wire Line
 	4450 1800 4600 1800
