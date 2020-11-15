@@ -416,7 +416,7 @@ Wire Wire Line
 Wire Wire Line
 	3900 3400 4050 3400
 Text GLabel 3400 3750 2    39   Input ~ 0
-Servo_5_AW
+Servo_5_PWM
 $Comp
 L Device:R R30
 U 1 1 5F8C6A5B
@@ -590,7 +590,7 @@ Wire Wire Line
 Wire Wire Line
 	3900 5350 4050 5350
 Text GLabel 3400 5700 2    39   Input ~ 0
-Servo_8_PWM
+Servo_8_AW
 $Comp
 L Device:R R33
 U 1 1 5F8C6AB8
