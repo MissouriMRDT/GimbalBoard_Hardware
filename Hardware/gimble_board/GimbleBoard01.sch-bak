@@ -629,11 +629,71 @@ F 3 "" H 5550 2700 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
-	1950 1500 2250 1500
+	6750 1600 6600 1600
 Wire Wire Line
-	1950 3200 2250 3200
+	6900 1600 6750 1600
+Connection ~ 6750 1600
+$Comp
+L MRDT_Connectors:Test_Point J3
+U 1 1 5F8232EB
+P 6750 1600
+F 0 "J3" H 6700 1750 60  0000 R CNN
+F 1 "Test_Point" H 6950 1850 60  0000 R CNN
+F 2 "TestPoint:TestPoint_Pad_2.0x2.0mm" H 6750 1550 60  0001 C CNN
+F 3 "" H 6750 1550 60  0001 C CNN
+	1    6750 1600
+	-1   0    0    1   
+$EndComp
 Wire Wire Line
-	6600 3300 6900 3300
+	6750 3300 6600 3300
 Wire Wire Line
-	6600 1600 6900 1600
+	6900 3300 6750 3300
+Connection ~ 6750 3300
+$Comp
+L MRDT_Connectors:Test_Point J4
+U 1 1 5F98D2AD
+P 6750 3300
+F 0 "J4" H 6700 3450 60  0000 R CNN
+F 1 "Test_Point" H 6950 3550 60  0000 R CNN
+F 2 "TestPoint:TestPoint_Pad_2.0x2.0mm" H 6750 3250 60  0001 C CNN
+F 3 "" H 6750 3250 60  0001 C CNN
+	1    6750 3300
+	-1   0    0    1   
+$EndComp
+Wire Wire Line
+	2100 3200 2250 3200
+Wire Wire Line
+	1950 3200 2100 3200
+Connection ~ 2100 3200
+Wire Wire Line
+	2100 3200 2100 3350
+$Comp
+L MRDT_Connectors:Test_Point J2
+U 1 1 5FB1E588
+P 2100 3350
+F 0 "J2" H 2022 3389 60  0000 R CNN
+F 1 "Test_Point" H 2022 3495 60  0000 R CNN
+F 2 "TestPoint:TestPoint_Pad_2.0x2.0mm" H 2100 3300 60  0001 C CNN
+F 3 "" H 2100 3300 60  0001 C CNN
+	1    2100 3350
+	-1   0    0    1   
+$EndComp
+Wire Wire Line
+	2100 1500 2250 1500
+Wire Wire Line
+	1950 1500 2100 1500
+Connection ~ 2100 1500
+Wire Wire Line
+	2100 1500 2100 1650
+$Comp
+L MRDT_Connectors:Test_Point J1
+U 1 1 5F8266E6
+P 2100 1650
+F 0 "J1" H 2022 1689 60  0000 R CNN
+F 1 "Test_Point" H 2022 1795 60  0000 R CNN
+F 2 "TestPoint:TestPoint_Pad_2.0x2.0mm" H 2100 1600 60  0001 C CNN
+F 3 "" H 2100 1600 60  0001 C CNN
+	1    2100 1650
+	-1   0    0    1   
+$EndComp
 $EndSCHEMATC
