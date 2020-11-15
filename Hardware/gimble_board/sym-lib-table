@@ -1,0 +1,3 @@
+(sym_lib_table
+  (lib (name gimble_board-rescue)(type Legacy)(uri ${KIPRJMOD}/gimble_board-rescue.lib)(options "")(descr ""))
+)
