@@ -245,13 +245,13 @@ Servo_3_PWM
 Text GLabel 4050 3250 2    39   Input ~ 0
 Servo_4_PWM
 Text GLabel 4050 3850 2    39   Input ~ 0
-Servo_5_AW
+Servo_5_PWM
 Text GLabel 4050 4450 2    39   Input ~ 0
 Servo_6_PWM
 Text GLabel 4050 5050 2    39   Input ~ 0
 Servo_7_PWM
 Text GLabel 4050 5650 2    39   Input ~ 0
-Servo_8_PWM
+Servo_8_AW
 Wire Wire Line
 	3550 5650 4050 5650
 Wire Wire Line

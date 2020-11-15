@@ -224,11 +224,11 @@ Wire Wire Line
 Wire Wire Line
 	1500 3000 1650 3000
 NoConn ~ 2650 3000
-Text GLabel 2650 2450 2    39   Input ~ 0
+Text GLabel 2650 1750 2    39   Input ~ 0
 Servo_1_SW
-Text GLabel 2650 2350 2    39   Input ~ 0
+Text GLabel 2650 1850 2    39   Input ~ 0
 Servo_2_SW
-Text GLabel 2650 2250 2    39   Input ~ 0
+Text GLabel 2650 1950 2    39   Input ~ 0
 Servo_3_SW
 Wire Wire Line
 	1500 1650 1650 1650
@@ -236,19 +236,19 @@ Wire Wire Line
 	1500 1750 1650 1750
 Wire Wire Line
 	1500 1850 1650 1850
-Text GLabel 2650 2150 2    39   Input ~ 0
-Servo_4_SW
 Text GLabel 2650 2050 2    39   Input ~ 0
+Servo_4_SW
+Text GLabel 2650 2150 2    39   Input ~ 0
 Servo_5_SW
 Wire Wire Line
 	1500 1950 1650 1950
 Wire Wire Line
 	1500 2050 1650 2050
-Text GLabel 2650 1950 2    39   Input ~ 0
+Text GLabel 2650 2250 2    39   Input ~ 0
 Servo_6_SW
-Text GLabel 2650 1850 2    39   Input ~ 0
+Text GLabel 2650 2350 2    39   Input ~ 0
 Servo_7_SW
-Text GLabel 2650 1750 2    39   Input ~ 0
+Text GLabel 2650 2450 2    39   Input ~ 0
 Servo_8_SW
 Wire Wire Line
 	1500 2150 1650 2150
