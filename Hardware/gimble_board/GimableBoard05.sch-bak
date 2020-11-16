@@ -1,5 +1,4 @@
 EESchema Schematic File Version 4
-LIBS:gimble_board-cache
 EELAYER 30 0
 EELAYER END
 $Descr A4 11693 8268
@@ -14,148 +13,6 @@ Comment2 ""
 Comment3 ""
 Comment4 ""
 $EndDescr
-$Comp
-L power:+12V #PWR034
-U 1 1 5FB4BC1F
-P 1100 1250
-F 0 "#PWR034" H 1100 1100 50  0001 C CNN
-F 1 "+12V" H 1115 1423 50  0000 C CNN
-F 2 "" H 1100 1250 50  0001 C CNN
-F 3 "" H 1100 1250 50  0001 C CNN
-	1    1100 1250
-	1    0    0    -1  
-$EndComp
-$Comp
-L Device:R R15
-U 1 1 5FB4CC27
-P 1400 1400
-F 0 "R15" V 1300 1400 50  0000 C CNN
-F 1 "1k" V 1400 1400 50  0000 C CNN
-F 2 "Resistor_SMD:R_0603_1608Metric_Pad1.05x0.95mm_HandSolder" V 1330 1400 50  0001 C CNN
-F 3 "~" H 1400 1400 50  0001 C CNN
-	1    1400 1400
-	0    1    1    0   
-$EndComp
-$Comp
-L Device:LED D19
-U 1 1 5FB4D7BE
-P 1850 1400
-F 0 "D19" H 1850 1200 50  0000 C CNN
-F 1 "LED" H 1850 1300 50  0000 C CNN
-F 2 "LED_SMD:LED_0603_1608Metric_Pad1.05x0.95mm_HandSolder" H 1850 1400 50  0001 C CNN
-F 3 "~" H 1850 1400 50  0001 C CNN
-	1    1850 1400
-	-1   0    0    1   
-$EndComp
-Wire Wire Line
-	1100 1250 1100 1400
-Wire Wire Line
-	1100 1400 1250 1400
-Wire Wire Line
-	1550 1400 1700 1400
-$Comp
-L Device:R R16
-U 1 1 5FB50DC0
-P 1400 1850
-F 0 "R16" V 1300 1850 50  0000 C CNN
-F 1 "500" V 1400 1850 50  0000 C CNN
-F 2 "Resistor_SMD:R_0603_1608Metric_Pad1.05x0.95mm_HandSolder" V 1330 1850 50  0001 C CNN
-F 3 "~" H 1400 1850 50  0001 C CNN
-	1    1400 1850
-	0    1    1    0   
-$EndComp
-$Comp
-L Device:LED D20
-U 1 1 5FB50DC6
-P 1850 1850
-F 0 "D20" H 1850 1650 50  0000 C CNN
-F 1 "LED" H 1850 1750 50  0000 C CNN
-F 2 "LED_SMD:LED_0603_1608Metric_Pad1.05x0.95mm_HandSolder" H 1850 1850 50  0001 C CNN
-F 3 "~" H 1850 1850 50  0001 C CNN
-	1    1850 1850
-	-1   0    0    1   
-$EndComp
-Wire Wire Line
-	1100 1700 1100 1850
-Wire Wire Line
-	1100 1850 1250 1850
-Wire Wire Line
-	1550 1850 1700 1850
-$Comp
-L Device:R R17
-U 1 1 5FB519B8
-P 1400 2300
-F 0 "R17" V 1300 2300 50  0000 C CNN
-F 1 "330" V 1400 2300 50  0000 C CNN
-F 2 "Resistor_SMD:R_0603_1608Metric_Pad1.05x0.95mm_HandSolder" V 1330 2300 50  0001 C CNN
-F 3 "~" H 1400 2300 50  0001 C CNN
-	1    1400 2300
-	0    1    1    0   
-$EndComp
-$Comp
-L Device:LED D21
-U 1 1 5FB519BE
-P 1850 2300
-F 0 "D21" H 1850 2100 50  0000 C CNN
-F 1 "LED" H 1850 2200 50  0000 C CNN
-F 2 "LED_SMD:LED_0603_1608Metric_Pad1.05x0.95mm_HandSolder" H 1850 2300 50  0001 C CNN
-F 3 "~" H 1850 2300 50  0001 C CNN
-	1    1850 2300
-	-1   0    0    1   
-$EndComp
-Wire Wire Line
-	1100 2150 1100 2300
-Wire Wire Line
-	1100 2300 1250 2300
-Wire Wire Line
-	1550 2300 1700 2300
-$Comp
-L power:+3.3V #PWR036
-U 1 1 5FB51C08
-P 1100 2150
-F 0 "#PWR036" H 1100 2000 50  0001 C CNN
-F 1 "+3.3V" H 1115 2323 50  0000 C CNN
-F 2 "" H 1100 2150 50  0001 C CNN
-F 3 "" H 1100 2150 50  0001 C CNN
-	1    1100 2150
-	1    0    0    -1  
-$EndComp
-$Comp
-L power:+5V #PWR035
-U 1 1 5FB523C2
-P 1100 1700
-F 0 "#PWR035" H 1100 1550 50  0001 C CNN
-F 1 "+5V" H 1115 1873 50  0000 C CNN
-F 2 "" H 1100 1700 50  0001 C CNN
-F 3 "" H 1100 1700 50  0001 C CNN
-	1    1100 1700
-	1    0    0    -1  
-$EndComp
-$Comp
-L power:GND #PWR037
-U 1 1 5FB5276D
-P 2150 2450
-F 0 "#PWR037" H 2150 2200 50  0001 C CNN
-F 1 "GND" H 2155 2277 50  0000 C CNN
-F 2 "" H 2150 2450 50  0001 C CNN
-F 3 "" H 2150 2450 50  0001 C CNN
-	1    2150 2450
-	1    0    0    -1  
-$EndComp
-Wire Wire Line
-	2000 1400 2150 1400
-Wire Wire Line
-	2150 1400 2150 1850
-Wire Wire Line
-	2000 2300 2150 2300
-Connection ~ 2150 2300
-Wire Wire Line
-	2150 2300 2150 2450
-Wire Wire Line
-	2000 1850 2150 1850
-Connection ~ 2150 1850
-Wire Wire Line
-	2150 1850 2150 2300
 $Comp
 L power:+3.3V #PWR039
 U 1 1 5FB5387A
@@ -224,8 +81,6 @@ F 3 "" H 2450 6150 50  0001 C CNN
 	1    2450 6150
 	1    0    0    -1  
 $EndComp
-Text Notes 1050 900  0    79   ~ 0
-Power Indicators
 Text Notes 2850 900  0    79   ~ 0
 Servo Indicators
 Text Notes 7200 6900 0    157  ~ 0
