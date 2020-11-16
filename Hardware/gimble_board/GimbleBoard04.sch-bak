@@ -256,7 +256,7 @@ Wire Wire Line
 	1500 2250 1650 2250
 Wire Wire Line
 	1500 2350 1650 2350
-Text GLabel 2800 3900 2    39   Input ~ 0
+Text GLabel 1500 1650 0    39   Input ~ 0
 Servo_Manual_Control
 Wire Wire Line
 	1500 2450 1650 2450
@@ -285,8 +285,8 @@ NoConn ~ 1500 2250
 NoConn ~ 1500 2150
 NoConn ~ 1500 2050
 NoConn ~ 1500 1850
-NoConn ~ 1500 1750
-NoConn ~ 1500 1650
+NoConn ~ 2650 3800
+NoConn ~ 2650 3900
 NoConn ~ 1650 3300
 NoConn ~ 1650 3400
 NoConn ~ 1650 3500
@@ -302,7 +302,7 @@ NoConn ~ 1650 3200
 NoConn ~ 1650 3100
 NoConn ~ 2650 3600
 NoConn ~ 2650 3700
-Text GLabel 2800 3800 2    39   Input ~ 0
+Text GLabel 1500 1750 0    39   Input ~ 0
 Servo_Digital_Control
 Text Notes 3050 1000 0    79   ~ 0
 Tiva Headers
@@ -313,8 +313,4 @@ Wire Wire Line
 	4150 3300 4300 3300
 Text GLabel 4150 3000 0    39   Output ~ 0
 Servo_5_PWM
-Wire Wire Line
-	2650 3800 2800 3800
-Wire Wire Line
-	2650 3900 2800 3900
 $EndSCHEMATC
