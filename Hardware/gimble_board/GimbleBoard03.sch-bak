@@ -29,23 +29,23 @@ $EndComp
 $Comp
 L MRDT_Connectors:AndersonPP Conn1
 U 1 1 5F7E5011
-P 1350 2650
-F 0 "Conn1" H 1558 3037 60  0000 C CNN
-F 1 "AndersonPP" H 1558 2931 60  0000 C CNN
-F 2 "MRDT_Connectors:Anderson_3_Horizontal_Side_by_Side" H 1200 2100 60  0001 C CNN
-F 3 "" H 1200 2100 60  0001 C CNN
-	1    1350 2650
+P 1350 2500
+F 0 "Conn1" H 1558 2887 60  0000 C CNN
+F 1 "AndersonPP" H 1558 2781 60  0000 C CNN
+F 2 "MRDT_Connectors:Anderson_3_Horizontal_Side_by_Side" H 1200 1950 60  0001 C CNN
+F 3 "" H 1200 1950 60  0001 C CNN
+	1    1350 2500
 	1    0    0    -1  
 $EndComp
 $Comp
-L power:GND #PWR017
+L power:GND #PWR015
 U 1 1 5F7E9270
-P 1900 2700
-F 0 "#PWR017" H 1900 2450 50  0001 C CNN
-F 1 "GND" H 1905 2527 50  0000 C CNN
-F 2 "" H 1900 2700 50  0001 C CNN
-F 3 "" H 1900 2700 50  0001 C CNN
-	1    1900 2700
+P 1900 2550
+F 0 "#PWR015" H 1900 2300 50  0001 C CNN
+F 1 "GND" H 1905 2377 50  0000 C CNN
+F 2 "" H 1900 2550 50  0001 C CNN
+F 3 "" H 1900 2550 50  0001 C CNN
+	1    1900 2550
 	1    0    0    -1  
 $EndComp
 $Comp
@@ -137,10 +137,10 @@ F 3 "" H 3350 5600 60  0001 C CNN
 	-1   0    0    1   
 $EndComp
 $Comp
-L power:+5V #PWR018
+L power:+5V #PWR016
 U 1 1 5F854A29
 P 3800 1150
-F 0 "#PWR018" H 3800 1000 50  0001 C CNN
+F 0 "#PWR016" H 3800 1000 50  0001 C CNN
 F 1 "+5V" H 3815 1323 50  0000 C CNN
 F 2 "" H 3800 1150 50  0001 C CNN
 F 3 "" H 3800 1150 50  0001 C CNN
@@ -148,10 +148,10 @@ F 3 "" H 3800 1150 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L power:GND #PWR019
+L power:GND #PWR017
 U 1 1 5F856854
 P 3900 6150
-F 0 "#PWR019" H 3900 5900 50  0001 C CNN
+F 0 "#PWR017" H 3900 5900 50  0001 C CNN
 F 1 "GND" H 3905 5977 50  0000 C CNN
 F 2 "" H 3900 6150 50  0001 C CNN
 F 3 "" H 3900 6150 50  0001 C CNN
@@ -271,17 +271,13 @@ Wire Wire Line
 Wire Wire Line
 	1750 1400 1900 1400
 Wire Wire Line
-	1750 2550 1900 2550
+	1750 2400 1900 2400
 Wire Wire Line
-	1900 2550 1900 2700
+	1900 2400 1900 2550
 Text Notes 1300 900  0    79   ~ 0
 Anderson
 Text Notes 3550 800  0    79   ~ 0
 Molex
-Text GLabel 1900 1400 2    39   Output ~ 0
-Power_Input_Log
-Text GLabel 1950 1900 2    39   Output ~ 0
-Power_Input_Act
 $Comp
 L MRDT_Connectors:AndersonPP Conn1
 U 3 1 5FB2D4BE
@@ -294,5 +290,9 @@ F 3 "" H 1200 1450 60  0001 C CNN
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
-	1750 1900 1950 1900
+	1900 1900 1750 1900
+Text GLabel 1900 1400 2    50   Input ~ 0
+Power_Input_Log
+Text GLabel 1900 1900 2    50   Input ~ 0
+Power_Input_Act
 $EndSCHEMATC
