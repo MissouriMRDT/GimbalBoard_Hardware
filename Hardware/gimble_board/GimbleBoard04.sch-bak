@@ -256,7 +256,7 @@ Wire Wire Line
 	1500 2250 1650 2250
 Wire Wire Line
 	1500 2350 1650 2350
-Text GLabel 1500 1650 0    39   Input ~ 0
+Text GLabel 1500 1750 0    39   Input ~ 0
 Servo_Manual_Control
 Wire Wire Line
 	1500 2450 1650 2450
@@ -302,7 +302,7 @@ NoConn ~ 1650 3200
 NoConn ~ 1650 3100
 NoConn ~ 2650 3600
 NoConn ~ 2650 3700
-Text GLabel 1500 1750 0    39   Input ~ 0
+Text GLabel 1500 1650 0    39   Input ~ 0
 Servo_Digital_Control
 Text Notes 3050 1000 0    79   ~ 0
 Tiva Headers
