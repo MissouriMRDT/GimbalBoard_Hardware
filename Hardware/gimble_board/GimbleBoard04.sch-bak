@@ -154,8 +154,8 @@ Wire Wire Line
 	5300 3000 5450 3000
 Wire Wire Line
 	5300 1550 5450 1550
-NoConn ~ 4300 2150
-NoConn ~ 4300 2250
+NoConn ~ 1650 1750
+NoConn ~ 1650 1650
 NoConn ~ 4300 2350
 NoConn ~ 4300 2450
 $Comp
@@ -230,36 +230,18 @@ Text GLabel 2650 1850 2    39   Input ~ 0
 Servo_2_SW
 Text GLabel 2650 1950 2    39   Input ~ 0
 Servo_3_SW
-Wire Wire Line
-	1500 1650 1650 1650
-Wire Wire Line
-	1500 1750 1650 1750
-Wire Wire Line
-	1500 1850 1650 1850
 Text GLabel 2650 2050 2    39   Input ~ 0
 Servo_4_SW
 Text GLabel 2650 2150 2    39   Input ~ 0
 Servo_5_SW
-Wire Wire Line
-	1500 1950 1650 1950
-Wire Wire Line
-	1500 2050 1650 2050
 Text GLabel 2650 2250 2    39   Input ~ 0
 Servo_6_SW
 Text GLabel 2650 2350 2    39   Input ~ 0
 Servo_7_SW
 Text GLabel 2650 2450 2    39   Input ~ 0
 Servo_8_SW
-Wire Wire Line
-	1500 2150 1650 2150
-Wire Wire Line
-	1500 2250 1650 2250
-Wire Wire Line
-	1500 2350 1650 2350
-Text GLabel 1500 1750 0    39   Input ~ 0
+Text GLabel 4150 2250 0    39   Input ~ 0
 Servo_Manual_Control
-Wire Wire Line
-	1500 2450 1650 2450
 NoConn ~ 4300 2050
 NoConn ~ 5300 3100
 NoConn ~ 5300 3200
@@ -279,12 +261,12 @@ NoConn ~ 5300 1950
 NoConn ~ 5300 1850
 NoConn ~ 5300 1750
 NoConn ~ 5300 1650
-NoConn ~ 1500 1950
-NoConn ~ 1500 2350
-NoConn ~ 1500 2250
-NoConn ~ 1500 2150
-NoConn ~ 1500 2050
-NoConn ~ 1500 1850
+NoConn ~ 1650 1950
+NoConn ~ 1650 2350
+NoConn ~ 1650 2250
+NoConn ~ 1650 2150
+NoConn ~ 1650 2050
+NoConn ~ 1650 1850
 NoConn ~ 2650 3800
 NoConn ~ 2650 3900
 NoConn ~ 1650 3300
@@ -302,15 +284,19 @@ NoConn ~ 1650 3200
 NoConn ~ 1650 3100
 NoConn ~ 2650 3600
 NoConn ~ 2650 3700
-Text GLabel 1500 1650 0    39   Input ~ 0
+Text GLabel 4150 2150 0    39   Input ~ 0
 Servo_Digital_Control
 Text Notes 3050 1000 0    79   ~ 0
 Tiva Headers
 Text Notes 7200 6950 0    157  ~ 0
 Sheet 04: Tiva
-NoConn ~ 1500 2450
+NoConn ~ 1650 2450
 Wire Wire Line
 	4150 3300 4300 3300
 Text GLabel 4150 3000 0    39   Output ~ 0
 Servo_5_PWM
+Wire Wire Line
+	4150 2150 4300 2150
+Wire Wire Line
+	4300 2250 4150 2250
 $EndSCHEMATC
