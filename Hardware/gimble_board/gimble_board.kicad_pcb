@@ -2,7 +2,7 @@
 
   (general
     (thickness 1.6)
-    (drawings 86)
+    (drawings 91)
     (tracks 270)
     (zones 0)
     (modules 93)
@@ -90,9 +90,9 @@
       (subtractmaskfromsilk false)
       (outputformat 1)
       (mirror false)
-      (drillshape 1)
+      (drillshape 0)
       (scaleselection 1)
-      (outputdirectory ""))
+      (outputdirectory "../../Documentation/Gerbs/"))
   )
 
   (net 0 "")
@@ -6777,10 +6777,10 @@
     (at 94.996 76.708)
     (tags OKI)
     (path /5F7E2B31/5FB71B3A)
-    (fp_text reference U2 (at 2.54 -1.27) (layer F.SilkS) hide
+    (fp_text reference U2 (at 1.016 -0.762) (layer F.SilkS) hide
       (effects (font (size 1 1) (thickness 0.15)))
     )
-    (fp_text value OKI (at 11.557 9.144 270) (layer F.SilkS)
+    (fp_text value OKI (at 4.826 -0.762) (layer F.SilkS) hide
       (effects (font (size 1 1) (thickness 0.15)))
     )
     (fp_line (start 7.62 3.81) (end 10.16 6.35) (layer F.SilkS) (width 0.15))
@@ -7108,10 +7108,10 @@
     (at 84.328 76.708)
     (tags OKI)
     (path /5F7E2B31/5FB846F1)
-    (fp_text reference U4 (at 2.54 -1.27) (layer F.SilkS) hide
+    (fp_text reference U4 (at 1.778 -0.762) (layer F.SilkS) hide
       (effects (font (size 1 1) (thickness 0.15)))
     )
-    (fp_text value OKI (at 5.08 -1.27) (layer F.SilkS)
+    (fp_text value OKI (at -0.508 -1.524) (layer F.SilkS) hide
       (effects (font (size 1 1) (thickness 0.15)))
     )
     (fp_line (start 0 16.51) (end 0 0) (layer F.SilkS) (width 0.15))
@@ -7139,6 +7139,11 @@
     )
   )
 
+  (gr_line (start 105.664 75.946) (end 105.664 93.726) (layer F.SilkS) (width 0.12) (tstamp 5FC20FCF))
+  (gr_line (start 105.41 75.946) (end 105.664 75.946) (layer F.SilkS) (width 0.12))
+  (gr_line (start 82.042 75.946) (end 105.41 75.946) (layer F.SilkS) (width 0.12))
+  (gr_line (start 82.042 93.726) (end 82.042 75.946) (layer F.SilkS) (width 0.12))
+  (gr_line (start 105.664 93.726) (end 82.042 93.726) (layer F.SilkS) (width 0.12))
   (gr_line (start 47.752 97.536) (end 47.752 96.012) (layer F.SilkS) (width 0.12) (tstamp 5FB795BE))
   (gr_line (start 99.06 111.506) (end 98.806 111.506) (layer F.SilkS) (width 0.12) (tstamp 5FB795BD))
   (gr_line (start 99.06 96.012) (end 99.06 111.506) (layer F.SilkS) (width 0.12))
@@ -7260,7 +7265,7 @@
   (gr_line (start 124.46 98.552) (end 124.46 111.76) (layer F.SilkS) (width 0.12) (tstamp 5FB7D498))
   (gr_line (start 106.68 98.552) (end 124.46 98.552) (layer F.SilkS) (width 0.12))
   (gr_line (start 106.68 111.76) (end 106.68 98.552) (layer F.SilkS) (width 0.12))
-  (gr_text 5V (at 93.98 73.152) (layer F.SilkS)
+  (gr_text "5V OKIs" (at 94.996 75.184) (layer F.SilkS)
     (effects (font (size 1 1) (thickness 0.15)))
   )
   (gr_line (start 124.46 111.76) (end 106.68 111.76) (layer F.SilkS) (width 0.12) (tstamp 5FB7CCAA))
@@ -7557,7 +7562,7 @@
   (segment (start 68.136 85.154) (end 71.628 85.154) (width 0.381) (layer F.Cu) (net 113) (tstamp 5FB7A328))
   (segment (start 67.056 84.074) (end 68.136 85.154) (width 0.381) (layer F.Cu) (net 113) (tstamp 5FB7A325))
 
-  (zone (net 1) (net_name GND) (layer F.Cu) (tstamp 5FB7E75D) (hatch edge 0.508)
+  (zone (net 1) (net_name GND) (layer F.Cu) (tstamp 5FC21ABF) (hatch edge 0.508)
     (connect_pads yes (clearance 0.508))
     (min_thickness 0.254)
     (fill yes (arc_segments 32) (thermal_gap 0.508) (thermal_bridge_width 0.508))
@@ -8821,7 +8826,7 @@
       )
     )
   )
-  (zone (net 43) (net_name +5V) (layer B.Cu) (tstamp 5FB7E75A) (hatch edge 0.508)
+  (zone (net 43) (net_name +5V) (layer B.Cu) (tstamp 5FC21ABC) (hatch edge 0.508)
     (connect_pads yes (clearance 0.508))
     (min_thickness 0.254)
     (fill yes (arc_segments 32) (thermal_gap 0.508) (thermal_bridge_width 0.508))
