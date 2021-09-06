@@ -1,0 +1,394 @@
+EESchema Schematic File Version 4
+EELAYER 30 0
+EELAYER END
+$Descr A4 11693 8268
+encoding utf-8
+Sheet 2 6
+Title ""
+Date ""
+Rev ""
+Comp ""
+Comment1 ""
+Comment2 ""
+Comment3 ""
+Comment4 ""
+$EndDescr
+Text Notes 7100 6950 0    157  ~ 0
+Sheet 01: Power
+Text GLabel 1800 1500 0    39   Input ~ 0
+Power_Input_Log
+$Comp
+L Device:D_Zener D1
+U 1 1 5F7EF793
+P 1950 1800
+F 0 "D1" V 1900 1600 50  0000 L CNN
+F 1 "D_Zener" V 2000 1400 50  0000 L CNN
+F 2 "Diode_SMD:D_0201_0603Metric_Pad0.64x0.40mm_HandSolder" H 1950 1800 50  0001 C CNN
+F 3 "~" H 1950 1800 50  0001 C CNN
+	1    1950 1800
+	0    1    1    0   
+$EndComp
+$Comp
+L power:GND #PWR01
+U 1 1 5F7F1703
+P 1950 2100
+F 0 "#PWR01" H 1950 1850 50  0001 C CNN
+F 1 "GND" H 1955 1927 50  0000 C CNN
+F 2 "" H 1950 2100 50  0001 C CNN
+F 3 "" H 1950 2100 50  0001 C CNN
+	1    1950 2100
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR07
+U 1 1 5F80F9CA
+P 6150 2100
+F 0 "#PWR07" H 6150 1850 50  0001 C CNN
+F 1 "GND" H 6155 1927 50  0000 C CNN
+F 2 "" H 6150 2100 50  0001 C CNN
+F 3 "" H 6150 2100 50  0001 C CNN
+	1    6150 2100
+	1    0    0    -1  
+$EndComp
+Text Notes 1900 1100 0    79   ~ 0
+Power Input
+Text Notes 5450 750  0    79   ~ 0
+3.3v Converter
+$Comp
+L power:+5V #PWR09
+U 1 1 5F98E7A2
+P 8300 1300
+F 0 "#PWR09" H 8300 1150 50  0001 C CNN
+F 1 "+5V" H 8315 1473 50  0000 C CNN
+F 2 "" H 8300 1300 50  0001 C CNN
+F 3 "" H 8300 1300 50  0001 C CNN
+	1    8300 1300
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	1800 1500 1950 1500
+Wire Wire Line
+	1950 1500 1950 1650
+Wire Wire Line
+	1950 1950 1950 2100
+Connection ~ 1950 1500
+Wire Wire Line
+	2250 1500 2250 1350
+Text GLabel 1800 2700 0    39   Input ~ 0
+Power_Input_Act
+$Comp
+L Device:D_Zener D2
+U 1 1 5FB1E563
+P 1950 3000
+F 0 "D2" V 1900 2800 50  0000 L CNN
+F 1 "D_Zener" V 2000 2600 50  0000 L CNN
+F 2 "Diode_SMD:D_0201_0603Metric_Pad0.64x0.40mm_HandSolder" H 1950 3000 50  0001 C CNN
+F 3 "~" H 1950 3000 50  0001 C CNN
+	1    1950 3000
+	0    1    1    0   
+$EndComp
+$Comp
+L power:GND #PWR02
+U 1 1 5FB1E569
+P 1950 3300
+F 0 "#PWR02" H 1950 3050 50  0001 C CNN
+F 1 "GND" H 1955 3127 50  0000 C CNN
+F 2 "" H 1950 3300 50  0001 C CNN
+F 3 "" H 1950 3300 50  0001 C CNN
+	1    1950 3300
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	1800 2700 1950 2700
+Wire Wire Line
+	1950 2700 1950 2850
+Wire Wire Line
+	1950 3150 1950 3300
+Connection ~ 1950 2700
+Wire Wire Line
+	2250 2700 2250 2550
+$Comp
+L power:+12VA #PWR04
+U 1 1 5FB30BF8
+P 2250 2550
+F 0 "#PWR04" H 2250 2400 50  0001 C CNN
+F 1 "+12VA" H 2265 2723 50  0000 C CNN
+F 2 "" H 2250 2550 50  0001 C CNN
+F 3 "" H 2250 2550 50  0001 C CNN
+	1    2250 2550
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	2100 2700 2250 2700
+Wire Wire Line
+	1950 2700 2100 2700
+Connection ~ 2100 2700
+Wire Wire Line
+	2100 2700 2100 2850
+$Comp
+L MRDT_Connectors:Test_Point J2
+U 1 1 5FB1E588
+P 2100 2850
+F 0 "J2" H 2022 2889 60  0000 R CNN
+F 1 "Test_Point" H 2022 2995 60  0000 R CNN
+F 2 "TestPoint:TestPoint_Pad_2.0x2.0mm" H 2100 2800 60  0001 C CNN
+F 3 "" H 2100 2800 60  0001 C CNN
+	1    2100 2850
+	-1   0    0    1   
+$EndComp
+Wire Wire Line
+	2100 1500 2250 1500
+Wire Wire Line
+	1950 1500 2100 1500
+Connection ~ 2100 1500
+Wire Wire Line
+	2100 1500 2100 1650
+$Comp
+L MRDT_Connectors:Test_Point J1
+U 1 1 5F8266E6
+P 2100 1650
+F 0 "J1" H 2000 1850 60  0000 R CNN
+F 1 "Test_Point" H 2150 1950 60  0000 R CNN
+F 2 "TestPoint:TestPoint_Pad_2.0x2.0mm" H 2100 1600 60  0001 C CNN
+F 3 "" H 2100 1600 60  0001 C CNN
+	1    2100 1650
+	-1   0    0    1   
+$EndComp
+$Comp
+L MRDT_Devices:OKI U1
+U 1 1 5FB62333
+P 5250 1450
+F 0 "U1" H 5300 1400 60  0001 C CNN
+F 1 "OKI" H 5450 1731 60  0000 C CNN
+F 2 "MRDT_Devices:OKI_Horizontal" H 5050 1350 60  0001 C CNN
+F 3 "" H 5050 1350 60  0001 C CNN
+	1    5250 1450
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	4900 1200 4900 1350
+Wire Wire Line
+	4900 1350 5050 1350
+$Comp
+L Device:C C1
+U 1 1 5FB649FA
+P 4900 1650
+F 0 "C1" V 4648 1650 50  0000 C CNN
+F 1 "10uF" V 4739 1650 50  0000 C CNN
+F 2 "Capacitor_SMD:C_0603_1608Metric_Pad1.05x0.95mm_HandSolder" H 4938 1500 50  0001 C CNN
+F 3 "~" H 4900 1650 50  0001 C CNN
+	1    4900 1650
+	-1   0    0    1   
+$EndComp
+$Comp
+L Device:C C2
+U 1 1 5FB65AB0
+P 6000 1650
+F 0 "C2" V 5748 1650 50  0000 C CNN
+F 1 "10uF" V 5839 1650 50  0000 C CNN
+F 2 "Capacitor_SMD:C_0603_1608Metric_Pad1.05x0.95mm_HandSolder" H 6038 1500 50  0001 C CNN
+F 3 "~" H 6000 1650 50  0001 C CNN
+	1    6000 1650
+	-1   0    0    1   
+$EndComp
+Wire Wire Line
+	4900 1500 4900 1350
+Connection ~ 4900 1350
+Wire Wire Line
+	4900 1800 4900 1950
+Wire Wire Line
+	4900 1950 5450 1950
+Wire Wire Line
+	6000 1950 6000 1800
+Wire Wire Line
+	5450 1650 5450 1950
+Connection ~ 5450 1950
+Wire Wire Line
+	5450 1950 6000 1950
+Wire Wire Line
+	6000 1500 6000 1350
+Wire Wire Line
+	6000 1350 5850 1350
+Wire Wire Line
+	6000 1350 6000 1200
+Connection ~ 6000 1350
+Wire Wire Line
+	6000 1950 6150 1950
+Wire Wire Line
+	6150 1950 6150 2100
+Connection ~ 6000 1950
+$Comp
+L power:+3.3V #PWR06
+U 1 1 5FB6E12D
+P 6000 1200
+F 0 "#PWR06" H 6000 1050 50  0001 C CNN
+F 1 "+3.3V" H 6015 1373 50  0000 C CNN
+F 2 "" H 6000 1200 50  0001 C CNN
+F 3 "" H 6000 1200 50  0001 C CNN
+	1    6000 1200
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR010
+U 1 1 5FB71B34
+P 8450 2200
+F 0 "#PWR010" H 8450 1950 50  0001 C CNN
+F 1 "GND" H 8455 2027 50  0000 C CNN
+F 2 "" H 8450 2200 50  0001 C CNN
+F 3 "" H 8450 2200 50  0001 C CNN
+	1    8450 2200
+	1    0    0    -1  
+$EndComp
+$Comp
+L MRDT_Devices:OKI U2
+U 1 1 5FB71B3A
+P 7550 1550
+F 0 "U2" H 7600 1500 60  0001 C CNN
+F 1 "OKI" H 7750 1831 60  0000 C CNN
+F 2 "MRDT_Devices:OKI_Horizontal" H 7350 1450 60  0001 C CNN
+F 3 "" H 7350 1450 60  0001 C CNN
+	1    7550 1550
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	7200 1300 7200 1450
+Wire Wire Line
+	7200 1450 7350 1450
+$Comp
+L Device:C C3
+U 1 1 5FB71B42
+P 7200 1750
+F 0 "C3" V 6948 1750 50  0000 C CNN
+F 1 "10uF" V 7039 1750 50  0000 C CNN
+F 2 "Capacitor_SMD:C_0603_1608Metric_Pad1.05x0.95mm_HandSolder" H 7238 1600 50  0001 C CNN
+F 3 "~" H 7200 1750 50  0001 C CNN
+	1    7200 1750
+	-1   0    0    1   
+$EndComp
+$Comp
+L Device:C C4
+U 1 1 5FB71B48
+P 8300 1750
+F 0 "C4" V 8048 1750 50  0000 C CNN
+F 1 "10uF" V 8139 1750 50  0000 C CNN
+F 2 "Capacitor_SMD:C_0603_1608Metric_Pad1.05x0.95mm_HandSolder" H 8338 1600 50  0001 C CNN
+F 3 "~" H 8300 1750 50  0001 C CNN
+	1    8300 1750
+	-1   0    0    1   
+$EndComp
+Wire Wire Line
+	7200 1600 7200 1450
+Connection ~ 7200 1450
+Wire Wire Line
+	7200 1900 7200 2050
+Wire Wire Line
+	7200 2050 7750 2050
+Wire Wire Line
+	8300 2050 8300 1900
+Wire Wire Line
+	7750 1750 7750 2050
+Connection ~ 7750 2050
+Wire Wire Line
+	7750 2050 8300 2050
+Wire Wire Line
+	8300 1600 8300 1450
+Wire Wire Line
+	8300 1450 8150 1450
+Wire Wire Line
+	8300 1450 8300 1300
+Connection ~ 8300 1450
+Wire Wire Line
+	8300 2050 8450 2050
+Wire Wire Line
+	8450 2050 8450 2200
+Connection ~ 8300 2050
+Text Notes 7700 850  0    79   ~ 0
+5v Converter
+$Comp
+L power:+12VA #PWR08
+U 1 1 5FB8D1B3
+P 7200 1300
+F 0 "#PWR08" H 7200 1150 50  0001 C CNN
+F 1 "+12VA" H 7215 1473 50  0000 C CNN
+F 2 "" H 7200 1300 50  0001 C CNN
+F 3 "" H 7200 1300 50  0001 C CNN
+	1    7200 1300
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:+12L #PWR03
+U 1 1 5FB7DB5E
+P 2250 1350
+F 0 "#PWR03" H 2250 1200 50  0001 C CNN
+F 1 "+12L" H 2265 1523 50  0000 C CNN
+F 2 "" H 2250 1350 50  0001 C CNN
+F 3 "" H 2250 1350 50  0001 C CNN
+	1    2250 1350
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:+12L #PWR05
+U 1 1 5FB7E2F0
+P 4900 1200
+F 0 "#PWR05" H 4900 1050 50  0001 C CNN
+F 1 "+12L" H 4915 1373 50  0000 C CNN
+F 2 "" H 4900 1200 50  0001 C CNN
+F 3 "" H 4900 1200 50  0001 C CNN
+	1    4900 1200
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:+5V #PWR032
+U 1 1 5FB846E5
+P 8300 2700
+F 0 "#PWR032" H 8300 2550 50  0001 C CNN
+F 1 "+5V" H 8315 2873 50  0000 C CNN
+F 2 "" H 8300 2700 50  0001 C CNN
+F 3 "" H 8300 2700 50  0001 C CNN
+	1    8300 2700
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR033
+U 1 1 5FB846EB
+P 7750 3300
+F 0 "#PWR033" H 7750 3050 50  0001 C CNN
+F 1 "GND" H 7755 3127 50  0000 C CNN
+F 2 "" H 7750 3300 50  0001 C CNN
+F 3 "" H 7750 3300 50  0001 C CNN
+	1    7750 3300
+	1    0    0    -1  
+$EndComp
+$Comp
+L MRDT_Devices:OKI U4
+U 1 1 5FB846F1
+P 7550 2950
+F 0 "U4" H 7600 2900 60  0001 C CNN
+F 1 "OKI" H 7750 3231 60  0000 C CNN
+F 2 "MRDT_Devices:OKI_Horizontal" H 7350 2850 60  0001 C CNN
+F 3 "" H 7350 2850 60  0001 C CNN
+	1    7550 2950
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	7200 2700 7200 2850
+Wire Wire Line
+	7200 2850 7350 2850
+Wire Wire Line
+	8300 2850 8150 2850
+Wire Wire Line
+	8300 2850 8300 2700
+$Comp
+L power:+12VA #PWR031
+U 1 1 5FB84714
+P 7200 2700
+F 0 "#PWR031" H 7200 2550 50  0001 C CNN
+F 1 "+12VA" H 7215 2873 50  0000 C CNN
+F 2 "" H 7200 2700 50  0001 C CNN
+F 3 "" H 7200 2700 50  0001 C CNN
+	1    7200 2700
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	7750 3150 7750 3300
+$EndSCHEMATC
