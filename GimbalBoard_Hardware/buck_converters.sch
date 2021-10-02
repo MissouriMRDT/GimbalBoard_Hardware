@@ -1,0 +1,244 @@
+EESchema Schematic File Version 4
+EELAYER 30 0
+EELAYER END
+$Descr A4 11693 8268
+encoding utf-8
+Sheet 2 2
+Title ""
+Date ""
+Rev ""
+Comp ""
+Comment1 ""
+Comment2 ""
+Comment3 ""
+Comment4 ""
+$EndDescr
+$Comp
+L MRDT_Devices:OKI U?
+U 1 1 615DD8BC
+P 3850 2600
+AR Path="/615DD8BC" Ref="U?"  Part="1" 
+AR Path="/615B83A4/615DD8BC" Ref="U?"  Part="1" 
+F 0 "U?" H 3900 2550 60  0001 C CNN
+F 1 "OKI" H 4050 2881 60  0000 C CNN
+F 2 "" H 3650 2500 60  0001 C CNN
+F 3 "" H 3650 2500 60  0001 C CNN
+	1    3850 2600
+	1    0    0    -1  
+$EndComp
+$Comp
+L MRDT_Devices:OKI U?
+U 1 1 615DD8C2
+P 3850 1650
+AR Path="/615DD8C2" Ref="U?"  Part="1" 
+AR Path="/615B83A4/615DD8C2" Ref="U?"  Part="1" 
+F 0 "U?" H 3900 1600 60  0001 C CNN
+F 1 "OKI" H 4050 1931 60  0000 C CNN
+F 2 "" H 3650 1550 60  0001 C CNN
+F 3 "" H 3650 1550 60  0001 C CNN
+	1    3850 1650
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR?
+U 1 1 615DD8CE
+P 4300 1950
+AR Path="/615DD8CE" Ref="#PWR?"  Part="1" 
+AR Path="/615B83A4/615DD8CE" Ref="#PWR?"  Part="1" 
+F 0 "#PWR?" H 4300 1700 50  0001 C CNN
+F 1 "GND" H 4305 1777 50  0000 C CNN
+F 2 "" H 4300 1950 50  0001 C CNN
+F 3 "" H 4300 1950 50  0001 C CNN
+	1    4300 1950
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:C C?
+U 1 1 615DD8D4
+P 3400 2900
+AR Path="/615DD8D4" Ref="C?"  Part="1" 
+AR Path="/615B83A4/615DD8D4" Ref="C?"  Part="1" 
+F 0 "C?" H 3515 2946 50  0000 L CNN
+F 1 "C" H 3515 2855 50  0000 L CNN
+F 2 "" H 3438 2750 50  0001 C CNN
+F 3 "~" H 3400 2900 50  0001 C CNN
+	1    3400 2900
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:C C?
+U 1 1 615DD8DA
+P 4700 2900
+AR Path="/615DD8DA" Ref="C?"  Part="1" 
+AR Path="/615B83A4/615DD8DA" Ref="C?"  Part="1" 
+F 0 "C?" H 4815 2946 50  0000 L CNN
+F 1 "C" H 4815 2855 50  0000 L CNN
+F 2 "" H 4738 2750 50  0001 C CNN
+F 3 "~" H 4700 2900 50  0001 C CNN
+	1    4700 2900
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:C C?
+U 1 1 615DD904
+P 3200 4600
+AR Path="/615DD904" Ref="C?"  Part="1" 
+AR Path="/615B83A4/615DD904" Ref="C?"  Part="1" 
+F 0 "C?" H 3315 4646 50  0000 L CNN
+F 1 "C" H 3315 4555 50  0000 L CNN
+F 2 "" H 3238 4450 50  0001 C CNN
+F 3 "~" H 3200 4600 50  0001 C CNN
+	1    3200 4600
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:C C?
+U 1 1 615DD90A
+P 4500 4600
+AR Path="/615DD90A" Ref="C?"  Part="1" 
+AR Path="/615B83A4/615DD90A" Ref="C?"  Part="1" 
+F 0 "C?" H 4615 4646 50  0000 L CNN
+F 1 "C" H 4615 4555 50  0000 L CNN
+F 2 "" H 4538 4450 50  0001 C CNN
+F 3 "~" H 4500 4600 50  0001 C CNN
+	1    4500 4600
+	1    0    0    -1  
+$EndComp
+$Comp
+L MRDT_Devices:OKI U?
+U 1 1 615DD910
+P 3700 4350
+AR Path="/615DD910" Ref="U?"  Part="1" 
+AR Path="/615B83A4/615DD910" Ref="U?"  Part="1" 
+F 0 "U?" H 3750 4300 60  0001 C CNN
+F 1 "OKI" H 3900 4631 60  0000 C CNN
+F 2 "" H 3500 4250 60  0001 C CNN
+F 3 "" H 3500 4250 60  0001 C CNN
+	1    3700 4350
+	1    0    0    -1  
+$EndComp
+Text HLabel 2200 1650 0    50   Input ~ 0
+Power_Input_Act
+Text HLabel 2200 2000 0    50   Input ~ 0
+Power_Input_Log
+Text HLabel 6450 1650 2    50   Input ~ 0
++5V
+Text HLabel 6450 2000 2    50   Input ~ 0
++3.3V
+$Comp
+L power:GND #PWR?
+U 1 1 615E5C89
+P 5150 3400
+F 0 "#PWR?" H 5150 3150 50  0001 C CNN
+F 1 "GND" H 5155 3227 50  0000 C CNN
+F 2 "" H 5150 3400 50  0001 C CNN
+F 3 "" H 5150 3400 50  0001 C CNN
+	1    5150 3400
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR?
+U 1 1 615E5D6A
+P 5000 5100
+F 0 "#PWR?" H 5000 4850 50  0001 C CNN
+F 1 "GND" H 5005 4927 50  0000 C CNN
+F 2 "" H 5000 5100 50  0001 C CNN
+F 3 "" H 5000 5100 50  0001 C CNN
+	1    5000 5100
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	4050 1850 4300 1850
+Wire Wire Line
+	4300 1850 4300 1950
+Wire Wire Line
+	4450 1550 4700 1550
+Wire Wire Line
+	4700 1550 4700 2000
+Wire Wire Line
+	4700 2500 4450 2500
+Wire Wire Line
+	3650 1550 3400 1550
+Wire Wire Line
+	3400 1550 3400 2000
+Wire Wire Line
+	3400 2500 3650 2500
+Wire Wire Line
+	2200 1650 2850 1650
+Wire Wire Line
+	2850 1650 2850 2000
+Wire Wire Line
+	2850 2000 3400 2000
+Connection ~ 3400 2000
+Wire Wire Line
+	3400 2000 3400 2500
+Wire Wire Line
+	3400 2500 3400 2750
+Connection ~ 3400 2500
+Wire Wire Line
+	3400 3050 3400 3200
+Wire Wire Line
+	3400 3200 4050 3200
+Wire Wire Line
+	5150 3200 5150 3400
+Wire Wire Line
+	4700 3050 4700 3200
+Connection ~ 4700 3200
+Wire Wire Line
+	4700 3200 5150 3200
+Wire Wire Line
+	4700 2750 4700 2500
+Connection ~ 4700 2500
+Wire Wire Line
+	4050 2800 4050 3200
+Connection ~ 4050 3200
+Wire Wire Line
+	4050 3200 4700 3200
+Wire Wire Line
+	4700 2000 5500 2000
+Wire Wire Line
+	5500 2000 5500 1650
+Wire Wire Line
+	5500 1650 6450 1650
+Connection ~ 4700 2000
+Wire Wire Line
+	4700 2000 4700 2500
+Wire Wire Line
+	2200 2000 2550 2000
+Wire Wire Line
+	2550 2000 2550 4250
+Wire Wire Line
+	2550 4250 3200 4250
+Wire Wire Line
+	6000 4250 6000 2000
+Wire Wire Line
+	6000 2000 6450 2000
+Wire Wire Line
+	3200 4250 3200 4450
+Connection ~ 3200 4250
+Wire Wire Line
+	3200 4250 3500 4250
+Wire Wire Line
+	3200 4750 3200 5000
+Wire Wire Line
+	3200 5000 3900 5000
+Wire Wire Line
+	5000 5000 5000 5100
+Wire Wire Line
+	4500 4750 4500 5000
+Connection ~ 4500 5000
+Wire Wire Line
+	4500 5000 5000 5000
+Wire Wire Line
+	3900 4550 3900 5000
+Connection ~ 3900 5000
+Wire Wire Line
+	3900 5000 4500 5000
+Wire Wire Line
+	4500 4450 4500 4250
+Wire Wire Line
+	4300 4250 4500 4250
+Connection ~ 4500 4250
+Wire Wire Line
+	4500 4250 6000 4250
+$EndSCHEMATC
