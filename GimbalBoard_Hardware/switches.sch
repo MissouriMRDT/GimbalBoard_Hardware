@@ -3,7 +3,7 @@ EELAYER 30 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
-Sheet 3 3
+Sheet 3 4
 Title ""
 Date ""
 Rev ""
@@ -13,4 +13,636 @@ Comment2 ""
 Comment3 ""
 Comment4 ""
 $EndDescr
+$Comp
+L power:+3.3V #PWR?
+U 1 1 615E22D3
+P 1550 1200
+F 0 "#PWR?" H 1550 1050 50  0001 C CNN
+F 1 "+3.3V" H 1565 1373 50  0000 C CNN
+F 2 "" H 1550 1200 50  0001 C CNN
+F 3 "" H 1550 1200 50  0001 C CNN
+	1    1550 1200
+	1    0    0    -1  
+$EndComp
+$Comp
+L Switch:SW_Push SW?
+U 1 1 615E41DD
+P 2050 1550
+F 0 "SW?" H 2050 1835 50  0000 C CNN
+F 1 "SW_Push" H 2050 1744 50  0000 C CNN
+F 2 "" H 2050 1750 50  0001 C CNN
+F 3 "~" H 2050 1750 50  0001 C CNN
+	1    2050 1550
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:R R?
+U 1 1 615E431C
+P 2700 1550
+F 0 "R?" V 2493 1550 50  0000 C CNN
+F 1 "R" V 2584 1550 50  0000 C CNN
+F 2 "" V 2630 1550 50  0001 C CNN
+F 3 "~" H 2700 1550 50  0001 C CNN
+	1    2700 1550
+	0    1    1    0   
+$EndComp
+$Comp
+L Device:LED D?
+U 1 1 615E47F7
+P 3200 1550
+F 0 "D?" H 3193 1295 50  0000 C CNN
+F 1 "LED" H 3193 1386 50  0000 C CNN
+F 2 "" H 3200 1550 50  0001 C CNN
+F 3 "~" H 3200 1550 50  0001 C CNN
+	1    3200 1550
+	-1   0    0    1   
+$EndComp
+Wire Wire Line
+	2250 1550 2400 1550
+Wire Wire Line
+	2600 1150 2400 1150
+Wire Wire Line
+	2400 1150 2400 1550
+Connection ~ 2400 1550
+Wire Wire Line
+	2400 1550 2550 1550
+Wire Wire Line
+	2850 1550 3050 1550
+$Comp
+L Switch:SW_Push SW?
+U 1 1 615E8724
+P 2050 2250
+F 0 "SW?" H 2050 2535 50  0000 C CNN
+F 1 "SW_Push" H 2050 2444 50  0000 C CNN
+F 2 "" H 2050 2450 50  0001 C CNN
+F 3 "~" H 2050 2450 50  0001 C CNN
+	1    2050 2250
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:R R?
+U 1 1 615E872A
+P 2700 2250
+F 0 "R?" V 2493 2250 50  0000 C CNN
+F 1 "R" V 2584 2250 50  0000 C CNN
+F 2 "" V 2630 2250 50  0001 C CNN
+F 3 "~" H 2700 2250 50  0001 C CNN
+	1    2700 2250
+	0    1    1    0   
+$EndComp
+$Comp
+L Device:LED D?
+U 1 1 615E8730
+P 3200 2250
+F 0 "D?" H 3193 1995 50  0000 C CNN
+F 1 "LED" H 3193 2086 50  0000 C CNN
+F 2 "" H 3200 2250 50  0001 C CNN
+F 3 "~" H 3200 2250 50  0001 C CNN
+	1    3200 2250
+	-1   0    0    1   
+$EndComp
+Wire Wire Line
+	2250 2250 2400 2250
+Wire Wire Line
+	2600 1850 2400 1850
+Wire Wire Line
+	2400 1850 2400 2250
+Connection ~ 2400 2250
+Wire Wire Line
+	2400 2250 2550 2250
+Wire Wire Line
+	2850 2250 3050 2250
+$Comp
+L Switch:SW_Push SW?
+U 1 1 615E9DC6
+P 2050 2900
+F 0 "SW?" H 2050 3185 50  0000 C CNN
+F 1 "SW_Push" H 2050 3094 50  0000 C CNN
+F 2 "" H 2050 3100 50  0001 C CNN
+F 3 "~" H 2050 3100 50  0001 C CNN
+	1    2050 2900
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:R R?
+U 1 1 615E9DCC
+P 2700 2900
+F 0 "R?" V 2493 2900 50  0000 C CNN
+F 1 "R" V 2584 2900 50  0000 C CNN
+F 2 "" V 2630 2900 50  0001 C CNN
+F 3 "~" H 2700 2900 50  0001 C CNN
+	1    2700 2900
+	0    1    1    0   
+$EndComp
+$Comp
+L Device:LED D?
+U 1 1 615E9DD2
+P 3200 2900
+F 0 "D?" H 3193 2645 50  0000 C CNN
+F 1 "LED" H 3193 2736 50  0000 C CNN
+F 2 "" H 3200 2900 50  0001 C CNN
+F 3 "~" H 3200 2900 50  0001 C CNN
+	1    3200 2900
+	-1   0    0    1   
+$EndComp
+Wire Wire Line
+	2250 2900 2400 2900
+Wire Wire Line
+	2600 2500 2400 2500
+Wire Wire Line
+	2400 2500 2400 2900
+Connection ~ 2400 2900
+Wire Wire Line
+	2400 2900 2550 2900
+Wire Wire Line
+	2850 2900 3050 2900
+$Comp
+L Switch:SW_Push SW?
+U 1 1 615EAF7B
+P 2050 3550
+F 0 "SW?" H 2050 3835 50  0000 C CNN
+F 1 "SW_Push" H 2050 3744 50  0000 C CNN
+F 2 "" H 2050 3750 50  0001 C CNN
+F 3 "~" H 2050 3750 50  0001 C CNN
+	1    2050 3550
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:R R?
+U 1 1 615EAF81
+P 2700 3550
+F 0 "R?" V 2493 3550 50  0000 C CNN
+F 1 "R" V 2584 3550 50  0000 C CNN
+F 2 "" V 2630 3550 50  0001 C CNN
+F 3 "~" H 2700 3550 50  0001 C CNN
+	1    2700 3550
+	0    1    1    0   
+$EndComp
+$Comp
+L Device:LED D?
+U 1 1 615EAF87
+P 3200 3550
+F 0 "D?" H 3193 3295 50  0000 C CNN
+F 1 "LED" H 3193 3386 50  0000 C CNN
+F 2 "" H 3200 3550 50  0001 C CNN
+F 3 "~" H 3200 3550 50  0001 C CNN
+	1    3200 3550
+	-1   0    0    1   
+$EndComp
+Wire Wire Line
+	2250 3550 2400 3550
+Wire Wire Line
+	2600 3150 2400 3150
+Wire Wire Line
+	2400 3150 2400 3550
+Connection ~ 2400 3550
+Wire Wire Line
+	2400 3550 2550 3550
+Wire Wire Line
+	2850 3550 3050 3550
+$Comp
+L Switch:SW_Push SW?
+U 1 1 615EBF82
+P 2050 4200
+F 0 "SW?" H 2050 4485 50  0000 C CNN
+F 1 "SW_Push" H 2050 4394 50  0000 C CNN
+F 2 "" H 2050 4400 50  0001 C CNN
+F 3 "~" H 2050 4400 50  0001 C CNN
+	1    2050 4200
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:R R?
+U 1 1 615EBF88
+P 2700 4200
+F 0 "R?" V 2493 4200 50  0000 C CNN
+F 1 "R" V 2584 4200 50  0000 C CNN
+F 2 "" V 2630 4200 50  0001 C CNN
+F 3 "~" H 2700 4200 50  0001 C CNN
+	1    2700 4200
+	0    1    1    0   
+$EndComp
+$Comp
+L Device:LED D?
+U 1 1 615EBF8E
+P 3200 4200
+F 0 "D?" H 3193 3945 50  0000 C CNN
+F 1 "LED" H 3193 4036 50  0000 C CNN
+F 2 "" H 3200 4200 50  0001 C CNN
+F 3 "~" H 3200 4200 50  0001 C CNN
+	1    3200 4200
+	-1   0    0    1   
+$EndComp
+Wire Wire Line
+	2250 4200 2400 4200
+Wire Wire Line
+	2600 3800 2400 3800
+Wire Wire Line
+	2400 3800 2400 4200
+Connection ~ 2400 4200
+Wire Wire Line
+	2400 4200 2550 4200
+Wire Wire Line
+	2850 4200 3050 4200
+$Comp
+L Switch:SW_Push SW?
+U 1 1 615ECC88
+P 2050 4850
+F 0 "SW?" H 2050 5135 50  0000 C CNN
+F 1 "SW_Push" H 2050 5044 50  0000 C CNN
+F 2 "" H 2050 5050 50  0001 C CNN
+F 3 "~" H 2050 5050 50  0001 C CNN
+	1    2050 4850
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:R R?
+U 1 1 615ECC8E
+P 2700 4850
+F 0 "R?" V 2493 4850 50  0000 C CNN
+F 1 "R" V 2584 4850 50  0000 C CNN
+F 2 "" V 2630 4850 50  0001 C CNN
+F 3 "~" H 2700 4850 50  0001 C CNN
+	1    2700 4850
+	0    1    1    0   
+$EndComp
+$Comp
+L Device:LED D?
+U 1 1 615ECC94
+P 3200 4850
+F 0 "D?" H 3193 4595 50  0000 C CNN
+F 1 "LED" H 3193 4686 50  0000 C CNN
+F 2 "" H 3200 4850 50  0001 C CNN
+F 3 "~" H 3200 4850 50  0001 C CNN
+	1    3200 4850
+	-1   0    0    1   
+$EndComp
+Wire Wire Line
+	2250 4850 2400 4850
+Wire Wire Line
+	2600 4450 2400 4450
+Wire Wire Line
+	2400 4450 2400 4850
+Connection ~ 2400 4850
+Wire Wire Line
+	2400 4850 2550 4850
+Wire Wire Line
+	2850 4850 3050 4850
+$Comp
+L Switch:SW_Push SW?
+U 1 1 615EE37A
+P 2050 5500
+F 0 "SW?" H 2050 5785 50  0000 C CNN
+F 1 "SW_Push" H 2050 5694 50  0000 C CNN
+F 2 "" H 2050 5700 50  0001 C CNN
+F 3 "~" H 2050 5700 50  0001 C CNN
+	1    2050 5500
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:R R?
+U 1 1 615EE380
+P 2700 5500
+F 0 "R?" V 2493 5500 50  0000 C CNN
+F 1 "R" V 2584 5500 50  0000 C CNN
+F 2 "" V 2630 5500 50  0001 C CNN
+F 3 "~" H 2700 5500 50  0001 C CNN
+	1    2700 5500
+	0    1    1    0   
+$EndComp
+$Comp
+L Device:LED D?
+U 1 1 615EE386
+P 3200 5500
+F 0 "D?" H 3193 5245 50  0000 C CNN
+F 1 "LED" H 3193 5336 50  0000 C CNN
+F 2 "" H 3200 5500 50  0001 C CNN
+F 3 "~" H 3200 5500 50  0001 C CNN
+	1    3200 5500
+	-1   0    0    1   
+$EndComp
+Wire Wire Line
+	2250 5500 2400 5500
+Wire Wire Line
+	2600 5100 2400 5100
+Wire Wire Line
+	2400 5100 2400 5500
+Connection ~ 2400 5500
+Wire Wire Line
+	2400 5500 2550 5500
+Wire Wire Line
+	2850 5500 3050 5500
+$Comp
+L Switch:SW_Push SW?
+U 1 1 615EF3C5
+P 2050 6150
+F 0 "SW?" H 2050 6435 50  0000 C CNN
+F 1 "SW_Push" H 2050 6344 50  0000 C CNN
+F 2 "" H 2050 6350 50  0001 C CNN
+F 3 "~" H 2050 6350 50  0001 C CNN
+	1    2050 6150
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:R R?
+U 1 1 615EF3CB
+P 2700 6150
+F 0 "R?" V 2493 6150 50  0000 C CNN
+F 1 "R" V 2584 6150 50  0000 C CNN
+F 2 "" V 2630 6150 50  0001 C CNN
+F 3 "~" H 2700 6150 50  0001 C CNN
+	1    2700 6150
+	0    1    1    0   
+$EndComp
+$Comp
+L Device:LED D?
+U 1 1 615EF3D1
+P 3200 6150
+F 0 "D?" H 3193 5895 50  0000 C CNN
+F 1 "LED" H 3193 5986 50  0000 C CNN
+F 2 "" H 3200 6150 50  0001 C CNN
+F 3 "~" H 3200 6150 50  0001 C CNN
+	1    3200 6150
+	-1   0    0    1   
+$EndComp
+Wire Wire Line
+	2250 6150 2400 6150
+Wire Wire Line
+	2600 5750 2400 5750
+Wire Wire Line
+	2400 5750 2400 6150
+Connection ~ 2400 6150
+Wire Wire Line
+	2400 6150 2550 6150
+Wire Wire Line
+	2850 6150 3050 6150
+Wire Wire Line
+	1850 6150 1550 6150
+Wire Wire Line
+	1550 6150 1550 5500
+Wire Wire Line
+	1850 1550 1550 1550
+Connection ~ 1550 1550
+Wire Wire Line
+	1550 1550 1550 1200
+Wire Wire Line
+	1850 2250 1550 2250
+Connection ~ 1550 2250
+Wire Wire Line
+	1550 2250 1550 1550
+Wire Wire Line
+	1850 2900 1550 2900
+Connection ~ 1550 2900
+Wire Wire Line
+	1550 2900 1550 2250
+Wire Wire Line
+	1850 3550 1550 3550
+Connection ~ 1550 3550
+Wire Wire Line
+	1550 3550 1550 2900
+Wire Wire Line
+	1850 4200 1550 4200
+Connection ~ 1550 4200
+Wire Wire Line
+	1550 4200 1550 3550
+Wire Wire Line
+	1850 4850 1550 4850
+Connection ~ 1550 4850
+Wire Wire Line
+	1550 4850 1550 4200
+Wire Wire Line
+	1850 5500 1550 5500
+Connection ~ 1550 5500
+Wire Wire Line
+	1550 5500 1550 4850
+$Comp
+L power:GND #PWR?
+U 1 1 615F842D
+P 3650 6300
+F 0 "#PWR?" H 3650 6050 50  0001 C CNN
+F 1 "GND" H 3655 6127 50  0000 C CNN
+F 2 "" H 3650 6300 50  0001 C CNN
+F 3 "" H 3650 6300 50  0001 C CNN
+	1    3650 6300
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	3350 1550 3650 1550
+Wire Wire Line
+	3650 1550 3650 2250
+Wire Wire Line
+	3350 2250 3650 2250
+Connection ~ 3650 2250
+Wire Wire Line
+	3650 2250 3650 2900
+Wire Wire Line
+	3350 2900 3650 2900
+Connection ~ 3650 2900
+Wire Wire Line
+	3650 2900 3650 3550
+Wire Wire Line
+	3350 3550 3650 3550
+Connection ~ 3650 3550
+Wire Wire Line
+	3650 3550 3650 4200
+Wire Wire Line
+	3350 4200 3650 4200
+Connection ~ 3650 4200
+Wire Wire Line
+	3650 4200 3650 4850
+Wire Wire Line
+	3350 4850 3650 4850
+Connection ~ 3650 4850
+Wire Wire Line
+	3650 4850 3650 5500
+Wire Wire Line
+	3350 5500 3650 5500
+Connection ~ 3650 5500
+Wire Wire Line
+	3650 5500 3650 6150
+Wire Wire Line
+	3350 6150 3650 6150
+Connection ~ 3650 6150
+Wire Wire Line
+	3650 6150 3650 6300
+$Comp
+L power:+3.3V #PWR?
+U 1 1 61616E07
+P 4650 1450
+F 0 "#PWR?" H 4650 1300 50  0001 C CNN
+F 1 "+3.3V" H 4665 1623 50  0000 C CNN
+F 2 "" H 4650 1450 50  0001 C CNN
+F 3 "" H 4650 1450 50  0001 C CNN
+	1    4650 1450
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:LED D?
+U 1 1 6161933E
+P 6450 1350
+F 0 "D?" H 6443 1095 50  0000 C CNN
+F 1 "LED" H 6443 1186 50  0000 C CNN
+F 2 "" H 6450 1350 50  0001 C CNN
+F 3 "~" H 6450 1350 50  0001 C CNN
+	1    6450 1350
+	-1   0    0    1   
+$EndComp
+$Comp
+L Device:R R?
+U 1 1 6161A7C1
+P 5950 1350
+F 0 "R?" V 5850 1350 50  0000 C CNN
+F 1 "330" V 5950 1350 50  0000 C CNN
+F 2 "" V 5880 1350 50  0001 C CNN
+F 3 "~" H 5950 1350 50  0001 C CNN
+	1    5950 1350
+	0    1    1    0   
+$EndComp
+Text HLabel 2600 1150 2    50   Output ~ 0
+Servo_1_SW
+Text HLabel 2600 1850 2    50   Output ~ 0
+Servo_2_SW
+Text HLabel 2600 2500 2    50   Output ~ 0
+Servo_3­_SW
+Text HLabel 2600 3150 2    50   Output ~ 0
+Servo_4_SW
+Text HLabel 2600 3800 2    50   Output ~ 0
+Servo_5_SW
+Text HLabel 2600 4450 2    50   Output ~ 0
+Servo_6_SW
+Text HLabel 2600 5100 2    50   Output ~ 0
+Servo_7_SW
+Text HLabel 2600 5750 2    50   Output ~ 0
+Servo_8_SW
+Text HLabel 6050 1600 2    50   Output ~ 0
+Servo_Digital_Control
+Wire Wire Line
+	4650 1450 4650 1700
+Wire Wire Line
+	4650 1700 4950 1700
+Wire Wire Line
+	5350 1600 5600 1600
+Wire Wire Line
+	5800 1350 5600 1350
+Connection ~ 5600 1600
+Wire Wire Line
+	5600 1600 6050 1600
+Wire Wire Line
+	6100 1350 6300 1350
+Wire Wire Line
+	5600 1350 5600 1600
+$Comp
+L Device:LED D?
+U 1 1 61657CB4
+P 6500 1900
+F 0 "D?" H 6493 1645 50  0000 C CNN
+F 1 "LED" H 6493 1736 50  0000 C CNN
+F 2 "" H 6500 1900 50  0001 C CNN
+F 3 "~" H 6500 1900 50  0001 C CNN
+	1    6500 1900
+	-1   0    0    1   
+$EndComp
+$Comp
+L Device:LED D?
+U 1 1 61657CBA
+P 6500 2550
+F 0 "D?" H 6493 2295 50  0000 C CNN
+F 1 "LED" H 6493 2386 50  0000 C CNN
+F 2 "" H 6500 2550 50  0001 C CNN
+F 3 "~" H 6500 2550 50  0001 C CNN
+	1    6500 2550
+	-1   0    0    1   
+$EndComp
+$Comp
+L Device:R R?
+U 1 1 61657CC0
+P 6000 1900
+F 0 "R?" V 5900 1900 50  0000 C CNN
+F 1 "330" V 6000 1900 50  0000 C CNN
+F 2 "" V 5930 1900 50  0001 C CNN
+F 3 "~" H 6000 1900 50  0001 C CNN
+	1    6000 1900
+	0    1    1    0   
+$EndComp
+$Comp
+L Device:R R?
+U 1 1 61657CC6
+P 6000 2550
+F 0 "R?" V 5900 2550 50  0000 C CNN
+F 1 "330" V 6000 2550 50  0000 C CNN
+F 2 "" V 5930 2550 50  0001 C CNN
+F 3 "~" H 6000 2550 50  0001 C CNN
+	1    6000 2550
+	0    1    1    0   
+$EndComp
+Text HLabel 6100 2150 2    50   Output ~ 0
+Servo_Manual_Control_Left
+Text HLabel 6100 2800 2    50   Output ~ 0
+Servo_Manual_Control_Right
+Wire Wire Line
+	5850 1900 5650 1900
+Connection ~ 5650 2150
+Wire Wire Line
+	5650 2150 6100 2150
+Wire Wire Line
+	5850 2550 5700 2550
+Wire Wire Line
+	6150 1900 6350 1900
+Wire Wire Line
+	6150 2550 6350 2550
+Wire Wire Line
+	7400 2550 6650 2550
+$Comp
+L power:GND #PWR?
+U 1 1 61657CDC
+P 7400 3100
+F 0 "#PWR?" H 7400 2850 50  0001 C CNN
+F 1 "GND" H 7405 2927 50  0000 C CNN
+F 2 "" H 7400 3100 50  0001 C CNN
+F 3 "" H 7400 3100 50  0001 C CNN
+	1    7400 3100
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	5650 1900 5650 2150
+$Comp
+L Switch:SW_SP3T SW?
+U 1 1 6168F99A
+P 5150 1700
+F 0 "SW?" H 5150 1983 50  0000 C CNN
+F 1 "SW_SP3T" H 5150 1892 50  0000 C CNN
+F 2 "" H 4525 1875 50  0001 C CNN
+F 3 "~" H 4525 1875 50  0001 C CNN
+	1    5150 1700
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	5400 2800 5700 2800
+Wire Wire Line
+	5700 2550 5700 2800
+Connection ~ 5700 2800
+Wire Wire Line
+	5700 2800 6100 2800
+Wire Wire Line
+	5350 1700 5500 1700
+Wire Wire Line
+	5500 1700 5500 2150
+Wire Wire Line
+	5500 2150 5650 2150
+Wire Wire Line
+	5350 1800 5400 1800
+Wire Wire Line
+	5400 1800 5400 2800
+Connection ~ 7400 2550
+Wire Wire Line
+	7400 2550 7400 3100
+Wire Wire Line
+	6600 1350 7400 1350
+Wire Wire Line
+	7400 1350 7400 1900
+Wire Wire Line
+	6650 1900 7400 1900
+Connection ~ 7400 1900
+Wire Wire Line
+	7400 1900 7400 2550
 $EndSCHEMATC
