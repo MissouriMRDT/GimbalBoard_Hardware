@@ -3,7 +3,7 @@ EELAYER 30 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
-Sheet 1 2
+Sheet 1 3
 Title ""
 Date ""
 Rev ""
@@ -123,4 +123,16 @@ Wire Wire Line
 	5150 1600 5400 1600
 Wire Wire Line
 	5150 1750 5400 1750
+$Sheet
+S 4050 2750 1150 2200
+U 615E1D59
+F0 "switches" 50
+F1 "switches.sch" 50
+$EndSheet
+$Sheet
+S 6000 2750 1300 2250
+U 615E206C
+F0 "Molex" 50
+F1 "Molex.sch" 50
+$EndSheet
 $EndSCHEMATC
