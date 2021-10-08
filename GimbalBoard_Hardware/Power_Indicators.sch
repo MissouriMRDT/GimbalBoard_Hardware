@@ -1,0 +1,158 @@
+EESchema Schematic File Version 4
+EELAYER 30 0
+EELAYER END
+$Descr A4 11693 8268
+encoding utf-8
+Sheet 7 7
+Title ""
+Date ""
+Rev ""
+Comp ""
+Comment1 ""
+Comment2 ""
+Comment3 ""
+Comment4 ""
+$EndDescr
+$Comp
+L Device:LED D?
+U 1 1 61616BF1
+P 5400 3500
+F 0 "D?" H 5393 3245 50  0000 C CNN
+F 1 "LED" H 5393 3336 50  0000 C CNN
+F 2 "" H 5400 3500 50  0001 C CNN
+F 3 "~" H 5400 3500 50  0001 C CNN
+	1    5400 3500
+	-1   0    0    1   
+$EndComp
+$Comp
+L Device:LED D?
+U 1 1 616170E3
+P 5400 3900
+F 0 "D?" H 5393 3645 50  0000 C CNN
+F 1 "LED" H 5393 3736 50  0000 C CNN
+F 2 "" H 5400 3900 50  0001 C CNN
+F 3 "~" H 5400 3900 50  0001 C CNN
+	1    5400 3900
+	-1   0    0    1   
+$EndComp
+$Comp
+L Device:LED D?
+U 1 1 61617421
+P 5400 4350
+F 0 "D?" H 5393 4095 50  0000 C CNN
+F 1 "LED" H 5393 4186 50  0000 C CNN
+F 2 "" H 5400 4350 50  0001 C CNN
+F 3 "~" H 5400 4350 50  0001 C CNN
+	1    5400 4350
+	-1   0    0    1   
+$EndComp
+$Comp
+L Device:LED D?
+U 1 1 61617697
+P 5400 4800
+F 0 "D?" H 5393 4545 50  0000 C CNN
+F 1 "LED" H 5393 4636 50  0000 C CNN
+F 2 "" H 5400 4800 50  0001 C CNN
+F 3 "~" H 5400 4800 50  0001 C CNN
+	1    5400 4800
+	-1   0    0    1   
+$EndComp
+$Comp
+L Device:R R?
+U 1 1 616177E3
+P 4850 3500
+F 0 "R?" V 4750 3500 50  0000 C CNN
+F 1 "1000" V 4850 3500 50  0000 C CNN
+F 2 "" V 4780 3500 50  0001 C CNN
+F 3 "~" H 4850 3500 50  0001 C CNN
+	1    4850 3500
+	0    1    1    0   
+$EndComp
+$Comp
+L Device:R R?
+U 1 1 61617F3E
+P 4850 3900
+F 0 "R?" V 4750 3900 50  0000 C CNN
+F 1 "1000" V 4850 3900 50  0000 C CNN
+F 2 "" V 4780 3900 50  0001 C CNN
+F 3 "~" H 4850 3900 50  0001 C CNN
+	1    4850 3900
+	0    1    1    0   
+$EndComp
+$Comp
+L Device:R R?
+U 1 1 616181AB
+P 4850 4350
+F 0 "R?" V 4750 4350 50  0000 C CNN
+F 1 "330" V 4850 4350 50  0000 C CNN
+F 2 "" V 4780 4350 50  0001 C CNN
+F 3 "~" H 4850 4350 50  0001 C CNN
+	1    4850 4350
+	0    1    1    0   
+$EndComp
+$Comp
+L Device:R R?
+U 1 1 616183C7
+P 4850 4800
+F 0 "R?" V 4750 4800 50  0000 C CNN
+F 1 "330" V 4850 4800 50  0000 C CNN
+F 2 "" V 4780 4800 50  0001 C CNN
+F 3 "~" H 4850 4800 50  0001 C CNN
+	1    4850 4800
+	0    1    1    0   
+$EndComp
+$Comp
+L power:GND #PWR?
+U 1 1 61618B06
+P 5900 5000
+F 0 "#PWR?" H 5900 4750 50  0001 C CNN
+F 1 "GND" H 5905 4827 50  0000 C CNN
+F 2 "" H 5900 5000 50  0001 C CNN
+F 3 "" H 5900 5000 50  0001 C CNN
+	1    5900 5000
+	1    0    0    -1  
+$EndComp
+Text HLabel 4450 3500 0    50   Input ~ 0
+Power_Input_Act
+Text HLabel 4450 3900 0    50   Input ~ 0
+Power_Input_Log
+Text HLabel 4450 4350 0    50   Input ~ 0
++5V
+Text HLabel 4450 4800 0    50   Input ~ 0
++3.3V
+Wire Wire Line
+	4450 4800 4700 4800
+Wire Wire Line
+	5000 4800 5250 4800
+Wire Wire Line
+	5550 4800 5900 4800
+Wire Wire Line
+	5900 4800 5900 5000
+Wire Wire Line
+	4450 3500 4700 3500
+Wire Wire Line
+	4450 3900 4700 3900
+Wire Wire Line
+	4450 4350 4700 4350
+Wire Wire Line
+	5000 3500 5250 3500
+Wire Wire Line
+	5000 3900 5250 3900
+Wire Wire Line
+	5000 4350 5250 4350
+Wire Wire Line
+	5550 3500 5900 3500
+Wire Wire Line
+	5900 3500 5900 3900
+Connection ~ 5900 4800
+Wire Wire Line
+	5550 3900 5900 3900
+Connection ~ 5900 3900
+Wire Wire Line
+	5900 3900 5900 4350
+Wire Wire Line
+	5550 4350 5900 4350
+Connection ~ 5900 4350
+Wire Wire Line
+	5900 4350 5900 4800
+$EndSCHEMATC
