@@ -3,7 +3,7 @@ EELAYER 30 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
-Sheet 4 6
+Sheet 4 7
 Title ""
 Date ""
 Rev ""
@@ -85,7 +85,7 @@ F 3 "~" H 6500 3950 50  0001 C CNN
 $EndComp
 Text HLabel 4800 3550 0    50   Input ~ 0
 Power_Input_Act
-Text HLabel 6850 3550 2    50   Input ~ 0
+Text HLabel 6850 3550 2    50   Output ~ 0
 +5V
 $Comp
 L power:GND #PWR?

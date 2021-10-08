@@ -3,7 +3,7 @@ EELAYER 30 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
-Sheet 2 6
+Sheet 2 7
 Title ""
 Date ""
 Rev ""
@@ -213,15 +213,6 @@ Text HLabel 3950 1300 1    50   Input ~ 0
 Connection ~ 4100 6050
 Wire Wire Line
 	4100 6050 4100 6450
-$Comp
-L power:GND #PWR?
-U 1 1 615FA9B5
-P 4100 6450
-F 0 "#PWR?" H 4100 6200 50  0001 C CNN
-F 1 "GND" H 4105 6277 50  0000 C CNN
-F 2 "" H 4100 6450 50  0001 C CNN
-F 3 "" H 4100 6450 50  0001 C CNN
-	1    4100 6450
-	1    0    0    -1  
-$EndComp
+Text HLabel 4100 6450 3    50   Input ~ 0
+GND
 $EndSCHEMATC
