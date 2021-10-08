@@ -176,25 +176,22 @@ Wire Wire Line
 	4100 5450 4100 6050
 Wire Wire Line
 	3500 6050 4100 6050
-Connection ~ 4100 6050
-Wire Wire Line
-	4100 6050 4100 6450
 Text HLabel 4250 1750 2    50   Input ~ 0
 Servo_1_PWM
 Text HLabel 4250 2350 2    50   Input ~ 0
-Servo_1_PWM
+Servo_2_PWM
 Text HLabel 4250 2950 2    50   Input ~ 0
-Servo_1_PWM
+Servo_3_PWM
 Text HLabel 4250 3550 2    50   Input ~ 0
-Servo_1_PWM
+Servo_4_PWM
 Text HLabel 4250 4150 2    50   Input ~ 0
-Servo_1_PWM
+Servo_5_PWM
 Text HLabel 4250 4750 2    50   Input ~ 0
-Servo_1_PWM
+Servo_6_PWM
 Text HLabel 4250 5350 2    50   Input ~ 0
-Servo_1_PWM
+Servo_7_PWM
 Text HLabel 4250 5950 2    50   Input ~ 0
-Servo_1_PWM
+Servo_8_PWM
 Wire Wire Line
 	3500 1750 4250 1750
 Wire Wire Line
@@ -213,6 +210,18 @@ Wire Wire Line
 	3500 5950 4250 5950
 Text HLabel 3950 1300 1    50   Input ~ 0
 +5V
-Text HLabel 4100 6450 3    50   Input ~ 0
-GND
+Connection ~ 4100 6050
+Wire Wire Line
+	4100 6050 4100 6450
+$Comp
+L power:GND #PWR?
+U 1 1 615FA9B5
+P 4100 6450
+F 0 "#PWR?" H 4100 6200 50  0001 C CNN
+F 1 "GND" H 4105 6277 50  0000 C CNN
+F 2 "" H 4100 6450 50  0001 C CNN
+F 3 "" H 4100 6450 50  0001 C CNN
+	1    4100 6450
+	1    0    0    -1  
+$EndComp
 $EndSCHEMATC
