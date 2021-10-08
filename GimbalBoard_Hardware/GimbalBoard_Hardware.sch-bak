@@ -156,6 +156,7 @@ F7 "Servo_5_PWM" I L 9050 4700 50
 F8 "Servo_6_PWM" I L 9050 4850 50 
 F9 "Servo_7_PWM" I L 9050 5000 50 
 F10 "Servo_8_PWM" I L 9050 5150 50 
+F11 "GND" I L 9050 5300 50 
 $EndSheet
 $Sheet
 S 2100 1850 1150 200 
@@ -266,7 +267,7 @@ Power Input
 Text Notes 2050 850  0    79   ~ 0
 Buck Converters
 $Sheet
-S 6000 3800 1450 1700
+S 6550 3800 900  1600
 U 6162A3B9
 F0 "Servo Indicators" 79
 F1 "servo-indicators.sch" 79
@@ -299,4 +300,6 @@ Wire Wire Line
 	7450 5150 9050 5150
 Wire Wire Line
 	7450 3950 9050 3950
+Wire Wire Line
+	7450 5300 9050 5300
 $EndSCHEMATC
