@@ -46,66 +46,50 @@ F 3 "" H 600 2100 60  0001 C CNN
 	1    750  2650
 	1    0    0    -1  
 $EndComp
-Text GLabel 4850 900  0    50   Output ~ 0
+Text GLabel 4250 950  0    50   Output ~ 0
 Servo_1_SW
 Wire Wire Line
-	4850 900  5000 900 
-Text GLabel 4850 1050 0    50   Output ~ 0
+	4250 950  4400 950 
+Text GLabel 4250 1100 0    50   Output ~ 0
 Servo_2_SW
 Wire Wire Line
-	4850 1050 5000 1050
-Text GLabel 4850 1200 0    50   Output ~ 0
+	4250 1100 4400 1100
+Text GLabel 4250 1250 0    50   Output ~ 0
 Servo_3_SW
 Wire Wire Line
-	4850 1200 5000 1200
-Text GLabel 4850 1350 0    50   Output ~ 0
+	4250 1250 4400 1250
+Text GLabel 4250 1400 0    50   Output ~ 0
 Servo_4_SW
 Wire Wire Line
-	4850 1350 5000 1350
-Text GLabel 4850 1500 0    50   Output ~ 0
+	4250 1400 4400 1400
+Text GLabel 4250 1550 0    50   Output ~ 0
 Servo_5_SW
 Wire Wire Line
-	4850 1500 5000 1500
-Text GLabel 4850 1650 0    50   Output ~ 0
+	4250 1550 4400 1550
+Text GLabel 4250 1700 0    50   Output ~ 0
 Servo_6_SW
 Wire Wire Line
-	4850 1650 5000 1650
-Text GLabel 4850 1800 0    50   Output ~ 0
+	4250 1700 4400 1700
+Text GLabel 4250 1850 0    50   Output ~ 0
 Servo_7_SW
 Wire Wire Line
-	4850 1800 5000 1800
-Text GLabel 4850 1950 0    50   Output ~ 0
+	4250 1850 4400 1850
+Text GLabel 4250 2000 0    50   Output ~ 0
 Servo_8_SW
 Wire Wire Line
-	4850 1950 5000 1950
-Text GLabel 6300 2300 2    50   Output ~ 0
+	4250 2000 4400 2000
+Text GLabel 5700 2350 2    50   Output ~ 0
 Servo_Digital_Control
 Wire Wire Line
-	6300 2300 6150 2300
-Text GLabel 6300 2450 2    50   Output ~ 0
+	5700 2350 5550 2350
+Text GLabel 5700 2500 2    50   Output ~ 0
 Servo_Manual_Control_Left
 Wire Wire Line
-	6300 2450 6150 2450
-Text GLabel 6300 2600 2    50   Output ~ 0
+	5700 2500 5550 2500
+Text GLabel 5700 2650 2    50   Output ~ 0
 Servo_Manual_Control_Right
 Wire Wire Line
-	6300 2600 6150 2600
-$Sheet
-S 9050 3800 1000 1700
-U 615E206C
-F0 "Molex" 50
-F1 "Molex.sch" 50
-F2 "Servo_1_PWM" I L 9050 4100 50 
-F3 "+5V" I L 9050 3950 50 
-F4 "Servo_2_PWM" I L 9050 4250 50 
-F5 "Servo_3_PWM" I L 9050 4400 50 
-F6 "Servo_4_PWM" I L 9050 4550 50 
-F7 "Servo_5_PWM" I L 9050 4700 50 
-F8 "Servo_6_PWM" I L 9050 4850 50 
-F9 "Servo_7_PWM" I L 9050 5000 50 
-F10 "Servo_8_PWM" I L 9050 5150 50 
-F11 "GND" I L 9050 5300 50 
-$EndSheet
+	5700 2650 5550 2650
 $Sheet
 S 2100 1850 1150 200 
 U 6160709D
@@ -158,21 +142,21 @@ F 3 "" H 1750 2650 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Sheet
-S 5000 700  1150 2200
+S 4400 750  1150 2200
 U 615E1D59
 F0 "switches" 50
 F1 "switches.sch" 50
-F2 "Servo_1_SW" O L 5000 900 50 
-F3 "Servo_2_SW" O L 5000 1050 50 
-F4 "Servo_3­_SW" O L 5000 1200 50 
-F5 "Servo_4_SW" O L 5000 1350 50 
-F6 "Servo_5_SW" O L 5000 1500 50 
-F7 "Servo_6_SW" O L 5000 1650 50 
-F8 "Servo_7_SW" O L 5000 1800 50 
-F9 "Servo_8_SW" O L 5000 1950 50 
-F10 "Servo_Digital_Control" O R 6150 2300 50 
-F11 "Servo_Manual_Control_Left" O R 6150 2450 50 
-F12 "Servo_Manual_Control_Right" O R 6150 2600 50 
+F2 "Servo_1_SW" O L 4400 950 50 
+F3 "Servo_2_SW" O L 4400 1100 50 
+F4 "Servo_3­_SW" O L 4400 1250 50 
+F5 "Servo_4_SW" O L 4400 1400 50 
+F6 "Servo_5_SW" O L 4400 1550 50 
+F7 "Servo_6_SW" O L 4400 1700 50 
+F8 "Servo_7_SW" O L 4400 1850 50 
+F9 "Servo_8_SW" O L 4400 2000 50 
+F10 "Servo_Digital_Control" O R 5550 2350 50 
+F11 "Servo_Manual_Control_Left" O R 5550 2500 50 
+F12 "Servo_Manual_Control_Right" O R 5550 2650 50 
 $EndSheet
 Wire Wire Line
 	1150 2550 1400 2550
@@ -204,54 +188,180 @@ Text Notes 700  850  0    79   ~ 0
 Power Input
 Text Notes 2050 850  0    79   ~ 0
 Buck Converters
-$Sheet
-S 6550 3800 900  1600
-U 6162A3B9
-F0 "Servo Indicators" 79
-F1 "servo-indicators.sch" 79
-F2 "Servo_1_PWM" I R 7450 4100 50 
-F3 "Servo_2_PWM" I R 7450 4250 50 
-F4 "Servo_3_PWM" I R 7450 4400 50 
-F5 "Servo_4_PWM" I R 7450 4550 50 
-F6 "Servo_5_PWM" I R 7450 4700 50 
-F7 "Servo_6_PWM" I R 7450 4850 50 
-F8 "Servo_7_PWM" I R 7450 5000 50 
-F9 "Servo_8_PWM" I R 7450 5150 50 
-F10 "+5V" I R 7450 3950 50 
-F11 "GND" I R 7450 5300 50 
-$EndSheet
-Wire Wire Line
-	7450 4100 9050 4100
-Wire Wire Line
-	7450 4250 9050 4250
-Wire Wire Line
-	7450 4400 9050 4400
-Wire Wire Line
-	7450 4550 9050 4550
-Wire Wire Line
-	7450 4700 9050 4700
-Wire Wire Line
-	7450 4850 9050 4850
-Wire Wire Line
-	7450 5000 9050 5000
-Wire Wire Line
-	7450 5150 9050 5150
-Wire Wire Line
-	7450 3950 9050 3950
-Wire Wire Line
-	7450 5300 9050 5300
 Text Notes 950  2050 0    50   ~ 0
 +12VL
 Text Notes 950  1450 0    50   ~ 0
 +12VA\n
 $Sheet
-S 2550 2500 750  650 
+S 2550 2900 750  650 
 U 61616981
 F0 "Power_Indicators" 50
 F1 "Power_Indicators.sch" 50
-F2 "Power_Input_Act" I L 2550 2600 50 
-F3 "Power_Input_Log" I L 2550 2750 50 
-F4 "+5V" I L 2550 2900 50 
-F5 "+3.3V" I L 2550 3050 50 
+F2 "Power_Input_Act" I L 2550 3000 50 
+F3 "Power_Input_Log" I L 2550 3150 50 
+F4 "+5V" I L 2550 3300 50 
+F5 "+3.3V" I L 2550 3450 50 
 $EndSheet
+$Sheet
+S 3800 4450 1000 1700
+U 615E206C
+F0 "Molex" 50
+F1 "Molex.sch" 50
+F2 "Servo_1_PWM" I L 3800 4750 50 
+F3 "+5V" I L 3800 4600 50 
+F4 "Servo_2_PWM" I L 3800 4900 50 
+F5 "Servo_3_PWM" I L 3800 5050 50 
+F6 "Servo_4_PWM" I L 3800 5200 50 
+F7 "Servo_5_PWM" I L 3800 5350 50 
+F8 "Servo_6_PWM" I L 3800 5500 50 
+F9 "Servo_7_PWM" I L 3800 5650 50 
+F10 "Servo_8_PWM" I L 3800 5800 50 
+F11 "GND" I L 3800 5950 50 
+$EndSheet
+$Sheet
+S 1300 4450 900  1600
+U 6162A3B9
+F0 "Servo Indicators" 79
+F1 "servo-indicators.sch" 79
+F2 "Servo_1_PWM" I R 2200 4750 50 
+F3 "Servo_2_PWM" I R 2200 4900 50 
+F4 "Servo_3_PWM" I R 2200 5050 50 
+F5 "Servo_4_PWM" I R 2200 5200 50 
+F6 "Servo_5_PWM" I R 2200 5350 50 
+F7 "Servo_6_PWM" I R 2200 5500 50 
+F8 "Servo_7_PWM" I R 2200 5650 50 
+F9 "Servo_8_PWM" I R 2200 5800 50 
+F10 "+5V" I R 2200 4600 50 
+F11 "GND" I R 2200 5950 50 
+$EndSheet
+Wire Wire Line
+	2200 4750 3800 4750
+Wire Wire Line
+	2200 4900 3800 4900
+Wire Wire Line
+	2200 5050 3800 5050
+Wire Wire Line
+	2200 5200 3800 5200
+Wire Wire Line
+	2200 5350 3800 5350
+Wire Wire Line
+	2200 5500 3800 5500
+Wire Wire Line
+	2200 5650 3800 5650
+Wire Wire Line
+	2200 5800 3800 5800
+Wire Wire Line
+	2200 4600 3800 4600
+Wire Wire Line
+	2200 5950 3800 5950
+$Comp
+L power:GND #PWR?
+U 1 1 61626ED1
+P 10250 5650
+F 0 "#PWR?" H 10250 5400 50  0001 C CNN
+F 1 "GND" H 10255 5477 50  0000 C CNN
+F 2 "" H 10250 5650 50  0001 C CNN
+F 3 "" H 10250 5650 50  0001 C CNN
+	1    10250 5650
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	10250 5650 10250 5500
+Wire Wire Line
+	10250 5500 9900 5500
+Text HLabel 8100 4000 0    50   Output ~ 0
+Servo_1_PWM
+Wire Wire Line
+	8100 2900 8300 2900
+Text HLabel 8100 3200 0    50   Output ~ 0
+Servo_6_PWM
+Text HLabel 8100 3100 0    50   Output ~ 0
+Servo_5_PWM
+Text HLabel 10100 3900 2    50   Output ~ 0
+Servo_8_PWM
+Text HLabel 8100 4100 0    50   Output ~ 0
+Servo_2_PWM
+Wire Wire Line
+	8100 3000 8300 3000
+Wire Wire Line
+	8100 3100 8300 3100
+Wire Wire Line
+	8100 4000 8300 4000
+Wire Wire Line
+	8100 4100 8300 4100
+Text GLabel 8100 2900 0    50   Input ~ 0
+Servo_Digital_Control
+Wire Wire Line
+	8100 3200 8300 3200
+Text GLabel 10100 3200 2    50   Input ~ 0
+Servo_Manual_Control_Right
+Wire Wire Line
+	10100 3900 9900 3900
+Wire Wire Line
+	10100 3400 9900 3400
+Text GLabel 8100 3000 0    50   Input ~ 0
+Servo_Manual_Control_Left
+Wire Wire Line
+	9900 3300 10100 3300
+Wire Wire Line
+	9900 3200 10100 3200
+Text HLabel 10100 3300 2    50   Output ~ 0
+Servo_4_PWM
+Text HLabel 10100 3400 2    50   Output ~ 0
+Servo_7_PWM
+Wire Wire Line
+	10100 1900 9900 1900
+Text HLabel 10100 1900 2    50   Input ~ 0
++3.3V
+$Comp
+L MRDT_Shields:Teensy4.1_DEV-16771 U?
+U 1 1 61611793
+P 9100 3700
+F 0 "U?" H 9100 5867 50  0000 C CNN
+F 1 "Teensy4.1_DEV-16771" H 9100 5776 50  0000 C CNN
+F 2 "MODULE_DEV-16771" H 11200 3400 50  0001 L BNN
+F 3 "" H 9100 3700 50  0001 L BNN
+F 4 "Manufacturer recommendations" H 11200 3150 50  0001 L BNN "STANDARD"
+F 5 "4.07mm" H 11450 2950 50  0001 L BNN "MAXIMUM_PACKAGE_HEIGHT"
+F 6 "SparkFun Electronics" H 11400 2800 50  0001 L BNN "MANUFACTURER"
+F 7 "4.1" H 8800 1500 50  0001 L BNN "PARTREV"
+	1    9100 3700
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	8100 2400 8300 2400
+Text HLabel 8100 2400 0    50   Output ~ 0
+Servo_3_PWM
+Text HLabel 10100 4200 2    50   Input ~ 0
+Servo_1_SW
+Text HLabel 10100 4100 2    50   Input ~ 0
+Servo_2_SW
+Text HLabel 8100 4300 0    50   Input ~ 0
+Servo_3_SW
+Text HLabel 8100 4500 0    50   Input ~ 0
+Servo_4_SW
+Text HLabel 8100 4600 0    50   Input ~ 0
+Servo_5_SW
+Text HLabel 8100 4700 0    50   Input ~ 0
+Servo_6_SW
+Text HLabel 8100 4800 0    50   Input ~ 0
+Servo_7_SW
+Text HLabel 8100 4900 0    50   Input ~ 0
+Servo_8_SW
+Wire Wire Line
+	9900 4200 10100 4200
+Wire Wire Line
+	9900 4100 10100 4100
+Wire Wire Line
+	8100 4300 8300 4300
+Wire Wire Line
+	8100 4500 8300 4500
+Wire Wire Line
+	8100 4600 8300 4600
+Wire Wire Line
+	8100 4700 8300 4700
+Wire Wire Line
+	8100 4800 8300 4800
+Wire Wire Line
+	8100 4900 8300 4900
 $EndSCHEMATC

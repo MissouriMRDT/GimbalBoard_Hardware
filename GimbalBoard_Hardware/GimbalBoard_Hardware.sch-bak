@@ -46,58 +46,6 @@ F 3 "" H 600 2100 60  0001 C CNN
 	1    750  2650
 	1    0    0    -1  
 $EndComp
-$Comp
-L power:+12VA #PWR?
-U 1 1 6160149D
-P 8550 1600
-F 0 "#PWR?" H 8550 1450 50  0001 C CNN
-F 1 "+12VA" V 8565 1727 50  0000 L CNN
-F 2 "" H 8550 1600 50  0001 C CNN
-F 3 "" H 8550 1600 50  0001 C CNN
-	1    8550 1600
-	0    -1   -1   0   
-$EndComp
-$Comp
-L power:+12L #PWR?
-U 1 1 61602174
-P 8550 1750
-F 0 "#PWR?" H 8550 1600 50  0001 C CNN
-F 1 "+12L" V 8565 1878 50  0000 L CNN
-F 2 "" H 8550 1750 50  0001 C CNN
-F 3 "" H 8550 1750 50  0001 C CNN
-	1    8550 1750
-	0    -1   -1   0   
-$EndComp
-$Comp
-L power:+5V #PWR?
-U 1 1 61602E2C
-P 10250 1600
-F 0 "#PWR?" H 10250 1450 50  0001 C CNN
-F 1 "+5V" V 10265 1728 50  0000 L CNN
-F 2 "" H 10250 1600 50  0001 C CNN
-F 3 "" H 10250 1600 50  0001 C CNN
-	1    10250 1600
-	0    1    1    0   
-$EndComp
-$Comp
-L power:+3.3V #PWR?
-U 1 1 6160329C
-P 10250 1750
-F 0 "#PWR?" H 10250 1600 50  0001 C CNN
-F 1 "+3.3V" V 10265 1878 50  0000 L CNN
-F 2 "" H 10250 1750 50  0001 C CNN
-F 3 "" H 10250 1750 50  0001 C CNN
-	1    10250 1750
-	0    1    1    0   
-$EndComp
-Wire Wire Line
-	8550 1600 8800 1600
-Wire Wire Line
-	8550 1750 8800 1750
-Wire Wire Line
-	10000 1600 10250 1600
-Wire Wire Line
-	10000 1750 10250 1750
 Text GLabel 4850 900  0    50   Output ~ 0
 Servo_1_SW
 Wire Wire Line
@@ -173,16 +121,6 @@ F0 "5V Buck Converter" 50
 F1 "5V-buck-converter.sch" 50
 F2 "Power_Input_Act" I L 2100 1350 50 
 F3 "+5V" I R 3250 1350 50 
-$EndSheet
-$Sheet
-S 8800 1450 1200 500 
-U 615B83A4
-F0 "Buck Converters" 50
-F1 "buck_converters.sch" 50
-F2 "Power_Input_Act" I L 8800 1600 50 
-F3 "Power_Input_Log" I L 8800 1750 50 
-F4 "+5V" I R 10000 1600 50 
-F5 "+3.3V" I R 10000 1750 50 
 $EndSheet
 $Comp
 L Device:D_Zener D1
@@ -302,4 +240,18 @@ Wire Wire Line
 	7450 3950 9050 3950
 Wire Wire Line
 	7450 5300 9050 5300
+Text Notes 950  2050 0    50   ~ 0
++12VL
+Text Notes 950  1450 0    50   ~ 0
++12VA\n
+$Sheet
+S 2550 2500 750  650 
+U 61616981
+F0 "Power_Indicators" 50
+F1 "Power_Indicators.sch" 50
+F2 "Power_Input_Act" I L 2550 2600 50 
+F3 "Power_Input_Log" I L 2550 2750 50 
+F4 "+5V" I L 2550 2900 50 
+F5 "+3.3V" I L 2550 3050 50 
+$EndSheet
 $EndSCHEMATC
