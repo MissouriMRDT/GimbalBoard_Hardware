@@ -3,7 +3,7 @@ EELAYER 30 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
-Sheet 5 7
+Sheet 5 8
 Title ""
 Date ""
 Rev ""
@@ -101,33 +101,20 @@ F 3 "~" H 4850 4800 50  0001 C CNN
 	1    4850 4800
 	0    1    1    0   
 $EndComp
-$Comp
-L power:GND #PWR?
-U 1 1 61618B06
-P 5900 5000
-F 0 "#PWR?" H 5900 4750 50  0001 C CNN
-F 1 "GND" H 5905 4827 50  0000 C CNN
-F 2 "" H 5900 5000 50  0001 C CNN
-F 3 "" H 5900 5000 50  0001 C CNN
-	1    5900 5000
-	1    0    0    -1  
-$EndComp
 Text HLabel 4450 3500 0    50   Input ~ 0
 Power_Input_Act
 Text HLabel 4450 3900 0    50   Input ~ 0
 Power_Input_Log
 Text HLabel 4450 4350 0    50   Input ~ 0
-+5V
++5VA
 Text HLabel 4450 4800 0    50   Input ~ 0
-+3.3V
++5VL
 Wire Wire Line
 	4450 4800 4700 4800
 Wire Wire Line
 	5000 4800 5250 4800
 Wire Wire Line
 	5550 4800 5900 4800
-Wire Wire Line
-	5900 4800 5900 5000
 Wire Wire Line
 	4450 3500 4700 3500
 Wire Wire Line
@@ -155,4 +142,41 @@ Wire Wire Line
 Connection ~ 5900 4350
 Wire Wire Line
 	5900 4350 5900 4800
+$Comp
+L Device:LED D?
+U 1 1 6168B9D3
+P 5400 5250
+F 0 "D?" H 5393 4995 50  0000 C CNN
+F 1 "LED" H 5393 5086 50  0000 C CNN
+F 2 "" H 5400 5250 50  0001 C CNN
+F 3 "~" H 5400 5250 50  0001 C CNN
+	1    5400 5250
+	-1   0    0    1   
+$EndComp
+$Comp
+L Device:R R?
+U 1 1 6168B9D9
+P 4850 5250
+F 0 "R?" V 4750 5250 50  0000 C CNN
+F 1 "330" V 4850 5250 50  0000 C CNN
+F 2 "" V 4780 5250 50  0001 C CNN
+F 3 "~" H 4850 5250 50  0001 C CNN
+	1    4850 5250
+	0    1    1    0   
+$EndComp
+Text HLabel 4450 5250 0    50   Input ~ 0
++3.3VL
+Wire Wire Line
+	4450 5250 4700 5250
+Wire Wire Line
+	5000 5250 5250 5250
+Wire Wire Line
+	5550 5250 5900 5250
+Wire Wire Line
+	5900 4800 5900 5250
+Connection ~ 5900 5250
+Wire Wire Line
+	5900 5250 5900 5400
+Text HLabel 5900 5400 3    50   Input ~ 0
+GND
 $EndSCHEMATC

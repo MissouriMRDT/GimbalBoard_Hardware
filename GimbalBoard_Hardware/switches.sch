@@ -3,7 +3,7 @@ EELAYER 30 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
-Sheet 4 7
+Sheet 4 8
 Title ""
 Date ""
 Rev ""
@@ -13,17 +13,6 @@ Comment2 ""
 Comment3 ""
 Comment4 ""
 $EndDescr
-$Comp
-L power:+3.3V #PWR?
-U 1 1 615E22D3
-P 1550 1200
-F 0 "#PWR?" H 1550 1050 50  0001 C CNN
-F 1 "+3.3V" H 1565 1373 50  0000 C CNN
-F 2 "" H 1550 1200 50  0001 C CNN
-F 3 "" H 1550 1200 50  0001 C CNN
-	1    1550 1200
-	1    0    0    -1  
-$EndComp
 $Comp
 L Switch:SW_Push SW?
 U 1 1 615E41DD
@@ -415,17 +404,6 @@ Wire Wire Line
 Connection ~ 1550 5500
 Wire Wire Line
 	1550 5500 1550 4850
-$Comp
-L power:GND #PWR?
-U 1 1 615F842D
-P 3650 6300
-F 0 "#PWR?" H 3650 6050 50  0001 C CNN
-F 1 "GND" H 3655 6127 50  0000 C CNN
-F 2 "" H 3650 6300 50  0001 C CNN
-F 3 "" H 3650 6300 50  0001 C CNN
-	1    3650 6300
-	1    0    0    -1  
-$EndComp
 Wire Wire Line
 	3350 1550 3650 1550
 Wire Wire Line
@@ -465,17 +443,6 @@ Wire Wire Line
 Connection ~ 3650 6150
 Wire Wire Line
 	3650 6150 3650 6300
-$Comp
-L power:+3.3V #PWR?
-U 1 1 61616E07
-P 4650 1450
-F 0 "#PWR?" H 4650 1300 50  0001 C CNN
-F 1 "+3.3V" H 4665 1623 50  0000 C CNN
-F 2 "" H 4650 1450 50  0001 C CNN
-F 3 "" H 4650 1450 50  0001 C CNN
-	1    4650 1450
-	1    0    0    -1  
-$EndComp
 $Comp
 L Device:LED D?
 U 1 1 6161933E
@@ -592,17 +559,6 @@ Wire Wire Line
 	6150 2550 6350 2550
 Wire Wire Line
 	7400 2550 6650 2550
-$Comp
-L power:GND #PWR?
-U 1 1 61657CDC
-P 7400 3100
-F 0 "#PWR?" H 7400 2850 50  0001 C CNN
-F 1 "GND" H 7405 2927 50  0000 C CNN
-F 2 "" H 7400 3100 50  0001 C CNN
-F 3 "" H 7400 3100 50  0001 C CNN
-	1    7400 3100
-	1    0    0    -1  
-$EndComp
 Wire Wire Line
 	5650 1900 5650 2150
 $Comp
@@ -645,4 +601,12 @@ Wire Wire Line
 Connection ~ 7400 1900
 Wire Wire Line
 	7400 1900 7400 2550
+Text HLabel 1550 1200 1    50   Input ~ 0
+3.3VL
+Text HLabel 3650 6300 3    50   Input ~ 0
+GND
+Text HLabel 4650 1450 1    50   Input ~ 0
+3.3VL
+Text HLabel 7400 3100 3    50   Input ~ 0
+GND
 $EndSCHEMATC

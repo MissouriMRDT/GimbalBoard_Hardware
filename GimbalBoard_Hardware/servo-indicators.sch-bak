@@ -3,7 +3,7 @@ EELAYER 30 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
-Sheet 7 7
+Sheet 8 8
 Title ""
 Date ""
 Rev ""
@@ -521,7 +521,7 @@ Connection ~ 5350 6150
 Wire Wire Line
 	5350 6150 5350 5400
 Text HLabel 5350 1000 1    50   Input ~ 0
-+5V
++5VA
 Wire Wire Line
 	5350 1650 5350 1000
 Connection ~ 5350 1650
