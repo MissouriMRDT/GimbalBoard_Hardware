@@ -38,17 +38,6 @@ Wire Wire Line
 Connection ~ 5150 3150
 Wire Wire Line
 	5150 3150 5150 3350
-$Comp
-L power:GND #PWR?
-U 1 1 6160C0A1
-P 5850 3900
-F 0 "#PWR?" H 5850 3650 50  0001 C CNN
-F 1 "GND" H 5855 3727 50  0000 C CNN
-F 2 "" H 5850 3900 50  0001 C CNN
-F 3 "" H 5850 3900 50  0001 C CNN
-	1    5850 3900
-	1    0    0    -1  
-$EndComp
 Text HLabel 6650 3150 2    50   Output ~ 0
 +5VL
 Text HLabel 4900 3150 0    50   Input ~ 0
@@ -120,17 +109,6 @@ Wire Wire Line
 Connection ~ 5150 1750
 Wire Wire Line
 	5150 1750 5150 1950
-$Comp
-L power:GND #PWR?
-U 1 1 61623E2D
-P 5850 2500
-F 0 "#PWR?" H 5850 2250 50  0001 C CNN
-F 1 "GND" H 5855 2327 50  0000 C CNN
-F 2 "" H 5850 2500 50  0001 C CNN
-F 3 "" H 5850 2500 50  0001 C CNN
-	1    5850 2500
-	1    0    0    -1  
-$EndComp
 Text HLabel 6650 1750 2    50   Output ~ 0
 +3.3VL
 Text HLabel 4900 1750 0    50   Input ~ 0
@@ -177,4 +155,8 @@ F 3 "~" H 5150 2100 50  0001 C CNN
 	1    5150 2100
 	1    0    0    -1  
 $EndComp
+Text HLabel 5850 2500 3    50   Input ~ 0
+GND
+Text HLabel 5850 3900 3    50   Input ~ 0
+GND
 $EndSCHEMATC

@@ -54,14 +54,16 @@ F1 "3.3V-buck-converter.sch" 50
 F2 "Power_Input_Log" I L 2550 2500 50 
 F3 "+5VL" I R 3700 2500 50 
 F4 "+3.3VL" O R 3700 2800 50 
+F5 "GND" I L 2550 2800 50 
 $EndSheet
 $Sheet
-S 2550 1800 1150 200 
+S 2550 1800 1150 350 
 U 61606E20
 F0 "5V Buck Converter" 50
 F1 "5V-buck-converter.sch" 50
 F2 "Power_Input_Act" I L 2550 1900 50 
 F3 "+5VA" I R 3700 1900 50 
+F4 "GND" I L 2550 2050 50 
 $EndSheet
 $Comp
 L Device:D_Zener D1
@@ -121,9 +123,6 @@ Wire Wire Line
 	1550 2500 1550 2600
 Wire Wire Line
 	1550 2900 1550 3100
-Connection ~ 1550 3100
-Wire Wire Line
-	1550 3100 1750 3100
 Text Notes 700  1400 0    79   ~ 0
 Power Input
 Text Notes 2600 1400 0    79   ~ 0
@@ -295,14 +294,9 @@ Connection ~ 9100 5400
 Wire Wire Line
 	9100 5400 10000 5400
 Wire Wire Line
-	1750 4650 4100 4650
-Wire Wire Line
-	1750 3100 1750 3800
-Wire Wire Line
 	4100 4650 4100 5000
 Wire Wire Line
 	4100 5000 5750 5000
-Connection ~ 4100 4650
 Wire Wire Line
 	4100 4650 4400 4650
 Wire Wire Line
@@ -342,11 +336,6 @@ Wire Wire Line
 Wire Wire Line
 	5700 4400 6000 4400
 Wire Wire Line
-	2550 3800 1750 3800
-Connection ~ 1750 3800
-Wire Wire Line
-	1750 3800 1750 4650
-Wire Wire Line
 	3850 1900 3850 3400
 Wire Wire Line
 	3850 3400 3700 3400
@@ -381,4 +370,33 @@ Wire Wire Line
 Connection ~ 2300 1900
 Wire Wire Line
 	2300 1900 2400 1900
+Wire Wire Line
+	2300 3800 2300 4650
+Wire Wire Line
+	2300 4650 4100 4650
+Wire Wire Line
+	2300 3800 2550 3800
+Connection ~ 4100 4650
+Wire Wire Line
+	1550 3100 1800 3100
+Wire Wire Line
+	2200 3100 2200 3800
+Connection ~ 1550 3100
+Wire Wire Line
+	2200 3800 2300 3800
+Connection ~ 2300 3800
+Wire Wire Line
+	2550 2050 1800 2050
+Wire Wire Line
+	1800 2050 1800 3100
+Connection ~ 1800 3100
+Wire Wire Line
+	1800 3100 1950 3100
+Wire Wire Line
+	2550 2800 1950 2800
+Wire Wire Line
+	1950 2800 1950 3100
+Connection ~ 1950 3100
+Wire Wire Line
+	1950 3100 2200 3100
 $EndSCHEMATC

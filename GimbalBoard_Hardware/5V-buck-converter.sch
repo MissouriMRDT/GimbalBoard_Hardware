@@ -42,20 +42,6 @@ F 3 "" H 5450 2600 60  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L power:GND #PWR?
-U 1 1 6160A8C4
-P 5850 2900
-AR Path="/6160A8C4" Ref="#PWR?"  Part="1" 
-AR Path="/615B83A4/6160A8C4" Ref="#PWR?"  Part="1" 
-AR Path="/61606E20/6160A8C4" Ref="#PWR?"  Part="1" 
-F 0 "#PWR?" H 5850 2650 50  0001 C CNN
-F 1 "GND" H 5855 2727 50  0000 C CNN
-F 2 "" H 5850 2900 50  0001 C CNN
-F 3 "" H 5850 2900 50  0001 C CNN
-	1    5850 2900
-	1    0    0    -1  
-$EndComp
-$Comp
 L Device:C C?
 U 1 1 6160A8CA
 P 5200 3950
@@ -87,17 +73,6 @@ Text HLabel 4800 3550 0    50   Input ~ 0
 Power_Input_Act
 Text HLabel 6850 3550 2    50   Output ~ 0
 +5VA
-$Comp
-L power:GND #PWR?
-U 1 1 6160A8D8
-P 5850 4250
-F 0 "#PWR?" H 5850 4000 50  0001 C CNN
-F 1 "GND" H 5855 4077 50  0000 C CNN
-F 2 "" H 5850 4250 50  0001 C CNN
-F 3 "" H 5850 4250 50  0001 C CNN
-	1    5850 4250
-	1    0    0    -1  
-$EndComp
 Wire Wire Line
 	6250 2600 6500 2600
 Wire Wire Line
@@ -131,4 +106,8 @@ Wire Wire Line
 	6500 3550 6850 3550
 Wire Wire Line
 	4800 3550 5200 3550
+Text HLabel 5850 2900 3    50   Input ~ 0
+GND
+Text HLabel 5850 4250 3    50   Input ~ 0
+GND
 $EndSCHEMATC
