@@ -14,10 +14,10 @@ Comment3 ""
 Comment4 ""
 $EndDescr
 $Comp
-L MRDT_Connectors:AndersonPP Conn1
+L MRDT_Connectors:AndersonPP Conn9
 U 3 1 6159E4BE
 P 750 2000
-F 0 "Conn1" H 958 2387 60  0000 C CNN
+F 0 "Conn9" H 958 2387 60  0000 C CNN
 F 1 "AndersonPP" H 958 2281 60  0000 C CNN
 F 2 "" H 600 1450 60  0001 C CNN
 F 3 "" H 600 1450 60  0001 C CNN
@@ -25,10 +25,10 @@ F 3 "" H 600 1450 60  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L MRDT_Connectors:AndersonPP Conn1
+L MRDT_Connectors:AndersonPP Conn10
 U 2 1 6159E8BE
 P 750 2600
-F 0 "Conn1" H 958 2987 60  0000 C CNN
+F 0 "Conn10" H 958 2987 60  0000 C CNN
 F 1 "AndersonPP" H 958 2881 60  0000 C CNN
 F 2 "" H 600 2050 60  0001 C CNN
 F 3 "" H 600 2050 60  0001 C CNN
@@ -36,10 +36,10 @@ F 3 "" H 600 2050 60  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L MRDT_Connectors:AndersonPP Conn1
+L MRDT_Connectors:AndersonPP Conn11
 U 1 1 6159ED2C
 P 750 3200
-F 0 "Conn1" H 958 3587 60  0000 C CNN
+F 0 "Conn11" H 958 3587 60  0000 C CNN
 F 1 "AndersonPP" H 958 3481 60  0000 C CNN
 F 2 "" H 600 2650 60  0001 C CNN
 F 3 "" H 600 2650 60  0001 C CNN
@@ -66,10 +66,10 @@ F3 "+5VA" I R 3700 1900 50
 F4 "GND" I L 2550 2050 50 
 $EndSheet
 $Comp
-L Device:D_Zener D1
+L Device:D_Zener D25
 U 1 1 61614FDE
 P 1400 2150
-F 0 "D1" V 1354 2230 50  0000 L CNN
+F 0 "D25" V 1354 2230 50  0000 L CNN
 F 1 "D_Zener" V 1445 2230 50  0000 L CNN
 F 2 "" H 1400 2150 50  0001 C CNN
 F 3 "~" H 1400 2150 50  0001 C CNN
@@ -77,10 +77,10 @@ F 3 "~" H 1400 2150 50  0001 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L Device:D_Zener D2
+L Device:D_Zener D26
 U 1 1 6161595A
 P 1550 2750
-F 0 "D2" V 1504 2830 50  0000 L CNN
+F 0 "D26" V 1504 2830 50  0000 L CNN
 F 1 "D_Zener" V 1595 2830 50  0000 L CNN
 F 2 "" H 1550 2750 50  0001 C CNN
 F 3 "~" H 1550 2750 50  0001 C CNN
