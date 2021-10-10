@@ -411,4 +411,17 @@ Wire Wire Line
 Connection ~ 2300 2500
 Wire Wire Line
 	2300 2500 2550 2500
+$Comp
+L power:GND #PWR?
+U 1 1 6163F6CB
+P 1400 3300
+F 0 "#PWR?" H 1400 3050 50  0001 C CNN
+F 1 "GND" H 1405 3127 50  0000 C CNN
+F 2 "" H 1400 3300 50  0001 C CNN
+F 3 "" H 1400 3300 50  0001 C CNN
+	1    1400 3300
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	1400 3300 1400 3100
 $EndSCHEMATC

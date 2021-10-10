@@ -70,8 +70,6 @@ Text HLabel 4550 4400 2    50   Input ~ 0
 Servo_Manual_Control_Right
 Text HLabel 4550 4300 2    50   Input ~ 0
 Servo_Manual_Control_Left
-Text HLabel 4550 5700 2    50   Input ~ 0
-GND
 Text Notes 3550 1450 0    79   ~ 0
 Teensy
 NoConn ~ 2950 2500
@@ -109,4 +107,8 @@ NoConn ~ 4550 2600
 NoConn ~ 4550 2500
 NoConn ~ 4550 2300
 NoConn ~ 4550 2200
+Text HLabel 4550 5800 2    50   Input ~ 0
+GND
+Text HLabel 4550 5700 2    50   Input ~ 0
+GND
 $EndSCHEMATC
