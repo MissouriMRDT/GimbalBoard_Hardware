@@ -123,41 +123,29 @@ Wire Wire Line
 	1550 2500 1550 2600
 Wire Wire Line
 	1550 2900 1550 3100
-Text Notes 700  1400 0    79   ~ 0
+Text Notes 650  1350 0    79   ~ 0
 Power Input
-Text Notes 2600 1400 0    79   ~ 0
+Text Notes 2600 1500 0    79   ~ 0
 Buck Converters
 Text Notes 950  2600 0    50   ~ 0
 +12VL
 Text Notes 950  2000 0    50   ~ 0
 +12VA\n
 $Sheet
-S 2550 3300 1150 650 
-U 61616981
-F0 "Power_Indicators" 50
-F1 "Power_Indicators.sch" 50
-F2 "Power_Input_Act" I L 2550 3400 50 
-F3 "Power_Input_Log" I L 2550 3550 50 
-F4 "+5VA" I R 3700 3400 50 
-F5 "+5VL" I R 3700 3550 50 
-F6 "+3.3VL" I R 3700 3700 50 
-F7 "GND" I L 2550 3800 50 
-$EndSheet
-$Sheet
 S 10000 4050 950  1950
 U 615E206C
 F0 "Molex" 50
 F1 "Molex.sch" 50
 F2 "Servo_1_PWM" I L 10000 4350 50 
-F3 "+5V" I L 10000 4200 50 
-F4 "Servo_2_PWM" I L 10000 4500 50 
-F5 "Servo_3_PWM" I L 10000 4650 50 
-F6 "Servo_4_PWM" I L 10000 4800 50 
-F7 "Servo_5_PWM" I L 10000 4950 50 
-F8 "Servo_6_PWM" I L 10000 5100 50 
-F9 "Servo_7_PWM" I L 10000 5250 50 
-F10 "Servo_8_PWM" I L 10000 5400 50 
-F11 "GND" I L 10000 5850 50 
+F3 "Servo_2_PWM" I L 10000 4500 50 
+F4 "Servo_3_PWM" I L 10000 4650 50 
+F5 "Servo_4_PWM" I L 10000 4800 50 
+F6 "Servo_5_PWM" I L 10000 4950 50 
+F7 "Servo_6_PWM" I L 10000 5100 50 
+F8 "Servo_7_PWM" I L 10000 5250 50 
+F9 "Servo_8_PWM" I L 10000 5400 50 
+F10 "GND" I L 10000 5850 50 
+F11 "+5VA" I L 10000 4200 50 
 $EndSheet
 $Sheet
 S 6000 2300 1250 2850
@@ -199,8 +187,8 @@ F6 "Servo_5_PWM" I R 8750 4950 50
 F7 "Servo_6_PWM" I R 8750 5100 50 
 F8 "Servo_7_PWM" I R 8750 5250 50 
 F9 "Servo_8_PWM" I R 8750 5400 50 
-F10 "+5V" I R 8750 4200 50 
-F11 "GND" I L 7850 5500 50 
+F10 "GND" I L 7850 5500 50 
+F11 "+5VA" I R 8750 4200 50 
 $EndSheet
 Wire Wire Line
 	1400 1900 2300 1900
@@ -335,56 +323,24 @@ Wire Wire Line
 	5700 4250 6000 4250
 Wire Wire Line
 	5700 4400 6000 4400
-Wire Wire Line
-	3850 1900 3850 3400
-Wire Wire Line
-	3850 3400 3700 3400
 Connection ~ 3850 1900
 Wire Wire Line
 	3850 1900 9900 1900
-Wire Wire Line
-	3950 2500 3950 3550
-Wire Wire Line
-	3950 3550 3700 3550
 Connection ~ 3950 2500
 Wire Wire Line
 	3950 2500 6000 2500
-Wire Wire Line
-	4050 2800 4050 3700
-Wire Wire Line
-	4050 3700 3700 3700
 Connection ~ 4050 2800
 Wire Wire Line
 	4050 2800 4400 2800
-Wire Wire Line
-	2550 3400 2400 3400
-Wire Wire Line
-	2400 3400 2400 1900
 Connection ~ 2400 1900
 Wire Wire Line
 	2400 1900 2550 1900
-Wire Wire Line
-	2550 3550 2300 3550
-Wire Wire Line
-	2300 3550 2300 1900
 Connection ~ 2300 1900
 Wire Wire Line
 	2300 1900 2400 1900
 Wire Wire Line
-	2300 3800 2300 4650
-Wire Wire Line
-	2300 4650 4100 4650
-Wire Wire Line
-	2300 3800 2550 3800
-Connection ~ 4100 4650
-Wire Wire Line
 	1550 3100 1800 3100
-Wire Wire Line
-	2200 3100 2200 3800
 Connection ~ 1550 3100
-Wire Wire Line
-	2200 3800 2300 3800
-Connection ~ 2300 3800
 Wire Wire Line
 	2550 2050 1800 2050
 Wire Wire Line
@@ -399,4 +355,60 @@ Wire Wire Line
 Connection ~ 1950 3100
 Wire Wire Line
 	1950 3100 2200 3100
+$Sheet
+S 2550 3650 1150 650 
+U 61616981
+F0 "Power_Indicators" 50
+F1 "Power_Indicators.sch" 50
+F2 "Power_Input_Act" I L 2550 3750 50 
+F3 "Power_Input_Log" I L 2550 3900 50 
+F4 "+5VA" I R 3700 3750 50 
+F5 "+5VL" I R 3700 3900 50 
+F6 "+3.3VL" I R 3700 4050 50 
+F7 "GND" I L 2550 4150 50 
+$EndSheet
+Text Notes 950  3200 0    50   ~ 0
+GND
+Text Notes 4450 2300 0    79   ~ 0
+Manual Switches
+Text Notes 6050 1700 0    79   ~ 0
+Microcontroller
+Text Notes 7800 3800 0    79   ~ 0
+Servo Indicators
+Text Notes 10000 3800 0    79   ~ 0
+Servo Connectors\n
+Text Notes 2600 3350 0    79   ~ 0
+Power Indicators
+Wire Wire Line
+	2200 4150 2350 4150
+Wire Wire Line
+	2200 3100 2200 4150
+Wire Wire Line
+	2400 3750 2550 3750
+Wire Wire Line
+	2400 1900 2400 3750
+Wire Wire Line
+	2300 3900 2550 3900
+Wire Wire Line
+	2300 1900 2300 3900
+Wire Wire Line
+	3850 3750 3700 3750
+Wire Wire Line
+	3850 1900 3850 3750
+Wire Wire Line
+	3950 3900 3700 3900
+Wire Wire Line
+	3950 2500 3950 3900
+Wire Wire Line
+	4050 4050 3700 4050
+Wire Wire Line
+	4050 2800 4050 4050
+Wire Wire Line
+	4100 4650 2350 4650
+Wire Wire Line
+	2350 4650 2350 4150
+Connection ~ 4100 4650
+Connection ~ 2350 4150
+Wire Wire Line
+	2350 4150 2550 4150
 $EndSCHEMATC
