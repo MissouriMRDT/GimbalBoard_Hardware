@@ -3,7 +3,7 @@ EELAYER 30 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
-Sheet 8 8
+Sheet 7 8
 Title ""
 Date ""
 Rev ""
@@ -527,4 +527,6 @@ Wire Wire Line
 Connection ~ 5350 1650
 Text HLabel 3450 7350 3    50   Input ~ 0
 GND
+Text Notes 3850 1000 0    79   ~ 0
+Servo Indicators
 $EndSCHEMATC

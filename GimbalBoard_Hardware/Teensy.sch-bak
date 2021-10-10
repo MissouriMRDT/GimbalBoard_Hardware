@@ -3,7 +3,7 @@ EELAYER 30 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
-Sheet 7 8
+Sheet 6 8
 Title ""
 Date ""
 Rev ""
@@ -72,4 +72,6 @@ Text HLabel 4550 4300 2    50   Input ~ 0
 Servo_Manual_Control_Left
 Text HLabel 4550 5700 2    50   Input ~ 0
 GND
+Text Notes 3550 1450 0    79   ~ 0
+Teensy
 $EndSCHEMATC

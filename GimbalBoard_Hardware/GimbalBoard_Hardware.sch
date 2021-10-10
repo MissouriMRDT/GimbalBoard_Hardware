@@ -190,11 +190,9 @@ F9 "Servo_8_PWM" I R 8750 5400 50
 F10 "GND" I L 7850 5500 50 
 F11 "+5VA" I R 8750 4200 50 
 $EndSheet
-Wire Wire Line
-	1400 1900 2300 1900
 Connection ~ 1400 1900
 Wire Wire Line
-	1550 2500 2550 2500
+	1550 2500 2300 2500
 Connection ~ 1550 2500
 Wire Wire Line
 	3700 2800 4050 2800
@@ -335,9 +333,6 @@ Wire Wire Line
 Connection ~ 2400 1900
 Wire Wire Line
 	2400 1900 2550 1900
-Connection ~ 2300 1900
-Wire Wire Line
-	2300 1900 2400 1900
 Wire Wire Line
 	1550 3100 1800 3100
 Connection ~ 1550 3100
@@ -390,8 +385,6 @@ Wire Wire Line
 Wire Wire Line
 	2300 3900 2550 3900
 Wire Wire Line
-	2300 1900 2300 3900
-Wire Wire Line
 	3850 3750 3700 3750
 Wire Wire Line
 	3850 1900 3850 3750
@@ -411,4 +404,11 @@ Connection ~ 4100 4650
 Connection ~ 2350 4150
 Wire Wire Line
 	2350 4150 2550 4150
+Wire Wire Line
+	1400 1900 2400 1900
+Wire Wire Line
+	2300 3900 2300 2500
+Connection ~ 2300 2500
+Wire Wire Line
+	2300 2500 2550 2500
 $EndSCHEMATC

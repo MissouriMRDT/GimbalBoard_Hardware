@@ -110,4 +110,6 @@ Text HLabel 5850 2900 3    50   Input ~ 0
 GND
 Text HLabel 5850 4250 3    50   Input ~ 0
 GND
+Text Notes 5400 2100 0    79   ~ 0
+5VA Converter
 $EndSCHEMATC

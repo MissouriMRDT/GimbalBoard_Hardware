@@ -123,9 +123,9 @@ Wire Wire Line
 	1550 2500 1550 2600
 Wire Wire Line
 	1550 2900 1550 3100
-Text Notes 700  1400 0    79   ~ 0
+Text Notes 650  1350 0    79   ~ 0
 Power Input
-Text Notes 2600 1400 0    79   ~ 0
+Text Notes 2600 1500 0    79   ~ 0
 Buck Converters
 Text Notes 950  2600 0    50   ~ 0
 +12VL
@@ -190,11 +190,9 @@ F9 "Servo_8_PWM" I R 8750 5400 50
 F10 "GND" I L 7850 5500 50 
 F11 "+5VA" I R 8750 4200 50 
 $EndSheet
-Wire Wire Line
-	1400 1900 2300 1900
 Connection ~ 1400 1900
 Wire Wire Line
-	1550 2500 2550 2500
+	1550 2500 2300 2500
 Connection ~ 1550 2500
 Wire Wire Line
 	3700 2800 4050 2800
@@ -335,9 +333,6 @@ Wire Wire Line
 Connection ~ 2400 1900
 Wire Wire Line
 	2400 1900 2550 1900
-Connection ~ 2300 1900
-Wire Wire Line
-	2300 1900 2400 1900
 Wire Wire Line
 	1550 3100 1800 3100
 Connection ~ 1550 3100
@@ -369,9 +364,9 @@ F7 "GND" I L 2550 4150 50
 $EndSheet
 Text Notes 950  3200 0    50   ~ 0
 GND
-Text Notes 4450 1400 0    79   ~ 0
+Text Notes 4450 2300 0    79   ~ 0
 Manual Switches
-Text Notes 6100 1400 0    79   ~ 0
+Text Notes 6050 1700 0    79   ~ 0
 Microcontroller
 Text Notes 7800 3800 0    79   ~ 0
 Servo Indicators
@@ -389,8 +384,6 @@ Wire Wire Line
 	2400 1900 2400 3750
 Wire Wire Line
 	2300 3900 2550 3900
-Wire Wire Line
-	2300 1900 2300 3900
 Wire Wire Line
 	3850 3750 3700 3750
 Wire Wire Line
@@ -411,4 +404,11 @@ Connection ~ 4100 4650
 Connection ~ 2350 4150
 Wire Wire Line
 	2350 4150 2550 4150
+Wire Wire Line
+	1400 1900 2400 1900
+Wire Wire Line
+	2300 3900 2300 2500
+Connection ~ 2300 2500
+Wire Wire Line
+	2300 2500 2550 2500
 $EndSCHEMATC
