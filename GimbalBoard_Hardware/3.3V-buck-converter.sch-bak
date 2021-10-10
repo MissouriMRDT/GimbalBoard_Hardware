@@ -146,14 +146,8 @@ F 3 "~" H 5150 2100 50  0001 C CNN
 	1    5150 2100
 	1    0    0    -1  
 $EndComp
-Text HLabel 5850 2500 3    50   Output ~ 0
-GND
-Text HLabel 5850 4350 3    50   Output ~ 0
-GND
 Wire Wire Line
 	4900 1750 5150 1750
-Text HLabel 4900 1750 0    50   Input ~ 0
-Power_Input_Log
 Connection ~ 5150 3600
 Text HLabel 4900 3600 0    50   Input ~ 0
 Power_Input_Log
@@ -163,4 +157,10 @@ Text Notes 5350 1250 0    79   ~ 0
 3.3VL Converter
 Text Notes 5500 3100 0    79   ~ 0
 5VL Converter
+Text HLabel 4900 1750 0    50   Input ~ 0
+Power_Input_Log
+Text HLabel 5850 4350 3    50   Output ~ 0
+GND
+Text HLabel 5850 2500 3    50   Output ~ 0
+GND
 $EndSCHEMATC

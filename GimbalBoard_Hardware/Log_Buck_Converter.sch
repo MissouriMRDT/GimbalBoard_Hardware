@@ -153,10 +153,10 @@ Text HLabel 4900 3600 0    50   Input ~ 0
 Power_Input_Log
 Wire Wire Line
 	4900 3600 5150 3600
-Text Notes 5350 1250 0    79   ~ 0
-3.3VL Converter
-Text Notes 5500 3100 0    79   ~ 0
-5VL Converter
+Text Notes 5150 1250 0    79   ~ 0
+12VL to 3.3VL Converter
+Text Notes 5250 3100 0    79   ~ 0
+12VL to 5VL Converter
 Text HLabel 4900 1750 0    50   Input ~ 0
 Power_Input_Log
 Text HLabel 5850 4350 3    50   Output ~ 0

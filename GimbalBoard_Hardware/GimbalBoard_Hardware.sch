@@ -49,8 +49,8 @@ $EndComp
 $Sheet
 S 2550 2400 1150 500 
 U 6160709D
-F0 "3.3V Buck Converter" 50
-F1 "3.3V-buck-converter.sch" 50
+F0 "Logic Buck Converter" 50
+F1 "Log_Buck_Converter.sch" 50
 F2 "Power_Input_Log" I L 2550 2500 50 
 F3 "+5VL" I R 3700 2500 50 
 F4 "+3.3VL" O R 3700 2800 50 
@@ -59,8 +59,8 @@ $EndSheet
 $Sheet
 S 2550 1800 1150 350 
 U 61606E20
-F0 "5V Buck Converter" 50
-F1 "5V-buck-converter.sch" 50
+F0 "Actuation Buck Converter" 50
+F1 "Act_Buck_Converter.sch" 50
 F2 "Power_Input_Act" I L 2550 1900 50 
 F3 "+5VA" I R 3700 1900 50 
 F4 "GND" I L 2550 2050 50 
@@ -90,8 +90,8 @@ $EndComp
 $Sheet
 S 4400 2700 1300 2150
 U 615E1D59
-F0 "switches" 50
-F1 "switches.sch" 50
+F0 "Switches" 50
+F1 "Switches.sch" 50
 F2 "Servo_1_SW" O R 5700 2850 50 
 F3 "Servo_2_SW" O R 5700 3000 50 
 F4 "Servo_3­_SW" O R 5700 3150 50 
@@ -134,8 +134,8 @@ Text Notes 950  2000 0    50   ~ 0
 $Sheet
 S 10000 4050 950  1950
 U 615E206C
-F0 "Molex" 50
-F1 "Molex.sch" 50
+F0 "Servo Connectors" 50
+F1 "Servo_Connectors.sch" 50
 F2 "Servo_1_PWM" I L 10000 4350 50 
 F3 "Servo_2_PWM" I L 10000 4500 50 
 F4 "Servo_3_PWM" I L 10000 4650 50 
@@ -178,7 +178,7 @@ $Sheet
 S 7850 4050 900  1600
 U 6162A3B9
 F0 "Servo Indicators" 50
-F1 "servo-indicators.sch" 50
+F1 "Servo_Indicators.sch" 50
 F2 "Servo_1_PWM" I R 8750 4350 50 
 F3 "Servo_2_PWM" I R 8750 4500 50 
 F4 "Servo_3_PWM" I R 8750 4650 50 

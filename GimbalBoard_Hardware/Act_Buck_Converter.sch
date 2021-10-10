@@ -110,4 +110,6 @@ F 3 "~" H 5200 3950 50  0001 C CNN
 	1    5200 3950
 	1    0    0    -1  
 $EndComp
+Text Notes 5250 2050 0    79   ~ 0
+12VA to 5VA Converter
 $EndSCHEMATC

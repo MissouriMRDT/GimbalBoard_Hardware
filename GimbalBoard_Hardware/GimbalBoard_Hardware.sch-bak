@@ -49,8 +49,8 @@ $EndComp
 $Sheet
 S 2550 2400 1150 500 
 U 6160709D
-F0 "3.3V Buck Converter" 50
-F1 "3.3V-buck-converter.sch" 50
+F0 "Logic Buck Converter" 50
+F1 "Log_Buck_Converter.sch" 50
 F2 "Power_Input_Log" I L 2550 2500 50 
 F3 "+5VL" I R 3700 2500 50 
 F4 "+3.3VL" O R 3700 2800 50 
@@ -59,8 +59,8 @@ $EndSheet
 $Sheet
 S 2550 1800 1150 350 
 U 61606E20
-F0 "5V Buck Converter" 50
-F1 "5V-buck-converter.sch" 50
+F0 "Actuation Buck Converter" 50
+F1 "Act_Buck_Converter.sch" 50
 F2 "Power_Input_Act" I L 2550 1900 50 
 F3 "+5VA" I R 3700 1900 50 
 F4 "GND" I L 2550 2050 50 
