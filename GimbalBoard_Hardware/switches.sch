@@ -3,7 +3,7 @@ EELAYER 30 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
-Sheet 4 8
+Sheet 2 5
 Title ""
 Date ""
 Rev ""
@@ -443,28 +443,6 @@ Wire Wire Line
 Connection ~ 3700 6850
 Wire Wire Line
 	3700 6850 3700 7000
-$Comp
-L Device:LED D14
-U 1 1 6161933E
-P 6600 1950
-F 0 "D14" H 6593 1695 50  0000 C CNN
-F 1 "LED" H 6593 1786 50  0000 C CNN
-F 2 "" H 6600 1950 50  0001 C CNN
-F 3 "~" H 6600 1950 50  0001 C CNN
-	1    6600 1950
-	-1   0    0    1   
-$EndComp
-$Comp
-L Device:R R14
-U 1 1 6161A7C1
-P 6100 1950
-F 0 "R14" V 6000 1950 50  0000 C CNN
-F 1 "43" V 6100 1950 50  0000 C CNN
-F 2 "" V 6030 1950 50  0001 C CNN
-F 3 "~" H 6100 1950 50  0001 C CNN
-	1    6100 1950
-	0    1    1    0   
-$EndComp
 Text HLabel 2650 1850 2    50   Output ~ 0
 Servo_1_SW
 Text HLabel 2650 2550 2    50   Output ~ 0
@@ -481,136 +459,118 @@ Text HLabel 2650 5800 2    50   Output ~ 0
 Servo_7_SW
 Text HLabel 2650 6450 2    50   Output ~ 0
 Servo_8_SW
-Text HLabel 6200 2200 2    50   Output ~ 0
-Servo_Digital_Control
-Wire Wire Line
-	4800 2050 4800 2300
-Wire Wire Line
-	4800 2300 5100 2300
-Wire Wire Line
-	5500 2200 5750 2200
-Wire Wire Line
-	5950 1950 5750 1950
-Connection ~ 5750 2200
-Wire Wire Line
-	5750 2200 6200 2200
-Wire Wire Line
-	6250 1950 6450 1950
-Wire Wire Line
-	5750 1950 5750 2200
-$Comp
-L Device:LED D15
-U 1 1 61657CB4
-P 6650 2500
-F 0 "D15" H 6643 2245 50  0000 C CNN
-F 1 "LED" H 6643 2336 50  0000 C CNN
-F 2 "" H 6650 2500 50  0001 C CNN
-F 3 "~" H 6650 2500 50  0001 C CNN
-	1    6650 2500
-	-1   0    0    1   
-$EndComp
-$Comp
-L Device:LED D16
-U 1 1 61657CBA
-P 6650 3150
-F 0 "D16" H 6643 2895 50  0000 C CNN
-F 1 "LED" H 6643 2986 50  0000 C CNN
-F 2 "" H 6650 3150 50  0001 C CNN
-F 3 "~" H 6650 3150 50  0001 C CNN
-	1    6650 3150
-	-1   0    0    1   
-$EndComp
-$Comp
-L Device:R R15
-U 1 1 61657CC0
-P 6150 2500
-F 0 "R15" V 6050 2500 50  0000 C CNN
-F 1 "43" V 6150 2500 50  0000 C CNN
-F 2 "" V 6080 2500 50  0001 C CNN
-F 3 "~" H 6150 2500 50  0001 C CNN
-	1    6150 2500
-	0    1    1    0   
-$EndComp
-$Comp
-L Device:R R16
-U 1 1 61657CC6
-P 6150 3150
-F 0 "R16" V 6050 3150 50  0000 C CNN
-F 1 "43" V 6150 3150 50  0000 C CNN
-F 2 "" V 6080 3150 50  0001 C CNN
-F 3 "~" H 6150 3150 50  0001 C CNN
-	1    6150 3150
-	0    1    1    0   
-$EndComp
-Text HLabel 6250 2750 2    50   Output ~ 0
-Servo_Manual_Control_Left
-Text HLabel 6250 3400 2    50   Output ~ 0
-Servo_Manual_Control_Right
-Wire Wire Line
-	6000 2500 5800 2500
-Connection ~ 5800 2750
-Wire Wire Line
-	5800 2750 6250 2750
-Wire Wire Line
-	6000 3150 5850 3150
-Wire Wire Line
-	6300 2500 6500 2500
-Wire Wire Line
-	6300 3150 6500 3150
-Wire Wire Line
-	7550 3150 6800 3150
-Wire Wire Line
-	5800 2500 5800 2750
-$Comp
-L Switch:SW_SP3T SW9
-U 1 1 6168F99A
-P 5300 2300
-F 0 "SW9" H 5300 2583 50  0000 C CNN
-F 1 "SW_SP3T" H 5300 2492 50  0000 C CNN
-F 2 "" H 4675 2475 50  0001 C CNN
-F 3 "~" H 4675 2475 50  0001 C CNN
-	1    5300 2300
-	1    0    0    -1  
-$EndComp
-Wire Wire Line
-	5550 3400 5850 3400
-Wire Wire Line
-	5850 3150 5850 3400
-Connection ~ 5850 3400
-Wire Wire Line
-	5850 3400 6250 3400
-Wire Wire Line
-	5500 2300 5650 2300
-Wire Wire Line
-	5650 2300 5650 2750
-Wire Wire Line
-	5650 2750 5800 2750
-Wire Wire Line
-	5500 2400 5550 2400
-Wire Wire Line
-	5550 2400 5550 3400
-Connection ~ 7550 3150
-Wire Wire Line
-	7550 3150 7550 3700
-Wire Wire Line
-	6750 1950 7550 1950
-Wire Wire Line
-	7550 1950 7550 2500
-Wire Wire Line
-	6800 2500 7550 2500
-Connection ~ 7550 2500
-Wire Wire Line
-	7550 2500 7550 3150
 Text HLabel 1600 1900 1    50   Input ~ 0
 3.3VL
 Text HLabel 3700 7000 3    50   Input ~ 0
 GND
-Text HLabel 4800 2050 1    50   Input ~ 0
-3.3VL
-Text HLabel 7550 3700 3    50   Input ~ 0
-GND
-Text Notes 5750 1300 0    79   ~ 0
+Text Notes 5600 1350 0    79   ~ 0
 Digital/Manual Switch
 Text Notes 2050 1250 0    79   ~ 0
 Manual Servo Switches
+$Comp
+L Switch:SW_DPDT_x2 SW9
+U 1 1 617F83FD
+P 5000 2200
+F 0 "SW9" H 5000 2485 50  0000 C CNN
+F 1 "SW_DPDT_x2" H 5000 2394 50  0000 C CNN
+F 2 "" H 5000 2200 50  0001 C CNN
+F 3 "~" H 5000 2200 50  0001 C CNN
+	1    5000 2200
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	4500 1950 4500 2200
+Wire Wire Line
+	4500 2200 4800 2200
+$Comp
+L Device:LED D15
+U 1 1 617FDA6F
+P 6350 2300
+F 0 "D15" H 6343 2045 50  0000 C CNN
+F 1 "LED" H 6343 2136 50  0000 C CNN
+F 2 "" H 6350 2300 50  0001 C CNN
+F 3 "~" H 6350 2300 50  0001 C CNN
+	1    6350 2300
+	-1   0    0    1   
+$EndComp
+$Comp
+L Device:LED D16
+U 1 1 617FDA75
+P 6350 3050
+F 0 "D16" H 6343 2795 50  0000 C CNN
+F 1 "LED" H 6343 2886 50  0000 C CNN
+F 2 "" H 6350 3050 50  0001 C CNN
+F 3 "~" H 6350 3050 50  0001 C CNN
+	1    6350 3050
+	-1   0    0    1   
+$EndComp
+$Comp
+L Device:R R15
+U 1 1 617FDA7B
+P 5850 2300
+F 0 "R15" V 5750 2300 50  0000 C CNN
+F 1 "43" V 5850 2300 50  0000 C CNN
+F 2 "" V 5780 2300 50  0001 C CNN
+F 3 "~" H 5850 2300 50  0001 C CNN
+	1    5850 2300
+	0    1    1    0   
+$EndComp
+$Comp
+L Device:R R16
+U 1 1 617FDA81
+P 5850 3050
+F 0 "R16" V 5750 3050 50  0000 C CNN
+F 1 "43" V 5850 3050 50  0000 C CNN
+F 2 "" V 5780 3050 50  0001 C CNN
+F 3 "~" H 5850 3050 50  0001 C CNN
+	1    5850 3050
+	0    1    1    0   
+$EndComp
+Text HLabel 5950 2550 2    50   Output ~ 0
+Servo_Manual_Control_Left
+Text HLabel 5950 3300 2    50   Output ~ 0
+Servo_Manual_Control_Right
+Wire Wire Line
+	5700 2300 5500 2300
+Connection ~ 5500 2550
+Wire Wire Line
+	5500 2550 5950 2550
+Wire Wire Line
+	5700 3050 5550 3050
+Wire Wire Line
+	6000 2300 6200 2300
+Wire Wire Line
+	6000 3050 6200 3050
+Wire Wire Line
+	7250 3050 6500 3050
+Wire Wire Line
+	5500 2300 5500 2550
+Wire Wire Line
+	5250 3300 5550 3300
+Wire Wire Line
+	5550 3050 5550 3300
+Connection ~ 5550 3300
+Wire Wire Line
+	5550 3300 5950 3300
+Wire Wire Line
+	5200 2100 5350 2100
+Wire Wire Line
+	5350 2100 5350 2550
+Wire Wire Line
+	5350 2550 5500 2550
+Wire Wire Line
+	5200 2300 5250 2300
+Wire Wire Line
+	5250 2300 5250 3300
+Wire Wire Line
+	7250 3050 7250 3600
+Wire Wire Line
+	6500 2300 7250 2300
+Text HLabel 4500 1950 1    50   Input ~ 0
+3.3VL
+Text HLabel 7250 3600 3    50   Input ~ 0
+GND
+Wire Wire Line
+	7250 2300 7250 3050
+Connection ~ 7250 3050
 $EndSCHEMATC
