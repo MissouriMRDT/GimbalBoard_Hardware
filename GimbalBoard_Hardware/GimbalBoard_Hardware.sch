@@ -155,18 +155,6 @@ $EndComp
 Wire Wire Line
 	2850 3200 2850 3000
 $Sheet
-S 3700 1650 1150 1600
-U 616B938E
-F0 "Buck Converters" 50
-F1 "buck-converters.sch" 50
-F2 "Power_Input_Act" I L 3700 1800 50 
-F3 "+5VL" O R 4850 2400 50 
-F4 "+3.3VL" O R 4850 2700 50 
-F5 "Power_Input_Log" I L 3700 2400 50 
-F6 "GND" I L 3700 3000 50 
-F7 "+5VA" O R 4850 1800 50 
-$EndSheet
-$Sheet
 S 6800 2200 1250 2850
 U 6163DAA7
 F0 "Teensy" 50
@@ -206,22 +194,6 @@ Wire Wire Line
 Connection ~ 3500 3000
 Wire Wire Line
 	3500 3000 3700 3000
-$Sheet
-S 8700 2100 950  1900
-U 6178B814
-F0 "Servo Connectors" 50
-F1 "servo-connectors.sch" 50
-F2 "Servo_1_PWM" I L 8700 2400 50 
-F3 "Servo_2_PWM" I L 8700 2550 50 
-F4 "Servo_3_PWM" I L 8700 2700 50 
-F5 "Servo_4_PWM" I L 8700 2850 50 
-F6 "Servo_5_PWM" I L 8700 3000 50 
-F7 "Servo_6_PWM" I L 8700 3150 50 
-F8 "Servo_7_PWM" I L 8700 3300 50 
-F9 "Servo_8_PWM" I L 8700 3450 50 
-F10 "+5VA" I L 8700 2200 50 
-F11 "GND" I L 8700 3650 50 
-$EndSheet
 Wire Wire Line
 	8400 1800 8400 2200
 Wire Wire Line
@@ -266,4 +238,32 @@ Wire Wire Line
 Connection ~ 6550 4900
 Text Notes 8700 1800 0    79   ~ 0
 Servo Connectors
+$Sheet
+S 3700 1650 1150 1600
+U 616B938E
+F0 "Buck Converters" 50
+F1 "buck-converters.sch" 50
+F2 "Power_Input_Act" I L 3700 1800 50 
+F3 "+5VL" O R 4850 2400 50 
+F4 "+3.3VL" O R 4850 2700 50 
+F5 "Power_Input_Log" I L 3700 2400 50 
+F6 "GND" I L 3700 3000 50 
+F7 "+5VA" O R 4850 1800 50 
+$EndSheet
+$Sheet
+S 8700 2100 950  1900
+U 6178B814
+F0 "Servo Connectors" 50
+F1 "servo-connectors2.sch" 50
+F2 "Servo_1_PWM" I L 8700 2400 50 
+F3 "Servo_2_PWM" I L 8700 2550 50 
+F4 "Servo_3_PWM" I L 8700 2700 50 
+F5 "Servo_4_PWM" I L 8700 2850 50 
+F6 "Servo_5_PWM" I L 8700 3000 50 
+F7 "Servo_6_PWM" I L 8700 3150 50 
+F8 "Servo_7_PWM" I L 8700 3300 50 
+F9 "Servo_8_PWM" I L 8700 3450 50 
+F10 "+5VA" I L 8700 2200 50 
+F11 "GND" I L 8700 3650 50 
+$EndSheet
 $EndSCHEMATC
