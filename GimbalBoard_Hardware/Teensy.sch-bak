@@ -3,7 +3,7 @@ EELAYER 30 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
-Sheet 4 5
+Sheet 3 5
 Title ""
 Date ""
 Rev ""
@@ -62,8 +62,6 @@ F 7 "4.1" H 3450 1700 50  0001 L BNN "PARTREV"
 	1    3750 3900
 	1    0    0    -1  
 $EndComp
-Text HLabel 4550 2000 2    50   Input ~ 0
-+5VL
 Text HLabel 4550 4400 2    50   Input ~ 0
 Servo_Manual_Control_Right
 Text HLabel 4550 4300 2    50   Input ~ 0
@@ -110,5 +108,7 @@ GND
 Text HLabel 4550 5700 2    50   Input ~ 0
 GND
 NoConn ~ 4550 4100
-NoConn ~ 4550 2100
+Text HLabel 4550 2100 2    50   Input ~ 0
++3.3VL
+NoConn ~ 4550 2000
 $EndSCHEMATC

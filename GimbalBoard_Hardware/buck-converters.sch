@@ -3,7 +3,7 @@ EELAYER 30 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
-Sheet 3 5
+Sheet 5 5
 Title ""
 Date ""
 Rev ""
@@ -15,66 +15,6 @@ Comment4 ""
 $EndDescr
 Text HLabel 1400 1750 0    50   Input ~ 0
 Power_Input_Act
-Wire Wire Line
-	8500 4100 8700 4100
-Wire Wire Line
-	8700 4300 8700 4100
-Wire Wire Line
-	8100 5000 8700 5000
-Connection ~ 8100 5000
-Wire Wire Line
-	7400 5000 8100 5000
-Wire Wire Line
-	7400 4100 7700 4100
-Wire Wire Line
-	7400 4100 7400 4300
-Text HLabel 9650 4100 2    50   Output ~ 0
-+5VL
-$Comp
-L MRDT_Devices:OKI U?
-U 1 1 616BE8BC
-P 7900 4200
-AR Path="/616BE8BC" Ref="U?"  Part="1" 
-AR Path="/615B83A4/616BE8BC" Ref="U?"  Part="1" 
-AR Path="/6160709D/616BE8BC" Ref="U?"  Part="1" 
-AR Path="/616B938E/616BE8BC" Ref="U4"  Part="1" 
-F 0 "U4" H 8100 4600 60  0000 C CNN
-F 1 "OKI" H 8100 4481 60  0000 C CNN
-F 2 "" H 7700 4100 60  0001 C CNN
-F 3 "" H 7700 4100 60  0001 C CNN
-	1    7900 4200
-	1    0    0    -1  
-$EndComp
-$Comp
-L Device:C C?
-U 1 1 616BE8C2
-P 8700 4450
-AR Path="/616BE8C2" Ref="C?"  Part="1" 
-AR Path="/615B83A4/616BE8C2" Ref="C?"  Part="1" 
-AR Path="/6160709D/616BE8C2" Ref="C?"  Part="1" 
-AR Path="/616B938E/616BE8C2" Ref="C6"  Part="1" 
-F 0 "C6" H 8815 4496 50  0000 L CNN
-F 1 "10uF" H 8815 4405 50  0000 L CNN
-F 2 "" H 8738 4300 50  0001 C CNN
-F 3 "~" H 8700 4450 50  0001 C CNN
-	1    8700 4450
-	1    0    0    -1  
-$EndComp
-$Comp
-L Device:C C?
-U 1 1 616BE8C8
-P 7400 4450
-AR Path="/616BE8C8" Ref="C?"  Part="1" 
-AR Path="/615B83A4/616BE8C8" Ref="C?"  Part="1" 
-AR Path="/6160709D/616BE8C8" Ref="C?"  Part="1" 
-AR Path="/616B938E/616BE8C8" Ref="C5"  Part="1" 
-F 0 "C5" H 7515 4496 50  0000 L CNN
-F 1 "10uF" H 7515 4405 50  0000 L CNN
-F 2 "" H 7438 4300 50  0001 C CNN
-F 3 "~" H 7400 4450 50  0001 C CNN
-	1    7400 4450
-	1    0    0    -1  
-$EndComp
 Wire Wire Line
 	8500 1750 8700 1750
 Connection ~ 8700 1750
@@ -135,15 +75,10 @@ F 3 "~" H 7400 2100 50  0001 C CNN
 	1    7400 2100
 	1    0    0    -1  
 $EndComp
-Connection ~ 7400 4100
 Text Notes 7400 1250 0    79   ~ 0
 12VL to 3.3VL Converter
-Text Notes 7400 3650 0    79   ~ 0
-12VL to 5VL Converter
 Text HLabel 6200 1750 0    50   Input ~ 0
 Power_Input_Log
-Text HLabel 8100 5100 3    50   Output ~ 0
-GND
 Text HLabel 8100 2850 3    50   Output ~ 0
 GND
 $Comp
@@ -173,19 +108,6 @@ F 3 "~" H 4300 2700 50  0001 C CNN
 	0    -1   -1   0   
 $EndComp
 $Comp
-L Device:LED D?
-U 1 1 616C1771
-P 9350 4750
-AR Path="/61616981/616C1771" Ref="D?"  Part="1" 
-AR Path="/616B938E/616C1771" Ref="D4"  Part="1" 
-F 0 "D4" H 9343 4495 50  0000 C CNN
-F 1 "LED" H 9343 4586 50  0000 C CNN
-F 2 "" H 9350 4750 50  0001 C CNN
-F 3 "~" H 9350 4750 50  0001 C CNN
-	1    9350 4750
-	0    -1   -1   0   
-$EndComp
-$Comp
 L Device:R R?
 U 1 1 616C177D
 P 6850 2000
@@ -209,19 +131,6 @@ F 1 "100" V 4300 2150 50  0000 C CNN
 F 2 "" V 4230 2150 50  0001 C CNN
 F 3 "~" H 4300 2150 50  0001 C CNN
 	1    4300 2150
-	-1   0    0    1   
-$EndComp
-$Comp
-L Device:R R?
-U 1 1 616C1789
-P 9350 4300
-AR Path="/61616981/616C1789" Ref="R?"  Part="1" 
-AR Path="/616B938E/616C1789" Ref="R4"  Part="1" 
-F 0 "R4" V 9250 4300 50  0000 C CNN
-F 1 "100" V 9350 4300 50  0000 C CNN
-F 2 "" V 9280 4300 50  0001 C CNN
-F 3 "~" H 9350 4300 50  0001 C CNN
-	1    9350 4300
 	-1   0    0    1   
 $EndComp
 Wire Wire Line
@@ -442,35 +351,5 @@ Wire Wire Line
 Wire Wire Line
 	9350 1750 9350 1850
 Wire Wire Line
-	8700 4100 9350 4100
-Connection ~ 8700 4100
-Wire Wire Line
-	9350 4100 9350 4150
-Connection ~ 9350 4100
-Wire Wire Line
-	9350 4450 9350 4600
-Wire Wire Line
-	8700 5000 9350 5000
-Wire Wire Line
-	9350 5000 9350 4900
-Connection ~ 8700 5000
-Wire Wire Line
-	8700 4600 8700 5000
-Wire Wire Line
-	8100 4400 8100 5000
-Wire Wire Line
-	7400 4600 7400 5000
-Wire Wire Line
-	8100 5000 8100 5100
-Wire Wire Line
-	6550 1750 6550 4100
-Wire Wire Line
-	6550 1750 6850 1750
-Wire Wire Line
-	6550 4100 7400 4100
-Wire Wire Line
-	6200 1750 6550 1750
-Connection ~ 6550 1750
-Wire Wire Line
-	9350 4100 9650 4100
+	6200 1750 6850 1750
 $EndSCHEMATC
