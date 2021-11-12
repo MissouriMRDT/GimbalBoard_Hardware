@@ -19,29 +19,29 @@ U 3 1 6159E4BE
 P 2200 1900
 F 0 "Conn9" H 2408 2287 60  0000 C CNN
 F 1 "AndersonPP" H 2408 2181 60  0000 C CNN
-F 2 "" H 2050 1350 60  0001 C CNN
+F 2 "MRDT_Connectors:Anderson_3_Horizontal_Side_by_Side" H 2050 1350 60  0001 C CNN
 F 3 "" H 2050 1350 60  0001 C CNN
 	3    2200 1900
 	1    0    0    -1  
 $EndComp
 $Comp
-L MRDT_Connectors:AndersonPP Conn10
+L MRDT_Connectors:AndersonPP Conn9
 U 2 1 6159E8BE
 P 2200 2500
-F 0 "Conn10" H 2408 2887 60  0000 C CNN
+F 0 "Conn9" H 2408 2887 60  0000 C CNN
 F 1 "AndersonPP" H 2408 2781 60  0000 C CNN
-F 2 "" H 2050 1950 60  0001 C CNN
+F 2 "MRDT_Connectors:Anderson_3_Horizontal_Side_by_Side" H 2050 1950 60  0001 C CNN
 F 3 "" H 2050 1950 60  0001 C CNN
 	2    2200 2500
 	1    0    0    -1  
 $EndComp
 $Comp
-L MRDT_Connectors:AndersonPP Conn11
+L MRDT_Connectors:AndersonPP Conn9
 U 1 1 6159ED2C
 P 2200 3100
-F 0 "Conn11" H 2408 3487 60  0000 C CNN
+F 0 "Conn9" H 2408 3487 60  0000 C CNN
 F 1 "AndersonPP" H 2408 3381 60  0000 C CNN
-F 2 "" H 2050 2550 60  0001 C CNN
+F 2 "MRDT_Connectors:Anderson_3_Horizontal_Side_by_Side" H 2050 2550 60  0001 C CNN
 F 3 "" H 2050 2550 60  0001 C CNN
 	1    2200 3100
 	1    0    0    -1  
