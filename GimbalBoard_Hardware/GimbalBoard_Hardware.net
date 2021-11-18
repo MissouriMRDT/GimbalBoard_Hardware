@@ -1,7 +1,7 @@
 (export (version D)
   (design
     (source C:\Users\isaac\OneDrive\Documents\GitHub\GimbalBoard_Hardware\GimbalBoard_Hardware\GimbalBoard_Hardware.sch)
-    (date "11/11/2021 7:46:04 PM")
+    (date "11/17/2021 7:33:18 PM")
     (tool "Eeschema (5.1.10)-1")
     (sheet (number 1) (name /) (tstamps /)
       (title_block
@@ -301,7 +301,7 @@
       (tstamp 6191223A))
     (comp (ref C5)
       (value 0.1uF)
-      (footprint Capacitor_SMD:C_0201_0603Metric_Pad0.64x0.40mm_HandSolder)
+      (footprint Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder)
       (datasheet ~)
       (libsource (lib Device) (part C_Small) (description "Unpolarized capacitor, small symbol"))
       (sheetpath (names /Teensy/) (tstamps /6163DAA7/))
