@@ -467,21 +467,8 @@ Text Notes 5600 1350 0    79   ~ 0
 Digital/Manual Switch
 Text Notes 2050 1250 0    79   ~ 0
 Manual Servo Switches
-$Comp
-L Switch:SW_DPDT_x2 SW9
-U 1 1 617F83FD
-P 5000 2200
-F 0 "SW9" H 5000 2485 50  0000 C CNN
-F 1 "SW_DPDT_x2" H 5000 2394 50  0000 C CNN
-F 2 "MRDT_Switches:2P2T_Switch_GrayHill_Series76" H 5000 2200 50  0001 C CNN
-F 3 "~" H 5000 2200 50  0001 C CNN
-	1    5000 2200
-	1    0    0    -1  
-$EndComp
 Wire Wire Line
-	4500 1950 4500 2200
-Wire Wire Line
-	4500 2200 4800 2200
+	4200 1850 4200 2100
 $Comp
 L Device:LED D15
 U 1 1 617FDA6F
@@ -553,24 +540,49 @@ Connection ~ 5550 3300
 Wire Wire Line
 	5550 3300 5950 3300
 Wire Wire Line
-	5200 2100 5350 2100
-Wire Wire Line
-	5350 2100 5350 2550
-Wire Wire Line
 	5350 2550 5500 2550
-Wire Wire Line
-	5200 2300 5250 2300
 Wire Wire Line
 	5250 2300 5250 3300
 Wire Wire Line
 	7250 3050 7250 3600
 Wire Wire Line
 	6500 2300 7250 2300
-Text HLabel 4500 1950 1    50   Input ~ 0
+Text HLabel 4200 1850 1    50   Input ~ 0
 3.3VL
 Text HLabel 7250 3600 3    50   Input ~ 0
 GND
 Wire Wire Line
 	7250 2300 7250 3050
 Connection ~ 7250 3050
+Wire Wire Line
+	5200 2300 5250 2300
+Wire Wire Line
+	4200 2100 4400 2100
+$Comp
+L MRDT_Switches:3P1T SW9
+U 1 1 61A05A6E
+P 4700 2400
+F 0 "SW9" H 4850 3187 60  0000 C CNN
+F 1 "3P1T" H 4850 3081 60  0000 C CNN
+F 2 "MRDT_Switches:3P1T_Switch" H 4450 2450 60  0001 C CNN
+F 3 "" H 4450 2450 60  0001 C CNN
+	1    4700 2400
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	5350 1900 5200 1900
+Wire Wire Line
+	5350 1900 5350 2550
+Wire Wire Line
+	4500 1900 4400 1900
+Wire Wire Line
+	4400 1900 4400 2100
+Connection ~ 4400 2100
+Wire Wire Line
+	4400 2100 4500 2100
+Wire Wire Line
+	4400 2100 4400 2300
+Wire Wire Line
+	4400 2300 4500 2300
+NoConn ~ 5200 2100
 $EndSCHEMATC
