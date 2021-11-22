@@ -46,28 +46,6 @@ F 3 "" H 2050 2550 60  0001 C CNN
 	1    2200 3100
 	1    0    0    -1  
 $EndComp
-$Comp
-L Device:D_Zener D25
-U 1 1 61614FDE
-P 2850 2050
-F 0 "D25" V 2804 2130 50  0000 L CNN
-F 1 "D_Zener" V 2895 2130 50  0000 L CNN
-F 2 "Diode_SMD:D_0201_0603Metric_Pad0.64x0.40mm_HandSolder" H 2850 2050 50  0001 C CNN
-F 3 "~" H 2850 2050 50  0001 C CNN
-	1    2850 2050
-	0    1    1    0   
-$EndComp
-$Comp
-L Device:D_Zener D26
-U 1 1 6161595A
-P 3000 2650
-F 0 "D26" V 2954 2730 50  0000 L CNN
-F 1 "D_Zener" V 3045 2730 50  0000 L CNN
-F 2 "Diode_SMD:D_0201_0603Metric_Pad0.64x0.40mm_HandSolder" H 3000 2650 50  0001 C CNN
-F 3 "~" H 3000 2650 50  0001 C CNN
-	1    3000 2650
-	0    1    1    0   
-$EndComp
 $Sheet
 S 5200 2600 1300 2150
 U 615E1D59
@@ -88,21 +66,7 @@ F13 "GND" I L 5200 4550 50
 $EndSheet
 Wire Wire Line
 	2600 3000 2850 3000
-Wire Wire Line
-	2600 1800 2850 1800
-Wire Wire Line
-	2850 1800 2850 1900
-Wire Wire Line
-	2600 2400 3000 2400
-Wire Wire Line
-	2850 2200 2850 3000
 Connection ~ 2850 3000
-Wire Wire Line
-	2850 3000 3000 3000
-Wire Wire Line
-	3000 2400 3000 2500
-Wire Wire Line
-	3000 2800 3000 3000
 Text Notes 2100 1250 0    79   ~ 0
 Power Input
 Text Notes 3750 1400 0    79   ~ 0
@@ -180,15 +144,6 @@ F19 "Servo_Manual_Control_Left" I L 6800 4150 50
 F20 "GND" I L 6800 4900 50 
 F21 "+3.3VL" I L 6800 2400 50 
 $EndSheet
-Wire Wire Line
-	2850 1800 3700 1800
-Connection ~ 2850 1800
-Wire Wire Line
-	3000 2400 3700 2400
-Connection ~ 3000 2400
-Wire Wire Line
-	3000 3000 3500 3000
-Connection ~ 3000 3000
 Wire Wire Line
 	3500 3000 3500 4550
 Connection ~ 3500 3000
@@ -270,4 +225,10 @@ Wire Wire Line
 Connection ~ 5000 2400
 Wire Wire Line
 	5000 2400 6800 2400
+Wire Wire Line
+	2600 1800 3700 1800
+Wire Wire Line
+	2600 2400 3700 2400
+Wire Wire Line
+	2850 3000 3500 3000
 $EndSCHEMATC

@@ -593,6 +593,34 @@ F 3 "~" H 2350 1650 50  0001 C CNN
 	1    2350 1650
 	1    0    0    -1  
 $EndComp
+Wire Wire Line
+	5600 1750 5150 1750
+Wire Wire Line
+	5600 1850 5000 1850
+Text HLabel 4850 1950 0    50   Input ~ 0
+Servo_1_PWM
+Wire Wire Line
+	5600 1950 4850 1950
+Text HLabel 5150 1500 1    50   Input ~ 0
++5VA
+Text Notes 4550 1000 0    79   ~ 0
+Molex SL Connectors
+Wire Wire Line
+	5150 1500 5150 1750
+Connection ~ 5150 1750
+Text HLabel 5000 6450 3    50   Input ~ 0
+GND
+Text HLabel 4850 6150 0    50   Input ~ 0
+Servo_8_PWM
+Connection ~ 5000 6050
+Wire Wire Line
+	5000 6050 5000 6450
+Wire Wire Line
+	5600 6150 4850 6150
+Wire Wire Line
+	5600 6050 5000 6050
+Wire Wire Line
+	5600 5950 5150 5950
 $Comp
 L MRDT_Connectors:Molex_SL_03 Conn?
 U 1 1 617A1B6D
@@ -619,6 +647,34 @@ F 3 "" H 5800 5600 60  0001 C CNN
 	1    5800 5600
 	1    0    0    -1  
 $EndComp
+Text HLabel 4850 5550 0    50   Input ~ 0
+Servo_7_PWM
+Connection ~ 5000 5450
+Wire Wire Line
+	5000 6050 5000 5450
+Wire Wire Line
+	5150 5350 5150 5950
+Connection ~ 5150 5350
+Wire Wire Line
+	5600 5550 4850 5550
+Wire Wire Line
+	5600 5450 5000 5450
+Wire Wire Line
+	5600 5350 5150 5350
+Text HLabel 4850 4950 0    50   Input ~ 0
+Servo_6_PWM
+Connection ~ 5000 4850
+Wire Wire Line
+	5000 5450 5000 4850
+Wire Wire Line
+	5150 4750 5150 5350
+Connection ~ 5150 4750
+Wire Wire Line
+	5600 4950 4850 4950
+Wire Wire Line
+	5600 4850 5000 4850
+Wire Wire Line
+	5600 4750 5150 4750
 $Comp
 L MRDT_Connectors:Molex_SL_03 Conn?
 U 1 1 617A1B79
@@ -632,6 +688,20 @@ F 3 "" H 5800 5000 60  0001 C CNN
 	1    5800 5000
 	1    0    0    -1  
 $EndComp
+Text HLabel 4850 4350 0    50   Input ~ 0
+Servo_5_PWM
+Connection ~ 5000 4250
+Wire Wire Line
+	5000 4850 5000 4250
+Wire Wire Line
+	5150 4150 5150 4750
+Connection ~ 5150 4150
+Wire Wire Line
+	5600 4350 4850 4350
+Wire Wire Line
+	5600 4250 5000 4250
+Wire Wire Line
+	5600 4150 5150 4150
 $Comp
 L MRDT_Connectors:Molex_SL_03 Conn?
 U 1 1 617A1B7F
@@ -645,6 +715,20 @@ F 3 "" H 5800 4400 60  0001 C CNN
 	1    5800 4400
 	1    0    0    -1  
 $EndComp
+Text HLabel 4850 3750 0    50   Input ~ 0
+Servo_4_PWM
+Connection ~ 5000 3650
+Wire Wire Line
+	5000 4250 5000 3650
+Wire Wire Line
+	5150 3550 5150 4150
+Connection ~ 5150 3550
+Wire Wire Line
+	5600 3750 4850 3750
+Wire Wire Line
+	5600 3650 5000 3650
+Wire Wire Line
+	5600 3550 5150 3550
 $Comp
 L MRDT_Connectors:Molex_SL_03 Conn?
 U 1 1 617A1B85
@@ -658,6 +742,20 @@ F 3 "" H 5800 3800 60  0001 C CNN
 	1    5800 3800
 	1    0    0    -1  
 $EndComp
+Text HLabel 4850 3150 0    50   Input ~ 0
+Servo_3_PWM
+Connection ~ 5150 2950
+Wire Wire Line
+	5150 2950 5150 3550
+Wire Wire Line
+	5000 3650 5000 3050
+Connection ~ 5000 3050
+Wire Wire Line
+	5600 2950 5150 2950
+Wire Wire Line
+	5600 3050 5000 3050
+Wire Wire Line
+	5600 3150 4850 3150
 $Comp
 L MRDT_Connectors:Molex_SL_03 Conn?
 U 1 1 617A1B8B
@@ -671,6 +769,24 @@ F 3 "" H 5800 3200 60  0001 C CNN
 	1    5800 3200
 	1    0    0    -1  
 $EndComp
+Text HLabel 4850 2550 0    50   Input ~ 0
+Servo_2_PWM
+Connection ~ 5000 2450
+Wire Wire Line
+	5000 3050 5000 2450
+Wire Wire Line
+	5150 2350 5150 2950
+Connection ~ 5150 2350
+Wire Wire Line
+	5150 1750 5150 2350
+Wire Wire Line
+	5000 2450 5000 1850
+Wire Wire Line
+	5600 2550 4850 2550
+Wire Wire Line
+	5600 2450 5000 2450
+Wire Wire Line
+	5600 2350 5150 2350
 $Comp
 L MRDT_Connectors:Molex_SL_03 Conn?
 U 1 1 617A1B91
@@ -697,120 +813,48 @@ F 3 "" H 5800 2000 60  0001 C CNN
 	1    5800 2000
 	1    0    0    -1  
 $EndComp
-Wire Wire Line
-	5600 1750 5150 1750
-Wire Wire Line
-	5150 1750 5150 2350
-Wire Wire Line
-	5600 2350 5150 2350
-Connection ~ 5150 2350
-Wire Wire Line
-	5150 2350 5150 2950
-Wire Wire Line
-	5600 2950 5150 2950
-Connection ~ 5150 2950
-Wire Wire Line
-	5150 2950 5150 3550
-Wire Wire Line
-	5600 3550 5150 3550
-Connection ~ 5150 3550
-Wire Wire Line
-	5150 3550 5150 4150
-Wire Wire Line
-	5600 4150 5150 4150
-Connection ~ 5150 4150
-Wire Wire Line
-	5150 4150 5150 4750
-Wire Wire Line
-	5600 4750 5150 4750
-Connection ~ 5150 4750
-Wire Wire Line
-	5150 4750 5150 5350
-Wire Wire Line
-	5600 5350 5150 5350
-Connection ~ 5150 5350
-Wire Wire Line
-	5150 5350 5150 5950
-Wire Wire Line
-	5600 5950 5150 5950
-Wire Wire Line
-	5600 6050 5000 6050
-Wire Wire Line
-	5000 6050 5000 5450
-Wire Wire Line
-	5600 5450 5000 5450
-Connection ~ 5000 5450
-Wire Wire Line
-	5000 5450 5000 4850
-Wire Wire Line
-	5600 4850 5000 4850
-Connection ~ 5000 4850
-Wire Wire Line
-	5000 4850 5000 4250
-Wire Wire Line
-	5600 4250 5000 4250
-Connection ~ 5000 4250
-Wire Wire Line
-	5000 4250 5000 3650
-Wire Wire Line
-	5600 3650 5000 3650
-Connection ~ 5000 3650
-Wire Wire Line
-	5000 3650 5000 3050
-Wire Wire Line
-	5600 3050 5000 3050
-Connection ~ 5000 3050
-Wire Wire Line
-	5000 3050 5000 2450
-Wire Wire Line
-	5600 2450 5000 2450
-Connection ~ 5000 2450
-Wire Wire Line
-	5000 2450 5000 1850
-Wire Wire Line
-	5600 1850 5000 1850
-Text HLabel 4850 1950 0    50   Input ~ 0
-Servo_1_PWM
-Text HLabel 4850 2550 0    50   Input ~ 0
-Servo_2_PWM
-Text HLabel 4850 3150 0    50   Input ~ 0
-Servo_3_PWM
-Text HLabel 4850 3750 0    50   Input ~ 0
-Servo_4_PWM
-Text HLabel 4850 4350 0    50   Input ~ 0
-Servo_5_PWM
-Text HLabel 4850 4950 0    50   Input ~ 0
-Servo_6_PWM
-Text HLabel 4850 5550 0    50   Input ~ 0
-Servo_7_PWM
-Text HLabel 4850 6150 0    50   Input ~ 0
-Servo_8_PWM
-Wire Wire Line
-	5600 6150 4850 6150
-Wire Wire Line
-	5600 5550 4850 5550
-Wire Wire Line
-	5600 4950 4850 4950
-Wire Wire Line
-	5600 4350 4850 4350
-Wire Wire Line
-	5600 3750 4850 3750
-Wire Wire Line
-	5600 3150 4850 3150
-Wire Wire Line
-	5600 2550 4850 2550
-Wire Wire Line
-	5600 1950 4850 1950
-Text HLabel 5150 1500 1    50   Input ~ 0
-+5VA
-Wire Wire Line
-	5000 6050 5000 6450
-Text HLabel 5000 6450 3    50   Input ~ 0
-GND
-Text Notes 4550 1000 0    79   ~ 0
-Molex SL Connectors
-Connection ~ 5000 6050
-Wire Wire Line
-	5150 1500 5150 1750
-Connection ~ 5150 1750
+$Comp
+L MRDT_Connectors:Molex_uF_D_06 Conn10
+U 1 1 61A57BF2
+P 7000 2600
+F 0 "Conn10" H 7128 3158 60  0000 L CNN
+F 1 "Molex_uF_D_06" H 7128 3052 60  0000 L CNN
+F 2 "MRDT_Connectors:MOLEX_uF_D_06_Horizontal" H 7000 2900 60  0001 C CNN
+F 3 "" H 7000 2900 60  0001 C CNN
+	1    7000 2600
+	1    0    0    -1  
+$EndComp
+$Comp
+L MRDT_Connectors:Molex_uF_D_06 Conn11
+U 1 1 61A58E08
+P 7000 3400
+F 0 "Conn11" H 7128 3958 60  0000 L CNN
+F 1 "Molex_uF_D_06" H 7128 3852 60  0000 L CNN
+F 2 "MRDT_Connectors:MOLEX_uF_D_06_Horizontal" H 7000 3700 60  0001 C CNN
+F 3 "" H 7000 3700 60  0001 C CNN
+	1    7000 3400
+	1    0    0    -1  
+$EndComp
+$Comp
+L MRDT_Connectors:Molex_uF_D_06 Conn12
+U 1 1 61A5BF21
+P 7050 4200
+F 0 "Conn12" H 7178 4758 60  0000 L CNN
+F 1 "Molex_uF_D_06" H 7178 4652 60  0000 L CNN
+F 2 "MRDT_Connectors:MOLEX_uF_D_06_Horizontal" H 7050 4500 60  0001 C CNN
+F 3 "" H 7050 4500 60  0001 C CNN
+	1    7050 4200
+	1    0    0    -1  
+$EndComp
+$Comp
+L MRDT_Connectors:Molex_uF_D_06 Conn13
+U 1 1 61A5F2E6
+P 7050 5000
+F 0 "Conn13" H 7178 5558 60  0000 L CNN
+F 1 "Molex_uF_D_06" H 7178 5452 60  0000 L CNN
+F 2 "MRDT_Connectors:MOLEX_uF_D_06_Horizontal" H 7050 5300 60  0001 C CNN
+F 3 "" H 7050 5300 60  0001 C CNN
+	1    7050 5000
+	1    0    0    -1  
+$EndComp
 $EndSCHEMATC
