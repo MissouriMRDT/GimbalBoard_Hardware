@@ -822,7 +822,7 @@
   )
 
   (module MRDT_Silkscreens:0_MRDT_Retro_Logo_34mmX21.5mm (layer B.Cu) (tedit 0) (tstamp 61AAA3A6)
-    (at 129.667 89.535 180)
+    (at 129.667 90.678 180)
     (fp_text reference G*** (at 0 0) (layer B.SilkS) hide
       (effects (font (size 1.524 1.524) (thickness 0.3)) (justify mirror))
     )
