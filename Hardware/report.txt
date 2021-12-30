@@ -1,0 +1,360 @@
+Info: Checking netlist symbol footprint "R15:/615E1D59/617FDA7B:".
+Info: Checking netlist symbol footprint "R7:/615E1D59/615E872A:".
+Info: Checking netlist symbol footprint "R8:/615E1D59/615E9DCC:".
+Info: Checking netlist symbol footprint "Conn9:/6159E4BE:".
+Info: Checking netlist symbol footprint "R9:/615E1D59/615EAF81:".
+Info: Checking netlist symbol footprint "Q1:/6178B814/617999BF:".
+Info: Checking netlist symbol footprint "R10:/615E1D59/615EBF88:".
+Info: Checking netlist symbol footprint "Conn10:/6159E8BE:".
+Info: Checking netlist symbol footprint "R11:/615E1D59/615ECC8E:".
+Info: Checking netlist symbol footprint "R12:/615E1D59/615EE380:".
+Info: Checking netlist symbol footprint "Conn11:/6159ED2C:".
+Info: Checking netlist symbol footprint "R13:/615E1D59/615EF3CB:".
+Info: Checking netlist symbol footprint "D26:/6161595A:".
+Info: Checking netlist symbol footprint "Conn8:/6178B814/617A1B6D:".
+Info: Checking netlist symbol footprint "D1:/616B938E/616D20CD:".
+Info: Checking netlist symbol footprint "R16:/615E1D59/617FDA81:".
+Info: Checking netlist symbol footprint "R17:/6178B814/61799A58:".
+Info: Checking netlist symbol footprint "D2:/616B938E/616C1765:".
+Info: Checking netlist symbol footprint "R18:/6178B814/61799A43:".
+Info: Checking netlist symbol footprint "D25:/61614FDE:".
+Info: Checking netlist symbol footprint "R19:/6178B814/61799A32:".
+Info: Checking netlist symbol footprint "D3:/616B938E/616C176B:".
+Info: Checking netlist symbol footprint "R20:/6178B814/61799A21:".
+Info: Checking netlist symbol footprint "R21:/6178B814/61799A13:".
+Info: Checking netlist symbol footprint "D5:/616B938E/616C17A5:".
+Info: Checking netlist symbol footprint "C1:/616B938E/616BC135:".
+Info: Checking netlist symbol footprint "Conn3:/6178B814/617A1B8B:".
+Info: Checking netlist symbol footprint "Q4:/6178B814/617999AD:".
+Info: Checking netlist symbol footprint "Conn2:/6178B814/617A1B91:".
+Info: Checking netlist symbol footprint "Q5:/6178B814/617999A7:".
+Info: Checking netlist symbol footprint "Conn1:/6178B814/617A1B97:".
+Info: Checking netlist symbol footprint "Conn4:/6178B814/617A1B85:".
+Info: Checking netlist symbol footprint "C4:/616B938E/616BE8E2:".
+Info: Checking netlist symbol footprint "Q6:/6178B814/617999A1:".
+Info: Checking netlist symbol footprint "C3:/616B938E/616BE8E8:".
+Info: Checking netlist symbol footprint "C2:/616B938E/616BC12F:".
+Info: Checking netlist symbol footprint "Q7:/6178B814/6179999B:".
+Info: Checking netlist symbol footprint "D18:/6178B814/61799A49:".
+Info: Checking netlist symbol footprint "Conn5:/6178B814/617A1B7F:".
+Info: Checking netlist symbol footprint "Q8:/6178B814/61799995:".
+Info: Checking netlist symbol footprint "Q3:/6178B814/617999B3:".
+Info: Checking netlist symbol footprint "R1:/616B938E/616D20D3:".
+Info: Checking netlist symbol footprint "Conn6:/6178B814/617A1B79:".
+Info: Checking netlist symbol footprint "R2:/616B938E/616C177D:".
+Info: Checking netlist symbol footprint "R3:/616B938E/616C1783:".
+Info: Checking netlist symbol footprint "Conn7:/6178B814/617A1B73:".
+Info: Checking netlist symbol footprint "R5:/616B938E/616C17AB:".
+Info: Checking netlist symbol footprint "Q2:/6178B814/617999B9:".
+Info: Checking netlist symbol footprint "R6:/615E1D59/615E431C:".
+Info: Checking netlist symbol footprint "SW7:/615E1D59/615EE37A:".
+Info: Checking netlist symbol footprint "SW1:/615E1D59/615E41DD:".
+Info: Checking netlist symbol footprint "D11:/615E1D59/615ECC94:".
+Info: Checking netlist symbol footprint "SW2:/615E1D59/615E8724:".
+Info: Checking netlist symbol footprint "D21:/6178B814/61799A0D:".
+Info: Checking netlist symbol footprint "SW3:/615E1D59/615E9DC6:".
+Info: Checking netlist symbol footprint "D12:/615E1D59/615EE386:".
+Info: Checking netlist symbol footprint "SW4:/615E1D59/615EAF7B:".
+Info: Checking netlist symbol footprint "SW5:/615E1D59/615EBF82:".
+Info: Checking netlist symbol footprint "D13:/615E1D59/615EF3D1:".
+Info: Checking netlist symbol footprint "SW6:/615E1D59/615ECC88:".
+Info: Checking netlist symbol footprint "D20:/6178B814/61799A27:".
+Info: Checking netlist symbol footprint "D24:/6178B814/617999E3:".
+Info: Checking netlist symbol footprint "D15:/615E1D59/617FDA6F:".
+Info: Checking netlist symbol footprint "SW8:/615E1D59/615EF3C5:".
+Info: Checking netlist symbol footprint "SW9:/615E1D59/617F83FD:".
+Info: Checking netlist symbol footprint "D16:/615E1D59/617FDA75:".
+Info: Checking netlist symbol footprint "U1:/616B938E/616BC113:".
+Info: Checking netlist symbol footprint "D19:/6178B814/61799A38:".
+Info: Checking netlist symbol footprint "U2:/616B938E/616BC10D:".
+Info: Checking netlist symbol footprint "D17:/6178B814/61799A5E:".
+Info: Checking netlist symbol footprint "U3:/616B938E/616BE8DC:".
+Info: Checking netlist symbol footprint "U5:/6163DAA7/61642BE3:MODULE_DEV-16771".
+Info: Checking netlist symbol footprint "R23:/6178B814/617999EE:".
+Info: Checking netlist symbol footprint "R25:/6178B814/6179994B:".
+Info: Checking netlist symbol footprint "D7:/615E1D59/615E8730:".
+Info: Checking netlist symbol footprint "R26:/6178B814/61799954:".
+Info: Checking netlist symbol footprint "R24:/6178B814/617999DD:".
+Info: Checking netlist symbol footprint "D23:/6178B814/617999F4:".
+Info: Checking netlist symbol footprint "R27:/6178B814/6179995D:".
+Info: Checking netlist symbol footprint "D8:/615E1D59/615E9DD2:".
+Info: Checking netlist symbol footprint "R28:/6178B814/61799966:".
+Info: Checking netlist symbol footprint "D6:/615E1D59/615E47F7:".
+Info: Checking netlist symbol footprint "R29:/6178B814/6179996F:".
+Info: Checking netlist symbol footprint "D9:/615E1D59/615EAF87:".
+Info: Checking netlist symbol footprint "R30:/6178B814/61799978:".
+Info: Checking netlist symbol footprint "D22:/6178B814/61799A05:".
+Info: Checking netlist symbol footprint "R31:/6178B814/61799981:".
+Info: Checking netlist symbol footprint "R22:/6178B814/617999FF:".
+Info: Checking netlist symbol footprint "D10:/615E1D59/615EBF8E:".
+Info: Checking netlist symbol footprint "R32:/6178B814/6179998A:".
+Error: Cannot add new symbol D24 due to missing footprint .
+Error: Cannot add new symbol R7 due to missing footprint .
+Error: Cannot add new symbol D18 due to missing footprint .
+Error: Cannot add new symbol D23 due to missing footprint .
+Error: Cannot add new symbol Q3 due to missing footprint .
+Error: Cannot add new symbol D19 due to missing footprint .
+Error: Cannot add new symbol D25 due to missing footprint .
+Error: Cannot add new symbol D22 due to missing footprint .
+Error: Cannot add new symbol Q2 due to missing footprint .
+Error: Cannot add new symbol D20 due to missing footprint .
+Error: Cannot add new symbol D26 due to missing footprint .
+Error: Cannot add new symbol Q1 due to missing footprint .
+Error: Cannot add new symbol D21 due to missing footprint .
+Error: Cannot add new symbol SW2 due to missing footprint .
+Error: Cannot add new symbol R23 due to missing footprint .
+Error: Cannot add new symbol R24 due to missing footprint .
+Error: Cannot add new symbol R25 due to missing footprint .
+Error: Cannot add new symbol R26 due to missing footprint .
+Error: Cannot add new symbol R27 due to missing footprint .
+Error: Cannot add new symbol R28 due to missing footprint .
+Error: Cannot add new symbol R29 due to missing footprint .
+Error: Cannot add new symbol R30 due to missing footprint .
+Error: Cannot add new symbol R31 due to missing footprint .
+Error: Cannot add new symbol R32 due to missing footprint .
+Error: Cannot add new symbol SW1 due to missing footprint .
+Error: Cannot add new symbol R22 due to missing footprint .
+Error: Cannot add new symbol SW3 due to missing footprint .
+Error: Cannot add new symbol SW4 due to missing footprint .
+Error: Cannot add new symbol SW5 due to missing footprint .
+Error: Cannot add new symbol SW6 due to missing footprint .
+Error: Cannot add new symbol SW7 due to missing footprint .
+Error: Cannot add new symbol SW8 due to missing footprint .
+Error: Cannot add new symbol SW9 due to missing footprint .
+Error: Cannot add new symbol U1 due to missing footprint .
+Error: Cannot add new symbol U2 due to missing footprint .
+Error: Cannot add new symbol U3 due to missing footprint .
+Error: Cannot add new symbol U5 due to missing footprint MODULE_DEV-16771.
+Error: Cannot add new symbol R9 due to missing footprint .
+Error: Cannot add new symbol Q5 due to missing footprint .
+Error: Cannot add new symbol Q6 due to missing footprint .
+Error: Cannot add new symbol Q7 due to missing footprint .
+Error: Cannot add new symbol Q8 due to missing footprint .
+Error: Cannot add new symbol R1 due to missing footprint .
+Error: Cannot add new symbol R2 due to missing footprint .
+Error: Cannot add new symbol R3 due to missing footprint .
+Error: Cannot add new symbol R5 due to missing footprint .
+Error: Cannot add new symbol R6 due to missing footprint .
+Error: Cannot add new symbol D9 due to missing footprint .
+Error: Cannot add new symbol R8 due to missing footprint .
+Error: Cannot add new symbol Q4 due to missing footprint .
+Error: Cannot add new symbol R10 due to missing footprint .
+Error: Cannot add new symbol R11 due to missing footprint .
+Error: Cannot add new symbol R12 due to missing footprint .
+Error: Cannot add new symbol R13 due to missing footprint .
+Error: Cannot add new symbol R15 due to missing footprint .
+Error: Cannot add new symbol R16 due to missing footprint .
+Error: Cannot add new symbol R17 due to missing footprint .
+Error: Cannot add new symbol R18 due to missing footprint .
+Error: Cannot add new symbol R19 due to missing footprint .
+Error: Cannot add new symbol R20 due to missing footprint .
+Error: Cannot add new symbol R21 due to missing footprint .
+Error: No footprint defined for symbol "Conn7".
+
+Error: No footprint defined for symbol "D5".
+
+Error: No footprint defined for symbol "R3".
+
+Error: No footprint defined for symbol "R2".
+
+Error: No footprint defined for symbol "D3".
+
+Error: No footprint defined for symbol "Q6".
+
+Error: No footprint defined for symbol "C3".
+
+Error: No footprint defined for symbol "C4".
+
+Error: No footprint defined for symbol "U3".
+
+Error: No footprint defined for symbol "Conn1".
+
+Error: No footprint defined for symbol "Conn2".
+
+Error: No footprint defined for symbol "Conn3".
+
+Error: No footprint defined for symbol "Conn4".
+
+Error: No footprint defined for symbol "Conn5".
+
+Error: No footprint defined for symbol "Conn6".
+
+Error: No footprint defined for symbol "R5".
+
+Error: No footprint defined for symbol "SW3".
+
+Error: No footprint defined for symbol "R11".
+
+Error: No footprint defined for symbol "SW6".
+
+Error: No footprint defined for symbol "D10".
+
+Error: No footprint defined for symbol "R10".
+
+Error: No footprint defined for symbol "SW5".
+
+Error: No footprint defined for symbol "D9".
+
+Error: No footprint defined for symbol "R9".
+
+Error: No footprint defined for symbol "SW4".
+
+Error: No footprint defined for symbol "D8".
+
+Error: No footprint defined for symbol "R8".
+
+Error: No footprint defined for symbol "D11".
+
+Error: No footprint defined for symbol "D7".
+
+Error: No footprint defined for symbol "R7".
+
+Error: No footprint defined for symbol "R23".
+
+Error: No footprint defined for symbol "D22".
+
+Error: No footprint defined for symbol "D17".
+
+Error: No footprint defined for symbol "R17".
+
+Error: No footprint defined for symbol "D18".
+
+Error: No footprint defined for symbol "R18".
+
+Error: No footprint defined for symbol "D19".
+
+Error: No footprint defined for symbol "R19".
+
+Error: No footprint defined for symbol "D20".
+
+Error: No footprint defined for symbol "R20".
+
+Error: No footprint defined for symbol "R21".
+
+Error: No footprint defined for symbol "D21".
+
+Error: No footprint defined for symbol "Conn8".
+
+Error: No footprint defined for symbol "R22".
+
+Error: No footprint defined for symbol "D23".
+
+Error: No footprint defined for symbol "SW2".
+
+Error: No footprint defined for symbol "D24".
+
+Error: No footprint defined for symbol "R24".
+
+Error: No footprint defined for symbol "Q1".
+
+Error: No footprint defined for symbol "Q2".
+
+Error: No footprint defined for symbol "Q3".
+
+Error: No footprint defined for symbol "Q4".
+
+Error: No footprint defined for symbol "Q5".
+
+Error: No footprint defined for symbol "D2".
+
+Error: No footprint defined for symbol "R1".
+
+Error: No footprint defined for symbol "D1".
+
+Error: No footprint defined for symbol "U2".
+
+Error: No footprint defined for symbol "U1".
+
+Error: No footprint defined for symbol "C2".
+
+Error: No footprint defined for symbol "C1".
+
+Error: Cannot add new symbol Conn11 due to missing footprint .
+Error: Cannot add new symbol C1 due to missing footprint .
+Error: Cannot add new symbol C2 due to missing footprint .
+Error: Cannot add new symbol C3 due to missing footprint .
+Error: Cannot add new symbol C4 due to missing footprint .
+Error: Cannot add new symbol Conn1 due to missing footprint .
+Error: Cannot add new symbol Conn2 due to missing footprint .
+Error: Cannot add new symbol Conn3 due to missing footprint .
+Error: Cannot add new symbol Conn4 due to missing footprint .
+Error: Cannot add new symbol Conn5 due to missing footprint .
+Error: Cannot add new symbol Conn6 due to missing footprint .
+Error: Cannot add new symbol Conn7 due to missing footprint .
+Error: Cannot add new symbol Conn8 due to missing footprint .
+Error: Cannot add new symbol Conn9 due to missing footprint .
+Error: Cannot add new symbol Conn10 due to missing footprint .
+Error: No footprint defined for symbol "SW7".
+
+Error: Cannot add new symbol D1 due to missing footprint .
+Error: Cannot add new symbol D2 due to missing footprint .
+Error: Cannot add new symbol D3 due to missing footprint .
+Error: Cannot add new symbol D5 due to missing footprint .
+Error: Cannot add new symbol D6 due to missing footprint .
+Error: Cannot add new symbol D7 due to missing footprint .
+Error: Cannot add new symbol D8 due to missing footprint .
+Error: U5 footprint "MODULE_DEV-16771" not found in any libraries in the footprint library table.
+
+Error: Cannot add new symbol D10 due to missing footprint .
+Error: Cannot add new symbol D11 due to missing footprint .
+Error: Cannot add new symbol D12 due to missing footprint .
+Error: Cannot add new symbol D13 due to missing footprint .
+Error: Cannot add new symbol D15 due to missing footprint .
+Error: Cannot add new symbol D16 due to missing footprint .
+Error: No footprint defined for symbol "R28".
+
+Error: No footprint defined for symbol "D6".
+
+Error: No footprint defined for symbol "R6".
+
+Error: No footprint defined for symbol "SW1".
+
+Error: No footprint defined for symbol "D26".
+
+Error: No footprint defined for symbol "D25".
+
+Error: No footprint defined for symbol "Conn11".
+
+Error: No footprint defined for symbol "Conn10".
+
+Error: No footprint defined for symbol "R16".
+
+Error: No footprint defined for symbol "Q7".
+
+Error: No footprint defined for symbol "Q8".
+
+Error: No footprint defined for symbol "R32".
+
+Error: No footprint defined for symbol "R31".
+
+Error: No footprint defined for symbol "R30".
+
+Error: No footprint defined for symbol "R29".
+
+Error: Cannot add new symbol D17 due to missing footprint .
+Error: No footprint defined for symbol "R27".
+
+Error: No footprint defined for symbol "R26".
+
+Error: No footprint defined for symbol "R25".
+
+Error: No footprint defined for symbol "Conn9".
+
+Error: No footprint defined for symbol "R15".
+
+Error: No footprint defined for symbol "D16".
+
+Error: No footprint defined for symbol "D15".
+
+Error: No footprint defined for symbol "SW9".
+
+Error: No footprint defined for symbol "D13".
+
+Error: No footprint defined for symbol "R13".
+
+Error: No footprint defined for symbol "SW8".
+
+Error: No footprint defined for symbol "D12".
+
+Error: No footprint defined for symbol "R12".
+
