@@ -1,4 +1,3 @@
 (fp_lib_table
-  (lib (name Documentation)(type KiCad)(uri C:/Users/isaac/OneDrive/Documents/GitHub/GimbalBoard_Hardware/Documentation)(options "")(descr ""))
   (lib (name eduard)(type KiCad)(uri ${KIPRJMOD}/eduard)(options "")(descr ""))
 )
