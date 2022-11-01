@@ -1,0 +1,3 @@
+(fp_lib_table
+  (lib (name "Gimbal_Board_Library")(type "KiCad")(uri "C:/GitHub/GimbalBoard_Hardware/Libraries/Gimbal_Board_Library")(options "")(descr ""))
+)
