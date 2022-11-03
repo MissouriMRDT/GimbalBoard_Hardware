@@ -2637,7 +2637,7 @@
 
   (footprint "Gimbal_Board_Library:z-sig-Tyler-Nguyen" (layer "F.Cu")
     (tedit 0) (tstamp 6877a46a-9872-499e-b0a4-c33fb25a57a7)
-    (at 83.566 93.795406)
+    (at 84.384432 95.319406)
     (attr board_only exclude_from_pos_files exclude_from_bom)
     (fp_text reference "G***" (at 0 0) (layer "F.SilkS")
       (effects (font (size 1.524 1.524) (thickness 0.3)))
@@ -6671,7 +6671,7 @@
   (gr_text "S1" (at 169.0135 69.7285) (layer "F.SilkS") (tstamp 3f5bba72-1926-4710-a46f-2862183a859b)
     (effects (font (size 1.524 1.524) (thickness 0.254)))
   )
-  (gr_text "Gimbal Board, 2023 Rev 1\nMars Rover Design Team\nTyler Nguyen & Aden Standefer" (at 84.836 84.328) (layer "F.SilkS") (tstamp 61b2267d-ebf3-474c-bdbe-f4c6b65f5652)
+  (gr_text "Gimbal Board, Rev 1\nMars Rover Design Team\nMissouri S&T,  2023\nTyler Nguyen, Aden Standefer" (at 84.836 84.328) (layer "F.SilkS") (tstamp 61b2267d-ebf3-474c-bdbe-f4c6b65f5652)
     (effects (font (size 1.5 1.5) (thickness 0.3)))
   )
   (gr_text "L Tilt" (at 118.872 52.07) (layer "F.SilkS") (tstamp 6257c664-83b8-418e-b76a-40d9228c3dc9)
